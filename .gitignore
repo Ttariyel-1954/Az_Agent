@@ -1,0 +1,55 @@
+# === OS ===
+.DS_Store
+Thumbs.db
+*~
+
+# === R ===
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# === Secrets ===
+.env
+.Renviron
+*.key
+*.pem
+
+# === Backups ===
+*.bak
+*.bak_*
+*.backup_*
+*.old
+
+# === Temp ===
+tmp/
+temp/
+*.log
+nohup.out
+
+# === Node ===
+node_modules/
+package-lock.json
+
+# === Large binaries ===
+derslikler/pdf/
+derslikler/epub/
+derslikler/embeddings/
+*.zip
+
+# === Office temp ===
+~$*
+
+# === Generated outputs (local only) ===
+output/
+Ders_planlari/
+Testler/
+Mesajlar/
+uploads/
