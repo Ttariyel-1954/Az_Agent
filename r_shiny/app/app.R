@@ -149,9 +149,9 @@ build_context <- function(gr, topic) {
 # ══════════════════════════════════════════════
 # CLAUDE API
 # ══════════════════════════════════════════════
-call_claude <- function(prompt) {
-  key <- Sys.getenv("ANTHROPIC_API_KEY", "")
-  if (nchar(key) < 10) return(list(success = FALSE, error = "ANTHROPIC_API_KEY .env faylinda tapilmadi!",
+call_claude <- function(prompt, api_key = NULL) {
+  key <- if (!is.null(api_key) && nchar(api_key) >= 10) api_key else Sys.getenv("ANTHROPIC_API_KEY", "")
+  if (nchar(key) < 10) return(list(success = FALSE, error = "API key daxil edin! (Sol panelde 'API Key' xanasi)",
                                     time_sec = 0, input_tokens = 0, output_tokens = 0))
   t0 <- proc.time()["elapsed"]
   tryCatch({
@@ -657,6 +657,14 @@ ui <- dashboardPage(skin = "green",
     menuItem("Muellim Komekchisi", tabName = "assistant", icon = icon("comments")),
     menuItem("Arxiv", tabName = "archive", icon = icon("archive")),
     hr(),
+    div(style = "padding:10px;",
+      passwordInput("api_key_input", label = tags$span(icon("key"), " API Key"),
+                    value = Sys.getenv("ANTHROPIC_API_KEY", ""),
+                    placeholder = "sk-ant-..."),
+      tags$p(style = "color:#b8c7ce;font-size:10px;margin-top:5px;",
+             "Anthropic API key daxil edin")
+    ),
+    hr(),
     div(p(style = "padding:10px;color:#b8c7ce;font-size:11px;", "ARTI 2026 (c) Tariyel Talibov"))
   )),
   dashboardBody(
@@ -863,7 +871,7 @@ run_ai_async <- function(session, output, timer_id, token_output, result_output,
   output[[token_output]] <- renderUI(tags$div(class = "token-display token-waiting", icon("hourglass-half"), " AI isleyir..."))
   output[[result_output]] <- renderUI(NULL)
   session$onFlushed(function() {
-    res <- call_claude(prompt_fn())
+    res <- call_claude(prompt_fn(), api_key = input$api_key_input)
     if (res$success) {
       session$sendCustomMessage("ai_timer_stop", list(target = timer_id, ok = TRUE,
         elapsed = sprintf("%.1f", res$time_sec),
