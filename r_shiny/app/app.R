@@ -865,13 +865,13 @@ ui <- dashboardPage(skin = "green",
 run_ai_async <- function(session, output, timer_id, token_output, result_output,
                          info1, info2, status_text, prompt_fn, save_fn, footer_fn,
                          download_ui_id = NULL, saved_rv = NULL, rv_key = NULL,
-                         btn_id = NULL) {
+                         btn_id = NULL, user_api_key = NULL) {
   if (!is.null(btn_id)) shinyjs::disable(btn_id)
   session$sendCustomMessage("ai_timer_start", list(target = timer_id, status = status_text, info1 = info1, info2 = info2))
   output[[token_output]] <- renderUI(tags$div(class = "token-display token-waiting", icon("hourglass-half"), " AI isleyir..."))
   output[[result_output]] <- renderUI(NULL)
   session$onFlushed(function() {
-    res <- call_claude(prompt_fn(), api_key = input$api_key_input)
+    res <- call_claude(prompt_fn(), api_key = user_api_key)
     if (res$success) {
       session$sendCustomMessage("ai_timer_stop", list(target = timer_id, ok = TRUE,
         elapsed = sprintf("%.1f", res$time_sec),
@@ -963,7 +963,8 @@ server <- function(input, output, session) {
       function() { ctx <- build_context(gr, tp); build_lesson_prompt(gr, tp, fa, ctx, dur, ln, st) },
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, tp, "ders_plani"),
       function() sprintf("ARTI 2026 | Sinif %d | %s | %d deq", gr, tp, dur),
-      download_ui_id = "lp_download_ui", saved_rv = saved_files, rv_key = "lp", btn_id = "lp_generate")
+      download_ui_id = "lp_download_ui", saved_rv = saved_files, rv_key = "lp", btn_id = "lp_generate",
+      user_api_key = input$api_key_input)
   })
 
   # === TAB 2: TEST ===
@@ -976,7 +977,8 @@ server <- function(input, output, session) {
       function() { ctx <- build_context(gr, tp); build_test_prompt(gr, tp, tt, ctx, cnt, df, ln, st) },
       function(text) save_result(text, HTML5_CSS, TEST_DIR, gr, tp, "test"),
       function() sprintf("ARTI 2026 | Sinif %d | %s | %d tapshiriq", gr, tp, cnt),
-      download_ui_id = "tc_download_ui", saved_rv = saved_files, rv_key = "tc", btn_id = "tc_generate")
+      download_ui_id = "tc_download_ui", saved_rv = saved_files, rv_key = "tc", btn_id = "tc_generate",
+      user_api_key = input$api_key_input)
   })
 
   # === TAB 3: AYLIQ PLAN ===
@@ -988,7 +990,8 @@ server <- function(input, output, session) {
       function() build_monthly_prompt(gr, ay, hrs, ln),
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, ay, "ayliq_plan"),
       function() sprintf("ARTI 2026 | Sinif %d | %s | %s saat", gr, ay, hrs),
-      download_ui_id = "mp_download_ui", saved_rv = saved_files, rv_key = "mp", btn_id = "mp_generate")
+      download_ui_id = "mp_download_ui", saved_rv = saved_files, rv_key = "mp", btn_id = "mp_generate",
+      user_api_key = input$api_key_input)
   })
 
   # === TAB 4: EDEBI TEHLIL ===
@@ -1003,7 +1006,8 @@ server <- function(input, output, session) {
       function() build_analysis_prompt(gr, aw, at, ln),
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, aw, "edebi_tehlil"),
       function() sprintf("ARTI 2026 | Sinif %d | %s", gr, aw),
-      download_ui_id = "an_download_ui", saved_rv = saved_files, rv_key = "an", btn_id = "an_generate")
+      download_ui_id = "an_download_ui", saved_rv = saved_files, rv_key = "an", btn_id = "an_generate",
+      user_api_key = input$api_key_input)
   })
 
   # === TAB 5: SHAGIRD ANALIZI ===
@@ -1015,7 +1019,8 @@ server <- function(input, output, session) {
       function() build_student_prompt(gr, wk, ln),
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, paste(wk, collapse = "_"), "shagird_analiz"),
       function() sprintf("ARTI 2026 | Sinif %d | Shagird Analizi", gr),
-      download_ui_id = "sa_download_ui", saved_rv = saved_files, rv_key = "sa", btn_id = "sa_generate")
+      download_ui_id = "sa_download_ui", saved_rv = saved_files, rv_key = "sa", btn_id = "sa_generate",
+      user_api_key = input$api_key_input)
   })
 
   # === TAB 6: MUELLIM KOMEKCHISI ===
@@ -1026,7 +1031,8 @@ server <- function(input, output, session) {
       "Sual-Cavab", substr(q, 1, 50), "AI ile elaqe quruldu, cavab hazirlaniir...",
       function() build_assistant_prompt(q),
       function(text) save_result(text, HTML5_CSS, MSG_DIR, 0, "assistant_cavab", "komekchi"),
-      function() "ARTI 2026 | Muellim Komekchisi")
+      function() "ARTI 2026 | Muellim Komekchisi",
+      user_api_key = input$api_key_input)
   })
 
   # === DOWNLOAD HANDLERS ===
