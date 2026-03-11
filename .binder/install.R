@@ -1,0 +1,9 @@
+install.packages(c(
+  "shiny",
+  "shinydashboard",
+  "shinyjs",
+  "DT",
+  "httr",
+  "jsonlite",
+  "plotly"
+))

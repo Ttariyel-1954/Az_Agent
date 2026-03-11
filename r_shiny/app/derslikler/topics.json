@@ -1,0 +1,463 @@
+{
+  "1": {
+    "bolmeler": [
+      {
+        "bolme": "Əlifba dövrü",
+        "movzular": [
+          {"ad": "Sait səslər", "seh": "8-16"},
+          {"ad": "Samit səslər", "seh": "17-28"},
+          {"ad": "Heca və söz", "seh": "29-38"},
+          {"ad": "Böyük hərf ilə yazılış", "seh": "39-46"},
+          {"ad": "Əlifba ardıcıllığı", "seh": "47-54"}
+        ]
+      },
+      {
+        "bolme": "Oxu bacarıqları",
+        "movzular": [
+          {"ad": "Hərflərin birləşməsi və oxunuşu", "seh": "55-64"},
+          {"ad": "Sadə mətnlərin oxunması", "seh": "65-74"},
+          {"ad": "Şeirlərin oxunması və əzbərlənməsi", "seh": "75-82"},
+          {"ad": "Şəkillər üzrə danışma", "seh": "83-90"}
+        ]
+      },
+      {
+        "bolme": "Yazı bacarıqları",
+        "movzular": [
+          {"ad": "Hərflərin düzgün yazılışı", "seh": "91-100"},
+          {"ad": "Sözlərin köçürülməsi", "seh": "101-108"},
+          {"ad": "Sadə cümlələrin yazılması", "seh": "109-116"},
+          {"ad": "Diktant yazma", "seh": "117-124"}
+        ]
+      },
+      {
+        "bolme": "Dinləmə və danışma",
+        "movzular": [
+          {"ad": "Dinləyib başa düşmə", "seh": "125-132"},
+          {"ad": "Sadə sualları cavablandırma", "seh": "133-138"},
+          {"ad": "Nağıl danışma", "seh": "139-146"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "bolmeler": [
+      {
+        "bolme": "Nitq hissələri (giriş)",
+        "movzular": [
+          {"ad": "İsim — əşyanın adı", "seh": "6-14"},
+          {"ad": "Feil — hərəkət bildirən sözlər", "seh": "15-24"},
+          {"ad": "Sifət — əlaməti bildirən sözlər", "seh": "25-32"},
+          {"ad": "Say — miqdarı bildirən sözlər", "seh": "33-38"}
+        ]
+      },
+      {
+        "bolme": "Cümlə quruluşu",
+        "movzular": [
+          {"ad": "Söz birləşmələri", "seh": "39-46"},
+          {"ad": "Nəqli cümlə", "seh": "47-54"},
+          {"ad": "Sual cümləsi", "seh": "55-60"},
+          {"ad": "Nida cümləsi", "seh": "61-66"},
+          {"ad": "Cümlədə söz sırası", "seh": "67-74"}
+        ]
+      },
+      {
+        "bolme": "Oxu və anlama",
+        "movzular": [
+          {"ad": "Mətnin mövzusunu müəyyənləşdirmə", "seh": "75-84"},
+          {"ad": "Əsas fikri tapma", "seh": "85-92"},
+          {"ad": "Hekayə oxusu və təhlili", "seh": "93-102"},
+          {"ad": "Şeir oxusu", "seh": "103-110"}
+        ]
+      },
+      {
+        "bolme": "Yazı və imla",
+        "movzular": [
+          {"ad": "Saitlə başlayan şəkilçilər", "seh": "111-118"},
+          {"ad": "Samitlə başlayan şəkilçilər", "seh": "119-126"},
+          {"ad": "Sözün sətirdən-sətrə keçirilməsi", "seh": "127-132"},
+          {"ad": "Hekayə yazma", "seh": "133-140"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "bolmeler": [
+      {
+        "bolme": "İsim",
+        "movzular": [
+          {"ad": "Xüsusi və ümumi isimlər", "seh": "6-14"},
+          {"ad": "İsmin tək və cəm halı", "seh": "15-22"},
+          {"ad": "İsmin mənsubiyyətə görə dəyişməsi", "seh": "23-30"},
+          {"ad": "İsmin quruluşca növləri", "seh": "31-38"}
+        ]
+      },
+      {
+        "bolme": "Sifət və say",
+        "movzular": [
+          {"ad": "Sifətin mənaca növləri", "seh": "39-48"},
+          {"ad": "Sifətin dərəcələri", "seh": "49-56"},
+          {"ad": "Miqdar sayları", "seh": "57-64"},
+          {"ad": "Sıra sayları", "seh": "65-70"}
+        ]
+      },
+      {
+        "bolme": "Feil",
+        "movzular": [
+          {"ad": "Feilin məna növləri", "seh": "71-80"},
+          {"ad": "Feilin zamana görə dəyişməsi", "seh": "81-90"},
+          {"ad": "Feilin şəxsə görə dəyişməsi", "seh": "91-98"},
+          {"ad": "Təsdiq və inkar feillər", "seh": "99-106"}
+        ]
+      },
+      {
+        "bolme": "Cümlə üzvləri",
+        "movzular": [
+          {"ad": "Mübtəda", "seh": "107-114"},
+          {"ad": "Xəbər", "seh": "115-122"},
+          {"ad": "Tamamlıq", "seh": "123-130"},
+          {"ad": "Təyin və zərflik", "seh": "131-140"}
+        ]
+      },
+      {
+        "bolme": "Oxu və yazı",
+        "movzular": [
+          {"ad": "Təsviri mətn yazma", "seh": "141-148"},
+          {"ad": "Məktub yazma", "seh": "149-154"},
+          {"ad": "Mətnin hissələri (giriş, əsas, nəticə)", "seh": "155-162"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "bolmeler": [
+      {
+        "bolme": "Nitq hissələri (dərinləşmə)",
+        "movzular": [
+          {"ad": "İsmin hallanması", "seh": "6-16"},
+          {"ad": "Feilin şəkilləri", "seh": "17-26"},
+          {"ad": "Əvəzlik", "seh": "27-36"},
+          {"ad": "Zərf", "seh": "37-44"},
+          {"ad": "Qoşma və bağlayıcılar", "seh": "45-52"}
+        ]
+      },
+      {
+        "bolme": "Cümlə növləri",
+        "movzular": [
+          {"ad": "Sadə cümlə", "seh": "53-62"},
+          {"ad": "Bağlayıcısız mürəkkəb cümlə", "seh": "63-70"},
+          {"ad": "Mübtəda və xəbər arasında tire", "seh": "71-76"},
+          {"ad": "Həmcins üzvlü cümlə", "seh": "77-84"}
+        ]
+      },
+      {
+        "bolme": "Oxu və anlama",
+        "movzular": [
+          {"ad": "Bədii mətn oxusu", "seh": "85-94"},
+          {"ad": "Elmi-kütləvi mətn oxusu", "seh": "95-102"},
+          {"ad": "Mətnə aid suallar yaratma", "seh": "103-110"},
+          {"ad": "Xülasə çıxarma", "seh": "111-118"}
+        ]
+      },
+      {
+        "bolme": "Yazılı ifadə",
+        "movzular": [
+          {"ad": "İnşa yazma qaydaları", "seh": "119-128"},
+          {"ad": "Plan üzrə hekayə yazma", "seh": "129-136"},
+          {"ad": "Təqdimat hazırlamaq", "seh": "137-144"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "bolmeler": [
+      {
+        "bolme": "Fonetika",
+        "movzular": [
+          {"ad": "Danışıq səsləri və hərflər", "seh": "8-18"},
+          {"ad": "Sait və samit səslər", "seh": "19-28"},
+          {"ad": "Ahəng qanunu", "seh": "29-36"},
+          {"ad": "Vurğu", "seh": "37-42"},
+          {"ad": "Fonetik təhlil", "seh": "43-50"}
+        ]
+      },
+      {
+        "bolme": "Leksika",
+        "movzular": [
+          {"ad": "Sözün leksik mənası", "seh": "51-60"},
+          {"ad": "Çoxmənalı sözlər", "seh": "61-68"},
+          {"ad": "Omonim, sinonim, antonim", "seh": "69-78"},
+          {"ad": "Frazeoloji birləşmələr", "seh": "79-86"}
+        ]
+      },
+      {
+        "bolme": "Söz yaradıcılığı",
+        "movzular": [
+          {"ad": "Kök və şəkilçi", "seh": "87-96"},
+          {"ad": "Leksik və qrammatik şəkilçilər", "seh": "97-106"},
+          {"ad": "Sözün tərkibinə görə təhlili", "seh": "107-114"},
+          {"ad": "Düzəltmə sözlər", "seh": "115-122"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat",
+        "movzular": [
+          {"ad": "Şifahi xalq ədəbiyyatı: nağıllar", "seh": "123-134"},
+          {"ad": "Nizami Gəncəvi — həyatı və yaradıcılığı", "seh": "135-146"},
+          {"ad": "M.Füzuli — qəzəlləri", "seh": "147-156"},
+          {"ad": "Müasir uşaq ədəbiyyatı", "seh": "157-166"}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "bolmeler": [
+      {
+        "bolme": "Morfologiya — İsim",
+        "movzular": [
+          {"ad": "İsmin halları (ətraflı)", "seh": "6-18"},
+          {"ad": "İsmin quruluşca növləri", "seh": "19-28"},
+          {"ad": "İsmin mənsubiyyət kateqoriyası", "seh": "29-36"},
+          {"ad": "İsmin morfoloji təhlili", "seh": "37-44"}
+        ]
+      },
+      {
+        "bolme": "Morfologiya — Feil",
+        "movzular": [
+          {"ad": "Feilin zamanları", "seh": "45-56"},
+          {"ad": "Feilin şəkilləri", "seh": "57-66"},
+          {"ad": "Təsriflənməyən feillər (məsdər, feli sifət, feli bağlama)", "seh": "67-78"},
+          {"ad": "Feilin morfoloji təhlili", "seh": "79-86"}
+        ]
+      },
+      {
+        "bolme": "Sintaksis",
+        "movzular": [
+          {"ad": "Söz birləşmələri", "seh": "87-96"},
+          {"ad": "Cümlə üzvləri (təkrar)", "seh": "97-108"},
+          {"ad": "Həmcins üzvlər və vergül", "seh": "109-116"},
+          {"ad": "Vasitəsiz və vasitəli nitq", "seh": "117-124"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat",
+        "movzular": [
+          {"ad": "Dədə Qorqud dastanı", "seh": "125-138"},
+          {"ad": "M.P.Vaqif — qoşmaları", "seh": "139-148"},
+          {"ad": "A.Bakıxanov — hekayələri", "seh": "149-158"},
+          {"ad": "C.Məmmədquluzadə — \"Poçt qutusu\"", "seh": "159-168"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "bolmeler": [
+      {
+        "bolme": "İsmin halları (dərinləşmə)",
+        "movzular": [
+          {"ad": "Adlıq və yiyəlik hal", "seh": "6-16"},
+          {"ad": "Yönlük və təsirlik hal", "seh": "17-26"},
+          {"ad": "Yerlik və çıxışlıq hal", "seh": "27-36"},
+          {"ad": "İsmin hal şəkilçiləri ilə digər şəkilçilərin fərqi", "seh": "37-44"}
+        ]
+      },
+      {
+        "bolme": "Feilin zamanları (dərinləşmə)",
+        "movzular": [
+          {"ad": "Keçmiş zaman formaları", "seh": "45-56"},
+          {"ad": "İndiki zaman", "seh": "57-64"},
+          {"ad": "Gələcək zaman formaları", "seh": "65-74"},
+          {"ad": "Zaman formalarının üslubi xüsusiyyətləri", "seh": "75-82"}
+        ]
+      },
+      {
+        "bolme": "Köməkçi nitq hissələri",
+        "movzular": [
+          {"ad": "Qoşmalar", "seh": "83-92"},
+          {"ad": "Bağlayıcılar", "seh": "93-102"},
+          {"ad": "Ədat, modal sözlər və nidalar", "seh": "103-112"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat",
+        "movzular": [
+          {"ad": "M.F.Axundzadə — komediyaları", "seh": "113-126"},
+          {"ad": "S.Ə.Şirvani — şeirləri", "seh": "127-136"},
+          {"ad": "C.Cabbarlı — \"Oqtay Eloğlu\"", "seh": "137-148"},
+          {"ad": "Hüseyn Cavid — \"İblis\"", "seh": "149-160"},
+          {"ad": "Bədii əsərdə süjet və kompozisiya", "seh": "161-170"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "bolmeler": [
+      {
+        "bolme": "Mürəkkəb cümlə",
+        "movzular": [
+          {"ad": "Tabesiz mürəkkəb cümlə", "seh": "6-18"},
+          {"ad": "Tabeli mürəkkəb cümlə", "seh": "19-32"},
+          {"ad": "Tabeli mürəkkəb cümlənin növləri", "seh": "33-46"},
+          {"ad": "Mürəkkəb cümlənin sintaktik təhlili", "seh": "47-56"}
+        ]
+      },
+      {
+        "bolme": "Durğu işarələri",
+        "movzular": [
+          {"ad": "Vergül və nöqtəli vergül", "seh": "57-66"},
+          {"ad": "Qoşa nöqtə və tire", "seh": "67-74"},
+          {"ad": "Dırnaq işarəsi və mötərizə", "seh": "75-82"},
+          {"ad": "Durğu işarələrinin üslubi rolu", "seh": "83-90"}
+        ]
+      },
+      {
+        "bolme": "Mətn üzərində iş",
+        "movzular": [
+          {"ad": "Mətn və onun əlamətləri", "seh": "91-100"},
+          {"ad": "Mətnin növləri: təsvir, hekayə, mühakimə", "seh": "101-110"},
+          {"ad": "Mətnin quruluşu və rabitəlilik", "seh": "111-118"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat",
+        "movzular": [
+          {"ad": "M.Ə.Sabir — satirik şeirləri", "seh": "119-132"},
+          {"ad": "Ə.Haqverdiyev — hekayələri", "seh": "133-142"},
+          {"ad": "Mir Cəlal — \"Bir gəncin manifesti\"", "seh": "143-154"},
+          {"ad": "S.Vurğun — \"Vaqif\"", "seh": "155-166"},
+          {"ad": "Bədii əsərdə obrazlar sistemi", "seh": "167-176"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "bolmeler": [
+      {
+        "bolme": "Üslubiyyat",
+        "movzular": [
+          {"ad": "Bədii üslub", "seh": "6-16"},
+          {"ad": "Elmi üslub", "seh": "17-24"},
+          {"ad": "Publisistik üslub", "seh": "25-34"},
+          {"ad": "Rəsmi-işgüzar və məişət üslubu", "seh": "35-44"},
+          {"ad": "Üslubi fiqurlar", "seh": "45-54"}
+        ]
+      },
+      {
+        "bolme": "Mətn analizi",
+        "movzular": [
+          {"ad": "Mətnin kommunikativ məqsədi", "seh": "55-64"},
+          {"ad": "Arqumentli mətn yazma", "seh": "65-74"},
+          {"ad": "Tənqidi oxu bacarıqları", "seh": "75-84"},
+          {"ad": "Referativ mətn hazırlama", "seh": "85-92"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat tarixi (qədim dövr)",
+        "movzular": [
+          {"ad": "Qədim türk yazılı abidələri", "seh": "93-104"},
+          {"ad": "Nizami Gəncəvi — \"Xəmsə\"", "seh": "105-118"},
+          {"ad": "İmadəddin Nəsimi — fəlsəfi lirikası", "seh": "119-130"},
+          {"ad": "Şah İsmayıl Xətai — yaradıcılığı", "seh": "131-140"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat tarixi (orta dövr)",
+        "movzular": [
+          {"ad": "Məhəmməd Füzuli — qəzəl sənətkarlığı", "seh": "141-154"},
+          {"ad": "Molla Pənah Vaqif — xalq şeiri ənənəsi", "seh": "155-164"},
+          {"ad": "Qasım bəy Zakir — satirik şeirləri", "seh": "165-174"}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "bolmeler": [
+      {
+        "bolme": "Dil tarixi",
+        "movzular": [
+          {"ad": "Azərbaycan dilinin tarixi inkişaf mərhələləri", "seh": "6-18"},
+          {"ad": "Azərbaycan ədəbi dilinin formalaşması", "seh": "19-30"},
+          {"ad": "Türk dilləri ailəsi və Azərbaycan dili", "seh": "31-40"},
+          {"ad": "Müasir Azərbaycan dilinin normaları", "seh": "41-50"}
+        ]
+      },
+      {
+        "bolme": "Bədii əsər təhlili",
+        "movzular": [
+          {"ad": "Ədəbi növlər və janrlar", "seh": "51-62"},
+          {"ad": "Bədii dilin ifadə vasitələri (təşbeh, metafora, metonimiya)", "seh": "63-76"},
+          {"ad": "Şeir texnikası: vəzn, qafiyə, bənd", "seh": "77-88"},
+          {"ad": "Nəsr əsərlərinin təhlil metodikası", "seh": "89-100"}
+        ]
+      },
+      {
+        "bolme": "Akademik yazı",
+        "movzular": [
+          {"ad": "Esse yazma qaydaları", "seh": "101-110"},
+          {"ad": "Tədqiqat işinin strukturu", "seh": "111-120"},
+          {"ad": "Mənbələrə istinad və sitat gətirmə", "seh": "121-128"},
+          {"ad": "Arqumentativ esse", "seh": "129-138"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat (XIX-XX əsr)",
+        "movzular": [
+          {"ad": "M.F.Axundzadə — maarifçilik ədəbiyyatı", "seh": "139-152"},
+          {"ad": "H.Cavid — romantizm", "seh": "153-164"},
+          {"ad": "C.Cabbarlı — dramaturgiya", "seh": "165-176"},
+          {"ad": "S.Vurğun — lirika və dramaturgiya", "seh": "177-188"},
+          {"ad": "İ.Əfəndiyev — psixoloji nəsr", "seh": "189-200"}
+        ]
+      }
+    ]
+  },
+  "11": {
+    "bolmeler": [
+      {
+        "bolme": "Publisistik üslub",
+        "movzular": [
+          {"ad": "Publisistikanın növləri: məqalə, oçerk, esse", "seh": "6-18"},
+          {"ad": "Media savadlılığı və tənqidi təhlil", "seh": "19-28"},
+          {"ad": "İctimai-siyasi mətnlərin təhlili", "seh": "29-38"},
+          {"ad": "Natiqlik sənəti və çıxış hazırlamaq", "seh": "39-48"}
+        ]
+      },
+      {
+        "bolme": "Ədəbi tənqid",
+        "movzular": [
+          {"ad": "Ədəbi tənqidin mahiyyəti və növləri", "seh": "49-60"},
+          {"ad": "Müqayisəli ədəbi təhlil", "seh": "61-72"},
+          {"ad": "Resenziya və rəy yazma", "seh": "73-82"},
+          {"ad": "Müasir Azərbaycan ədəbiyyatına baxış", "seh": "83-94"}
+        ]
+      },
+      {
+        "bolme": "Esse və akademik yazı",
+        "movzular": [
+          {"ad": "Esse növləri: təhlili, təsviri, arqumentativ", "seh": "95-106"},
+          {"ad": "Akademik dil və terminologiya", "seh": "107-116"},
+          {"ad": "Layihə işinin yazılması", "seh": "117-126"},
+          {"ad": "Portfel (portfolio) hazırlamaq", "seh": "127-134"}
+        ]
+      },
+      {
+        "bolme": "Ədəbiyyat (XX-XXI əsr)",
+        "movzular": [
+          {"ad": "B.Vahabzadə — fəlsəfi lirika", "seh": "135-148"},
+          {"ad": "İ.Əfəndiyev — \"Dağlar arxasında üç dost\"", "seh": "149-160"},
+          {"ad": "Anar — müasir nəsr", "seh": "161-172"},
+          {"ad": "Elçin — hekayə və roman sənətkarlığı", "seh": "173-184"},
+          {"ad": "Müasir Azərbaycan poeziyası", "seh": "185-196"}
+        ]
+      },
+      {
+        "bolme": "Yekun təkrar və imtahana hazırlıq",
+        "movzular": [
+          {"ad": "Fonetika və leksika təkrarı", "seh": "197-204"},
+          {"ad": "Morfologiya və sintaksis təkrarı", "seh": "205-214"},
+          {"ad": "Ədəbiyyat tarixi üzrə yekun təkrar", "seh": "215-224"},
+          {"ad": "İmtahan formatında test həlli", "seh": "225-234"}
+        ]
+      }
+    ]
+  }
+}
