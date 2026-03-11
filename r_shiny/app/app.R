@@ -966,13 +966,14 @@ server <- function(input, output, session) {
     req(input$lp_grade, input$lp_topic)
     gr <- as.integer(input$lp_grade); tp <- input$lp_topic
     fa <- input$lp_faaliyet; dur <- input$lp_duration; ln <- input$lp_lang; st <- input$lp_standard
+    current_key <- isolate(input$api_key_input)
     run_ai_async(session, output, "lp_timer_live", "lp_token_ui", "lp_result",
       sprintf("Sinif: %d", gr), sprintf("%s (%s)", tp, fa), "AI ile elaqe quruldu, ders plani yaradilir...",
       function() { ctx <- build_context(gr, tp); build_lesson_prompt(gr, tp, fa, ctx, dur, ln, st) },
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, tp, "ders_plani"),
       function() sprintf("ARTI 2026 | Sinif %d | %s | %d deq", gr, tp, dur),
       download_ui_id = "lp_download_ui", saved_rv = saved_files, rv_key = "lp", btn_id = "lp_generate",
-      user_api_key = input$api_key_input)
+      user_api_key = current_key)
   })
 
   # === TAB 2: TEST ===
@@ -980,26 +981,28 @@ server <- function(input, output, session) {
     req(input$tc_grade, input$tc_topic)
     gr <- as.integer(input$tc_grade); tp <- input$tc_topic
     tt <- input$tc_type; cnt <- input$tc_count; df <- input$tc_diff; ln <- input$tc_lang; st <- input$tc_standard
+    current_key <- isolate(input$api_key_input)
     run_ai_async(session, output, "tc_timer_live", "tc_token_ui", "tc_result",
       sprintf("Sinif: %d", gr), sprintf("%s (%d sual, %s)", tp, cnt, tt), "AI ile elaqe quruldu, test yaradilir...",
       function() { ctx <- build_context(gr, tp); build_test_prompt(gr, tp, tt, ctx, cnt, df, ln, st) },
       function(text) save_result(text, HTML5_CSS, TEST_DIR, gr, tp, "test"),
       function() sprintf("ARTI 2026 | Sinif %d | %s | %d tapshiriq", gr, tp, cnt),
       download_ui_id = "tc_download_ui", saved_rv = saved_files, rv_key = "tc", btn_id = "tc_generate",
-      user_api_key = input$api_key_input)
+      user_api_key = current_key)
   })
 
   # === TAB 3: AYLIQ PLAN ===
   observeEvent(input$mp_generate, {
     req(input$mp_grade, input$mp_month)
     gr <- as.integer(input$mp_grade); ay <- input$mp_month; hrs <- input$mp_hours; ln <- input$mp_lang
+    current_key <- isolate(input$api_key_input)
     run_ai_async(session, output, "mp_timer_live", "mp_token_ui", "mp_result",
       sprintf("Sinif: %d", gr), sprintf("%s, %s saat/hefte", ay, hrs), "AI ile elaqe quruldu, ayliq plan yaradilir...",
       function() build_monthly_prompt(gr, ay, hrs, ln),
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, ay, "ayliq_plan"),
       function() sprintf("ARTI 2026 | Sinif %d | %s | %s saat", gr, ay, hrs),
       download_ui_id = "mp_download_ui", saved_rv = saved_files, rv_key = "mp", btn_id = "mp_generate",
-      user_api_key = input$api_key_input)
+      user_api_key = current_key)
   })
 
   # === TAB 4: EDEBI TEHLIL ===
@@ -1009,38 +1012,41 @@ server <- function(input, output, session) {
     aw <- if (!is.null(input$an_work) && nchar(trimws(input$an_work)) > 0) input$an_work else input$an_eser
     req(aw)
     at <- input$an_type; ln <- input$an_lang
+    current_key <- isolate(input$api_key_input)
     run_ai_async(session, output, "an_timer_live", "an_token_ui", "an_result",
       sprintf("Sinif: %d", gr), aw, "AI ile elaqe quruldu, edebi tehlil yaradilir...",
       function() build_analysis_prompt(gr, aw, at, ln),
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, aw, "edebi_tehlil"),
       function() sprintf("ARTI 2026 | Sinif %d | %s", gr, aw),
       download_ui_id = "an_download_ui", saved_rv = saved_files, rv_key = "an", btn_id = "an_generate",
-      user_api_key = input$api_key_input)
+      user_api_key = current_key)
   })
 
   # === TAB 5: SHAGIRD ANALIZI ===
   observeEvent(input$sa_generate, {
     req(input$sa_grade, input$sa_weak)
     gr <- as.integer(input$sa_grade); wk <- input$sa_weak; ln <- input$sa_lang
+    current_key <- isolate(input$api_key_input)
     run_ai_async(session, output, "sa_timer_live", "sa_token_ui", "sa_result",
       sprintf("Sinif: %d", gr), paste(wk, collapse = ", "), "AI ile elaqe quruldu, shagird analizi yaradilir...",
       function() build_student_prompt(gr, wk, ln),
       function(text) save_result(text, HTML5_CSS, DERS_DIR, gr, paste(wk, collapse = "_"), "shagird_analiz"),
       function() sprintf("ARTI 2026 | Sinif %d | Shagird Analizi", gr),
       download_ui_id = "sa_download_ui", saved_rv = saved_files, rv_key = "sa", btn_id = "sa_generate",
-      user_api_key = input$api_key_input)
+      user_api_key = current_key)
   })
 
   # === TAB 6: MUELLIM KOMEKCHISI ===
   observeEvent(input$qa_generate, {
     req(input$qa_question)
     q <- input$qa_question
+    current_key <- isolate(input$api_key_input)
     run_ai_async(session, output, "qa_timer_live", "qa_token_ui", "qa_result",
       "Sual-Cavab", substr(q, 1, 50), "AI ile elaqe quruldu, cavab hazirlaniir...",
       function() build_assistant_prompt(q),
       function(text) save_result(text, HTML5_CSS, MSG_DIR, 0, "assistant_cavab", "komekchi"),
       function() "ARTI 2026 | Muellim Komekchisi",
-      user_api_key = input$api_key_input)
+      user_api_key = current_key)
   })
 
   # === DOWNLOAD HANDLERS ===
