@@ -871,36 +871,44 @@ run_ai_async <- function(session, output, timer_id, token_output, result_output,
   output[[token_output]] <- renderUI(tags$div(class = "token-display token-waiting", icon("hourglass-half"), " AI isleyir..."))
   output[[result_output]] <- renderUI(NULL)
   session$onFlushed(function() {
-    res <- call_claude(prompt_fn(), api_key = user_api_key)
-    if (res$success) {
-      session$sendCustomMessage("ai_timer_stop", list(target = timer_id, ok = TRUE,
-        elapsed = sprintf("%.1f", res$time_sec),
-        inp = formatC(res$input_tokens, format = "d", big.mark = ","),
-        out = formatC(res$output_tokens, format = "d", big.mark = ","),
-        cost = sprintf("$%.4f", (res$input_tokens * 3 + res$output_tokens * 15) / 1e6)))
-      saved <- save_fn(res$text)
-      if (!is.null(saved_rv) && !is.null(rv_key)) saved_rv[[rv_key]] <- saved
-      stats_html <- make_stats_bar(res$time_sec, res$input_tokens, res$output_tokens, saved)
-      output[[token_output]] <- renderUI(tags$div(class = "token-display token-done", icon("check-circle"),
-        sprintf(" %.1f san | %s token", res$time_sec, formatC(res$input_tokens + res$output_tokens, format = "d", big.mark = ","))))
-      output[[result_output]] <- renderUI(tagList(HTML(HTML5_CSS), tags$div(class = "ai-output", HTML(res$text)),
-        HTML(stats_html), tags$div(class = "arti-footer", footer_fn())))
-      if (!is.null(download_ui_id)) {
-        btns <- list()
-        btns[[length(btns) + 1]] <- downloadButton(paste0(download_ui_id, "_html"), "HTML yukle",
-          class = "btn-success", style = "margin:8px 8px 8px 0;")
-        if (!is.na(saved$docx)) btns[[length(btns) + 1]] <- downloadButton(paste0(download_ui_id, "_docx"), "DOCX yukle",
-          class = "btn-primary", style = "margin:8px 8px 8px 0;")
-        output[[download_ui_id]] <- renderUI(tags$div(style = "margin-top:16px;", do.call(tagList, btns)))
+    tryCatch({
+      res <- call_claude(prompt_fn(), api_key = user_api_key)
+      if (res$success) {
+        session$sendCustomMessage("ai_timer_stop", list(target = timer_id, ok = TRUE,
+          elapsed = sprintf("%.1f", res$time_sec),
+          inp = formatC(res$input_tokens, format = "d", big.mark = ","),
+          out = formatC(res$output_tokens, format = "d", big.mark = ","),
+          cost = sprintf("$%.4f", (res$input_tokens * 3 + res$output_tokens * 15) / 1e6)))
+        saved <- tryCatch(save_fn(res$text), error = function(e) list(html = NA, docx = NA))
+        if (!is.null(saved_rv) && !is.null(rv_key)) saved_rv[[rv_key]] <- saved
+        stats_html <- make_stats_bar(res$time_sec, res$input_tokens, res$output_tokens, saved)
+        output[[token_output]] <- renderUI(tags$div(class = "token-display token-done", icon("check-circle"),
+          sprintf(" %.1f san | %s token", res$time_sec, formatC(res$input_tokens + res$output_tokens, format = "d", big.mark = ","))))
+        output[[result_output]] <- renderUI(tagList(HTML(HTML5_CSS), tags$div(class = "ai-output", HTML(res$text)),
+          HTML(stats_html), tags$div(class = "arti-footer", footer_fn())))
+        if (!is.null(download_ui_id)) {
+          btns <- list()
+          btns[[length(btns) + 1]] <- downloadButton(paste0(download_ui_id, "_html"), "HTML yukle",
+            class = "btn-success", style = "margin:8px 8px 8px 0;")
+          if (!is.na(saved$docx)) btns[[length(btns) + 1]] <- downloadButton(paste0(download_ui_id, "_docx"), "DOCX yukle",
+            class = "btn-primary", style = "margin:8px 8px 8px 0;")
+          output[[download_ui_id]] <- renderUI(tags$div(style = "margin-top:16px;", do.call(tagList, btns)))
+        }
+        if (!is.null(btn_id)) shinyjs::enable(btn_id)
+      } else {
+        session$sendCustomMessage("ai_timer_stop", list(target = timer_id, ok = FALSE,
+          elapsed = sprintf("%.1f", res$time_sec), inp = "0", out = "0", cost = "$0"))
+        output[[token_output]] <- renderUI(tags$div(class = "token-display token-error", icon("times-circle"), sprintf(" Xeta (%.1f san)", res$time_sec)))
+        output[[result_output]] <- renderUI(tags$div(style = "padding:30px;color:#dc2626;", tags$h3("Xeta bas verdi"), tags$p(res$error)))
+        if (!is.null(btn_id)) shinyjs::enable(btn_id)
       }
+    }, error = function(e) {
+      message("run_ai_async XETA: ", e$message)
+      output[[token_output]] <- renderUI(tags$div(class = "token-display token-error", icon("times-circle"), " Xeta"))
+      output[[result_output]] <- renderUI(tags$div(style = "padding:30px;color:#dc2626;",
+        tags$h3("Sistem xetasi"), tags$p(e$message)))
       if (!is.null(btn_id)) shinyjs::enable(btn_id)
-    } else {
-      session$sendCustomMessage("ai_timer_stop", list(target = timer_id, ok = FALSE,
-        elapsed = sprintf("%.1f", res$time_sec), inp = "0", out = "0", cost = "$0"))
-      output[[token_output]] <- renderUI(tags$div(class = "token-display token-error", icon("times-circle"), sprintf(" Xeta (%.1f san)", res$time_sec)))
-      output[[result_output]] <- renderUI(tags$div(style = "padding:30px;color:#dc2626;", tags$h3("Xeta bas verdi"), tags$p(res$error)))
-      if (!is.null(btn_id)) shinyjs::enable(btn_id)
-    }
+    })
   }, once = TRUE)
 }
 
