@@ -20,6 +20,9 @@ CREATE TABLE IF NOT EXISTS azdili_standartlari (
     standard_metni TEXT NOT NULL,
     alstandart_kodu VARCHAR(20),
     alstandart_metni TEXT,
+    pisa_saviyyesi VARCHAR(10),
+    pirls_kateqoriya VARCHAR(50),
+    blooms_seviyyesi VARCHAR(30),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -91,6 +94,7 @@ CREATE TABLE IF NOT EXISTS ders_planlari (
     faaliyet_novu VARCHAR(50),
     muddet INTEGER DEFAULT 45,
     mezmun TEXT,
+    beynelxalq_standartlar JSONB,
     yaradilma_tarixi TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     fayl_adi VARCHAR(255)
 );
@@ -116,6 +120,7 @@ CREATE TABLE IF NOT EXISTS testler (
     cetinlik VARCHAR(20),
     sual_sayi INTEGER DEFAULT 10,
     mezmun TEXT,
+    pisa_saviyyesi VARCHAR(10),
     yaradilma_tarixi TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     fayl_adi VARCHAR(255)
 );
@@ -156,7 +161,9 @@ CREATE TABLE IF NOT EXISTS edebi_metnler (
     muellif VARCHAR(255),
     eser_adi VARCHAR(255),
     janr VARCHAR(100),
+    dovr VARCHAR(50),
     movzu VARCHAR(255),
+    esas_ideya TEXT,
     xulase TEXT,
     tam_metn TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP

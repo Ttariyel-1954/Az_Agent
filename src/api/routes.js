@@ -13,6 +13,8 @@ const { MuellimKommunikasiyasiAgent } = require('../agents/muellim_kommunikasiya
 const { ShagirdInkishafiAgent } = require('../agents/shagird_inkishafi');
 const { MetodikiKomekAgent } = require('../agents/metodiki_komek');
 const { ReqemsalAssistantAgent } = require('../agents/reqemsal_assistant');
+const { EdebiTahlilAgent } = require('../agents/edebi_tahlil');
+const { AylikPlanAgent } = require('../agents/aylik_plan');
 
 // Initialize agents
 const dersPlanAgent = new DersPlanlamasiAgent();
@@ -21,6 +23,8 @@ const kommunikasiyaAgent = new MuellimKommunikasiyasiAgent();
 const shagirdAgent = new ShagirdInkishafiAgent();
 const metodikiAgent = new MetodikiKomekAgent();
 const reqemsalAgent = new ReqemsalAssistantAgent();
+const edebiTahlilAgent = new EdebiTahlilAgent();
+const aylikPlanAgent = new AylikPlanAgent();
 
 // ═══════════════════════════════════════════════
 // AUTH ROUTES
@@ -88,7 +92,7 @@ router.post('/diktant-hazirla', async (req, res) => {
 // ═══════════════════════════════════════════════
 router.post('/edebi-tahlil', async (req, res) => {
     try {
-        const result = await reqemsalAgent.analyzeLiteraryText(req.body);
+        const result = await edebiTahlilAgent.analyzeLiteraryText(req.body);
         res.json({ success: true, data: result });
     } catch (error) {
         res.status(500).json({ success: false, error: error.message });
@@ -100,7 +104,7 @@ router.post('/edebi-tahlil', async (req, res) => {
 // ═══════════════════════════════════════════════
 router.post('/aylik-plan', async (req, res) => {
     try {
-        const result = await reqemsalAgent.generateMonthlyPlan(req.body);
+        const result = await aylikPlanAgent.generateMonthlyPlan(req.body);
         res.json({ success: true, data: result });
     } catch (error) {
         res.status(500).json({ success: false, error: error.message });
@@ -189,7 +193,7 @@ router.get('/health', (req, res) => {
         service: 'Az Müəllim Agent API',
         version: '1.0.0',
         timestamp: new Date().toISOString(),
-        agents: ['ders_planlamasi', 'qiymetlendirme', 'muellim_kommunikasiyasi', 'shagird_inkishafi', 'metodiki_komek', 'reqemsal_assistant']
+        agents: ['ders_planlamasi', 'qiymetlendirme', 'muellim_kommunikasiyasi', 'shagird_inkishafi', 'metodiki_komek', 'reqemsal_assistant', 'edebi_tahlil', 'aylik_plan']
     });
 });
 

@@ -1,6 +1,7 @@
 // ============================================================
 // Agent 1: Dərs Planlaması (Lesson Planning Agent)
 // Azərbaycan dili və ədəbiyyat fənni üçün
+// PISA/PIRLS/Blum/CEFR beynəlxalq çərçivələri ilə
 // ============================================================
 const { AIEngine } = require('../../core/ai_engine');
 const { query } = require('../../../config/database');
@@ -15,59 +16,56 @@ class DersPlanlamasiAgent {
         this.ai = new AIEngine();
     }
 
-    async generateLessonPlan({ sinif, movzu, ders_tipi = 'Yeni mövzu', faaliyet_novu = 'Oxu', muddet = 45 }) {
-        // 1. Standartları bazadan çək
+    async generateLessonPlan({
+        sinif, movzu, ders_tipi = 'Yeni mövzu', faaliyet_novu = 'Oxu',
+        muddet = 45, beynelxalq = ['pisa', 'blooms'],
+        diferensial = true, rubrika = true
+    }) {
         const standards = await this._getStandards(sinif, faaliyet_novu);
-
-        // 2. Dərslikdən kontekst çək
         const chunks = await this._getChunks(sinif, movzu);
 
-        // 3. AI prompt hazırla
-        const prompt = this._buildPlanPrompt({ sinif, movzu, ders_tipi, faaliyet_novu, muddet, standards, chunks });
+        const prompt = this._buildPlanPrompt({
+            sinif, movzu, ders_tipi, faaliyet_novu, muddet,
+            standards, chunks, beynelxalq, diferensial, rubrika
+        });
 
-        // 4. AI-dan cavab al
         const result = await this.ai.complete({ prompt, maxTokens: 8192 });
 
         if (!result.success) {
             throw new Error('Dərs planı yaratma xətası: ' + result.error);
         }
 
-        // 5. Faylı saxla
         const ts = new Date().toISOString().replace(/[:.]/g, '-').substring(0, 19);
         const safeTopic = movzu.replace(/[^a-zA-Z0-9əöüğıçş_-]/gi, '_').substring(0, 40);
         const fileName = `sinif${sinif}_${safeTopic}_ders_plani_${ts}.html`;
         const filePath = path.join(DERS_DIR, fileName);
         fs.writeFileSync(filePath, result.content, 'utf8');
 
-        // 6. DB-yə yaz
+        const beynelxalqData = { pisa: beynelxalq.includes('pisa'), pirls: beynelxalq.includes('pirls'),
+            blooms: beynelxalq.includes('blooms'), cefr: beynelxalq.includes('cefr') };
+
         await query(`
-            INSERT INTO ders_planlari (sinif, movzu, ders_tipi, faaliyet_novu, muddet, mezmun, fayl_adi)
-            VALUES ($1, $2, $3, $4, $5, $6, $7)
-        `, [sinif, movzu, ders_tipi, faaliyet_novu, muddet, result.content, fileName]);
+            INSERT INTO ders_planlari (sinif, movzu, ders_tipi, faaliyet_novu, muddet, mezmun, beynelxalq_standartlar, fayl_adi)
+            VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+        `, [sinif, movzu, ders_tipi, faaliyet_novu, muddet, result.content, JSON.stringify(beynelxalqData), fileName]);
 
         return {
-            content: result.content,
-            fileName,
-            filePath,
-            model: result.model,
-            tokensInput: result.tokensInput,
-            tokensOutput: result.tokensOutput,
-            latencyMs: result.latencyMs,
+            content: result.content, fileName, filePath,
+            model: result.model, tokensInput: result.tokensInput,
+            tokensOutput: result.tokensOutput, latencyMs: result.latencyMs,
         };
     }
 
     async _getStandards(sinif, saha) {
-        const sahaMap = { 'Oxu': 'oxu', 'Yazı': 'yazi', 'Qrammatika': 'qrammatika', 'Danışıq': 'danisiq', 'Ədəbiyyat': 'edebiyyat' };
+        const sahaMap = { 'Oxu': 'oxu', 'Yazı': 'yazi', 'Qrammatika': 'qrammatika', 'Danışıq': 'danisiq', 'Ədəbiyyat': 'edebiyyat', 'Qarışıq': 'oxu' };
         const dbSaha = sahaMap[saha] || saha;
         try {
             const result = await query(
-                'SELECT standard_kodu, standard_metni FROM azdili_standartlari WHERE sinif = $1 AND saha = $2',
+                'SELECT standard_kodu, standard_metni, pisa_saviyyesi, pirls_kateqoriya, blooms_seviyyesi FROM azdili_standartlari WHERE sinif = $1 AND saha = $2',
                 [sinif, dbSaha]
             );
             return result.rows;
-        } catch {
-            return [];
-        }
+        } catch { return []; }
     }
 
     async _getChunks(sinif, movzu) {
@@ -79,27 +77,63 @@ class DersPlanlamasiAgent {
                 [sinif, `%${movzu}%`]
             );
             return result.rows;
-        } catch {
-            return [];
-        }
+        } catch { return []; }
     }
 
-    _buildPlanPrompt({ sinif, movzu, ders_tipi, faaliyet_novu, muddet, standards, chunks }) {
+    _buildPlanPrompt({ sinif, movzu, ders_tipi, faaliyet_novu, muddet, standards, chunks, beynelxalq, diferensial, rubrika }) {
         const standardsText = standards.length > 0
-            ? standards.map(s => `- [${s.standard_kodu}] ${s.standard_metni}`).join('\n')
+            ? standards.map(s => `- [${s.standard_kodu}] ${s.standard_metni} (PISA: ${s.pisa_saviyyesi || '?'}, Blum: ${s.blooms_seviyyesi || '?'})`).join('\n')
             : 'Standartlar bazada tapılmadı';
 
         const contextText = chunks.length > 0
             ? chunks.map(c => `--- Dərslik: ${c.movzu}, seh. ${c.sehife_aralighi} ---\n${(c.metn || '').substring(0, 3000)}`).join('\n\n')
             : 'Dərslik konteksti mövcud deyil';
 
-        const m1 = Math.round(muddet * 0.10);
-        const m2 = Math.round(muddet * 0.30);
+        const m1 = Math.round(muddet * 0.12);
+        const m2 = Math.round(muddet * 0.35);
         const m3 = Math.round(muddet * 0.25);
-        const m4 = Math.round(muddet * 0.25);
-        const m5 = Math.round(muddet * 0.10);
+        const m4 = Math.round(muddet * 0.10);
+        const m5 = Math.round(muddet * 0.08);
 
-        return `Sən Azərbaycan dili və ədəbiyyat müəllimisiniz. Aşağıdakı parametrlərə uyğun dərs planı hazırla.
+        let beynelxalqSection = '';
+        if (beynelxalq && beynelxalq.length > 0) {
+            beynelxalqSection = `
+BEYNƏLXALQ STANDART UYĞUNLUĞU (MÜTLƏQ daxil et):
+${beynelxalq.includes('pisa') ? '- PISA oxu prosesi: məlumat alma / şərh / qiymətləndirmə — hansı prosesi inkişaf etdirir' : ''}
+${beynelxalq.includes('pirls') ? '- PIRLS kateqoriyası: birbaşa anlama / çıxarım / şərh / inteqrasiya' : ''}
+${beynelxalq.includes('blooms') ? '- Blum taksonomiyası: hər məqsədin taksonomiya səviyyəsini göstər' : ''}
+${beynelxalq.includes('cefr') ? '- CEFR dil səviyyəsi: A1/A2/B1/B2/C1/C2' : ''}`;
+        }
+
+        let diferensialSection = '';
+        if (diferensial) {
+            diferensialSection = `
+DİFERENSİAL TAPŞIRIQLAR (3 SƏVİYYƏ — cədvəl şəklində):
+| Səviyyə | Tapşırıq | Məqsəd |
+|---------|---------|--------|
+| Zəif şagird | sadə, dəstəkli tapşırıq | anlama |
+| Orta şagird | müstəqil tapşırıq | tətbiq |
+| Güclü şagird | yaradıcı, analitik tapşırıq | yaratma |`;
+        }
+
+        let rubrikaSection = '';
+        if (rubrika) {
+            rubrikaSection = `
+QİYMƏTLƏNDİRMƏ METRİKASI (cədvəl şəklində):
+| Meyar | 4 (əla) | 3 (yaxşı) | 2 (kafi) | 1 (qeyri-kafi) |
+|-------|---------|-----------|----------|----------------|
+| Anlama | ... | ... | ... | ... |
+| Tətbiq | ... | ... | ... | ... |
+| Nitq | ... | ... | ... | ... |
+| İştirak | ... | ... | ... | ... |
+
+ÖZÜNÜQIYMƏTLƏNDIRMƏ (şagird üçün):
+□ Mövzunu başa düşdüm
+□ Nümunə gətirə bilərəm
+□ Hələ anlamadığım var: ___________`;
+        }
+
+        return `Sən Azərbaycan dili və ədəbiyyat müəllimisiniz. Aşağıdakı parametrlərə uyğun ƏTRAFLY dərs planı hazırla.
 
 SİNİF: ${sinif}-ci sinif
 MÖVZU: ${movzu}
@@ -112,30 +146,48 @@ ${standardsText}
 
 DƏRSLİKDƏN KONTEKST:
 ${contextText}
+${beynelxalqSection}
 
-DERS PLANININ STRUKTURU (5 MƏRHƏLƏ):
+TƏLİM NƏTİCƏLƏRİ (Blum Taksonomiyasına görə):
+Dərsin sonunda şagirdlər:
+- Bilik səviyyəsi: nəyi xatırlayacaq
+- Anlama səviyyəsi: nəyi izah edəcək
+- Tətbiq səviyyəsi: nəyi tətbiq edəcək
+- Təhlil səviyyəsi: nəyi təhlil edəcək
+- Qiymətləndirmə: nəyi qiymətləndirəcək
+- Yaratma: nə yaradacaq (yüksək siniflərdə)
 
-MƏRHƏLƏ 1: MOTİVASİYA VƏ AKTUALLAŞDIRMA (${m1} dəq)
-- Gündəlik həyatdan nümunə
+RESURSLAR VƏ HAZIRLIIQ:
+- Dərslik: sinif, səhifə nömrəsi
+- Əlavə materiallar: vizual, audio, kart və s.
+
+DƏRSİN GEDİŞATI:
+
+I. MOTİVASİYA VƏ FƏALLAŞDIRMA (${m1} dəq)
 - Əvvəlki biliklərin aktivləşdirilməsi
+- Açar suallar
+- Gözlənti: şagirdlərin mövzu haqqında fərziyyələri
 
-MƏRHƏLƏ 2: YENİ BİLİK VƏ KƏŞF (${m2} dəq)
-- Mətnlə iş / qrammatik qayda / ədəbi əsər
-- Şagirdlər özü kəşf edir
+II. YENİ MATERİALIN İZAHI (${m2} dəq)
+- Müəllim izahı
+- Dərslik mətni ilə iş
+- Nümunə təhlil
+${diferensialSection}
 
-MƏRHƏLƏ 3: BİRGƏ TƏTBİQ (${m3} dəq)
-- MÜƏLLİM: 1 nümunə göstərir
-- BİZ: Cütlüklərlə tapşırıq
-- SƏN: Fərdi tapşırıq
+III. MƏŞQ VƏ TƏTBİQ (${m3} dəq)
+- Qrup işi / cütlük işi
+- Fəal təlim üsulu: Düşün-Cütləş-Paylaş və s.
+- Tapşırıq məzmunu
 
-MƏRHƏLƏ 4: MÜSTƏQIL TƏTBİQ VƏ DİFERENSİASİYA (${m4} dəq)
-- BAZA səviyyə: Sadə tapşırıqlar
-- ORTA səviyyə: Kontekstli tapşırıqlar
-- YÜKSƏK səviyyə: Yaradıcı tapşırıqlar
+IV. FORMATIV QİYMƏTLƏNDİRMƏ (${m4} dəq)
+- Yoxlama üsulu: Çıxış bileti / Baş barmaq / Mini test / Sual-cavab
+- Uğur meyarları
+${rubrikaSection}
 
-MƏRHƏLƏ 5: YEKUNLAŞDIRMA VƏ REFLEKSİYA (${m5} dəq)
-- Çıxış bileti
-- Ev tapşırığı
+V. ÜMUMILƏŞDIRMƏ VƏ EV İŞİ (${m5} dəq)
+- Dərsin xülasəsi
+- Ev tapşırığı: diferensial — iki səviyyə
+- Növbəti dərsin elanı
 
 Nəticəni TAM HTML formatında ver. Markdown istifadə etmə.`;
     }

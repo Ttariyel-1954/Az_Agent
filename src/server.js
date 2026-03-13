@@ -110,13 +110,15 @@ async function start() {
         console.log(`\n🚀 Server işləyir: http://localhost:${PORT}`);
         console.log(`📊 API: http://localhost:${PORT}/api/v1`);
         console.log(`💚 Health: http://localhost:${PORT}/api/v1/health`);
-        console.log(`\n📋 6 Agent aktiv:`);
-        console.log('   1️⃣  Dərs Planlaması');
-        console.log('   2️⃣  Qiymətləndirmə');
+        console.log(`\n📋 8 Agent aktiv:`);
+        console.log('   1️⃣  Dərs Planlaması (PISA/Blum)');
+        console.log('   2️⃣  Qiymətləndirmə (PISA formatı)');
         console.log('   3️⃣  Müəllim Kommunikasiyası');
         console.log('   4️⃣  Şagird İnkişafı');
         console.log('   5️⃣  Metodiki Kömək');
         console.log('   6️⃣  Rəqəmsal Assistant');
+        console.log('   7️⃣  Ədəbi Təhlil (10 element)');
+        console.log('   8️⃣  Aylıq Plan (PISA/PIRLS)');
     });
 }
 
