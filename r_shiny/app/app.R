@@ -53,37 +53,58 @@ RENGLER <- list(
 # ═══════════════ SYSTEM PROMPT (v2.0) ═══════════════
 SYSTEM_PROMPT <- paste0(
   "Sen Azerbaycan Respublikasinin 1-11-ci sinif Azerbaycan dili ve edebiyyat ",
-  "fennini derinden bilen, asagidaki beynelxalq cerceveleri menimsen ",
-  "AI muellim assistentisen:\n\n",
+  "fennini derinden bilen, PISA/PIRLS/Blum/CEFR cercivelrini menimseyen ",
+  "AI muellim assistentisen.\n\n",
+
+  "SENIN ESAS PRINSIPIN: HEC VAXT umumi, shablonvari, soz yigini olan mezmun yazma. ",
+  "Her cavab KONKRET, PRAKTIK, DERHAL istifadeye hazir olmalidir. Muellim senin ",
+  "yazdiqlarini oxuyanda 'bu mehz menim dersime uygun, bu mehz bu standarta xidmet edir' ",
+  "demlidir. Umumi sozler, bosh cumleler, doldurucu ifadeler QADAGANDIR.\n\n",
+
+  "STANDART-MOVZU ELAQESI (EN VACIB PRINSIP):\n",
+  "Her ders planinda, her testde, her tehlilde MUTLEQ goster:\n",
+  "- Bu movzu bu standarta NECE xidmet edir\n",
+  "- Standartta teleb olunan bacariq bu movzuda NECE formalasinr\n",
+  "- Sagird bu dersin/testin sonunda standartin HANSI telabini ode bilecek\n",
+  "- KONKRET misal: 'Bu standart sagirdden [X] teleb edir. Bu movzuda sagird [Y] ederek ",
+  "bu bacarigi inkishaf etdirir.'\n\n",
+
   "BEYNELXALQ CERCIVELER:\n",
-  "- PISA Oxu Savadliligi (6 seviyye: 1b-6): metn novleri, oxu prosesleri, ",
-  "kontekst novleri; kritik dushunce, coxmenbeli metn analizi\n",
-  "- PIRLS 4-cu sinif oxu: bedii metn + melumat metni; birbasa anlama / ",
-  "serh etme / qiymetlendirme / inteqrasiya prosesleri\n",
-  "- Blum Taksonomiyasi (6 seviyye): xatirlamaq - anlamaq - tetbiq etmek - ",
-  "tehlil etmek - qiymetlendirmek - yaratmaq\n",
-  "- CEFR Dil Cercivesi (A1-C2): dinleme, danisiq, oxu, yazi bacariqlar\n",
-  "- Azerbaycan Dili Fenn Kurikulumu (2024): mezmun xetleri uzre standartlar\n\n",
+  "- PISA Oxu Savadliligi (6 seviyye: 1b-6): metn novleri, oxu prosesleri\n",
+  "- PIRLS 4-cu sinif oxu: bedii metn + melumat metni; 4 proses\n",
+  "- Blum Taksonomiyasi (6 seviyye): xatirlamaq - anlamaq - tetbiq - tehlil - qiymetlendirme - yaratma\n",
+  "- CEFR Dil Cercivesi (A1-C2): dinleme, danisiq, oxu, yazi\n",
+  "- Azerbaycan Dili Fenn Kurikulumu (2024): 4 mezmun xetti, 147 esas standart, 442 alt-standart\n\n",
+
   "DERS PLANI YAZARKEN:\n",
-  "1. Meqsed — Blum taksonomiyasina gore olcule bilen feillerle\n",
-  "2. PISA/PIRLS uygunlugu — hansi oxu prosesini inkishaf etdirir\n",
-  "3. Diferensial telim — 3 seviyye: zeif / orta / guclu sagird\n",
-  "4. Formativ qiymetlendirme — ders erzinde yoxlama usullari\n",
-  "5. Feallashdirma strategiyalari — sual novleri\n",
+  "1. Meqsed — OLCULE BILEN feillerle (sadalayir, izah edir, tetbiq edir, tehlil edir, yaradir)\n",
+  "2. Her merhelede standartla ELAQENI goster — bu merhele standarta NECE xidmet edir\n",
+  "3. Diferensial telim — 3 seviyye: zeif/orta/guclu — her biri ucun KONKRET tapshiriq\n",
+  "4. Formativ qiymetlendirme — KONKRET suallar, cixis bileti, mini test\n",
+  "5. Derslik istinadlari — KONKRET sehife nomreleri\n",
   "6. Fenlerarasi inteqrasiya — tarix, cografiya, musiqi ve s.\n",
-  "7. Resurslar — derslik sehifeleri, elave materiallar\n\n",
-  "EDEBIYYAT METNININ TEHLILI YAZARKEN:\n",
+  "7. Standarta nail olma xulasesi — ders sonu muellim ucun\n\n",
+
+  "TEST YAZARKEN:\n",
+  "1. Her sualin HANSI standarti olcduyunu goster\n",
+  "2. Distraktorlar sagirdlerin TIPIK sehvlerine esaslansin\n",
+  "3. Her sualin izahinda muellim ucun metodiki qeyd olsun\n",
+  "4. Rubrikalar KONKRET numune cavablarla olsun\n\n",
+
+  "EDEBIYYAT TEHLILI YAZARKEN:\n",
   "1. Kompozisiya analizi: ekspozisiya - kulminasiya - cozum\n",
-  "2. Obraz sistemi: esas + ikinci dereceli obrazlar\n",
-  "3. Muellif movqeyi: birbasa/dolayi ifade usullari\n",
-  "4. Bedii tesvir vasiteleri: metafora, epitet, benzet, hiperbola\n",
-  "5. Janr xususiyyetleri: nagil/hekaye/poema/roman/dram ferqleri\n",
-  "6. Dovr konteksti: eser yazildigi tarixi-ictimai muhit\n",
-  "7. Muqayiseli analiz: basqa muelliflerle paraleller\n",
-  "8. Sagird tenqidi dushuncesi\n",
-  "9. Dil analizi: leksik secim, uslub, ton\n",
-  "10. PISA oxu formati: coxsecimli + konstruktiv cavab + aciq sual\n\n",
-  "Butun cavablari Azerbaycan dilinde ver. Konkret, praktik mezmun yaz."
+  "2. Obraz sistemi: esas + ikinci dereceli obrazlar, xarakter inkishafi\n",
+  "3. Bedii tesvir vasiteleri: metafora, epitet, benzetme — METN NUMUNELERI ile\n",
+  "4. Muellif movqeyi, janr xususiyyetleri, dovr konteksti\n",
+  "5. PISA formatinda suallar: coxsecimli + konstruktiv + aciq\n\n",
+
+  "QIZIL QAYDALAR:\n",
+  "- HEC VAXT 'meselen', 'numune ucun', 'buna benzer' kimi bosh istinadlar yazma — KONKRET yaz\n",
+  "- HEC VAXT 'muellim izah edir' kimi umumi cumleler yazma — NE izah edir, NECE izah edir yaz\n",
+  "- HEC VAXT 'tapshiriq verilir' yazma — TAPSHIRIGIN OZUNU yaz\n",
+  "- HEC VAXT 'qiymetlendirme aparilir' yazma — NECE qiymetlendirilir, HANSI suallarla yaz\n",
+  "- Her cavab minimum 2000 soz olmalidir — qisa, sathi cavab QADAGANDIR\n",
+  "- Butun cavablari Azerbaycan dilinde ver."
 )
 
 # ═══════════════ STANDARTLAR ═══════════════
@@ -113,12 +134,25 @@ get_topics_for_grade <- function(grade) {
   gd <- ALL_TOPICS[[as.character(grade)]]
   if (is.null(gd)) return(c("Movzu tapilmadi" = "---"))
   ch <- character(0)
-  for (b in gd$bolmeler) {
-    bn <- b$bolme %||% "?"
-    for (m in b$movzular) {
-      ad <- m$ad %||% "?"; seh <- m$seh %||% "?"
-      label <- paste0("[", bn, "]  ", ad, "  (seh. ", seh, ")")
+  # Yeni format: list of {ad, standard_kodu, sahe, saat, sehife}
+  if (!is.null(gd[[1]]$ad)) {
+    for (m in gd) {
+      ad <- m$ad %||% "?"
+      sahe <- m$sahe %||% "?"
+      seh <- m$sehife %||% m$seh %||% "?"
+      std <- m$standard_kodu %||% ""
+      label <- paste0("[", sahe, "]  ", ad, "  (", std, ", seh. ", seh, ")")
       ch <- c(ch, setNames(ad, label))
+    }
+  } else {
+    # Köhnə format: bolmeler
+    for (b in gd$bolmeler) {
+      bn <- b$bolme %||% "?"
+      for (m in b$movzular) {
+        ad <- m$ad %||% "?"; seh <- m$seh %||% "?"
+        label <- paste0("[", bn, "]  ", ad, "  (seh. ", seh, ")")
+        ch <- c(ch, setNames(ad, label))
+      }
     }
   }
   if (length(ch) == 0) return(c("Movzu tapilmadi" = "---"))
@@ -354,7 +388,59 @@ build_lang_instruction <- function(langs) {
   paste0('\nDILLER: Neticeni ', length(langs), ' DILDE ver:\n', lang_list, '\nHer dil ayrica bolme sheklinde.\n')
 }
 
-# ═══════════════ PROMPT BUILDERS (v2.0) ═══════════════
+# ═══════════════ STANDART-MOVZU ELAQE HELPER ═══════════════
+
+get_standard_details <- function(grade, standard_code) {
+  stds <- ALL_STANDARDS[[as.character(grade)]]
+  if (is.null(stds)) return(NULL)
+  for (st in stds) {
+    if (!is.null(st$kod) && grepl(standard_code, paste0(st$kod, " - ", st$metn), fixed = TRUE)) return(st)
+    if (!is.null(st$kod) && st$kod == standard_code) return(st)
+  }
+  # partial match
+  for (st in stds) {
+    if (!is.null(st$metn) && grepl(substr(standard_code, 1, 15), st$metn, fixed = TRUE)) return(st)
+  }
+  NULL
+}
+
+get_topic_details <- function(grade, topic_name) {
+  tops <- ALL_TOPICS[[as.character(grade)]]
+  if (is.null(tops)) return(NULL)
+  for (tp in tops) {
+    if (!is.null(tp$ad) && tp$ad == topic_name) return(tp)
+  }
+  NULL
+}
+
+get_related_standards <- function(grade, topic_name) {
+  tp <- get_topic_details(grade, topic_name)
+  if (is.null(tp) || is.null(tp$standard_kodu)) return("")
+  std_kod <- tp$standard_kodu
+  stds <- ALL_STANDARDS[[as.character(grade)]]
+  if (is.null(stds)) return("")
+  # find the exact standard
+  result <- character(0)
+  for (st in stds) {
+    if (!is.null(st$kod) && st$kod == std_kod) {
+      result <- c(result, sprintf("ESAS STANDART: %s\nSahe: %s\nMetn: %s\nBlum seviyyesi: %s\nPISA seviyyesi: %s",
+        st$kod, st$sahe %||% "-", st$metn %||% "-", st$bloom %||% "-", st$pisa %||% "-"))
+    }
+  }
+  # find sibling standards (same prefix)
+  parts <- strsplit(std_kod, "[.]")[[1]]
+  if (length(parts) >= 2) {
+    prefix <- paste(parts[1:2], collapse = ".")
+    for (st in stds) {
+      if (!is.null(st$kod) && grepl(paste0("^", gsub("([.])", "\\\\\\1", prefix)), st$kod) && st$kod != std_kod) {
+        result <- c(result, sprintf("ELAQELI STANDART: %s — %s (Blum: %s)", st$kod, st$metn %||% "-", st$bloom %||% "-"))
+      }
+    }
+  }
+  paste(result, collapse = "\n\n")
+}
+
+# ═══════════════ PROMPT BUILDERS (v3.0 — DERIN STANDART-MOVZU ELAQESI) ═══════════════
 
 build_lesson_prompt <- function(grade, topic, faaliyet, context, duration, langs = c("az"),
                                  standard = NULL, ders_tipi = "Yeni movzu",
@@ -363,6 +449,26 @@ build_lesson_prompt <- function(grade, topic, faaliyet, context, duration, langs
   lang_inst <- build_lang_instruction(langs)
   m1 <- as.integer(duration * 0.12); m2 <- as.integer(duration * 0.35)
   m3 <- as.integer(duration * 0.25); m4 <- as.integer(duration * 0.10); m5 <- as.integer(duration * 0.08)
+
+  # Standart-movzu elaqesi
+  std_detail <- ""
+  topic_detail <- ""
+  related_stds <- ""
+  tp_info <- get_topic_details(grade, topic)
+  if (!is.null(tp_info)) {
+    topic_detail <- sprintf("MOVZU DETALLARI:\n- Ad: %s\n- Sahe: %s\n- Standart kodu: %s\n- Saat: %s\n- Derslik sehifesi: %s",
+      tp_info$ad %||% topic, tp_info$sahe %||% "-", tp_info$standard_kodu %||% "-",
+      tp_info$saat %||% "2", tp_info$sehife %||% "-")
+    related_stds <- get_related_standards(grade, topic)
+  }
+  if (!is.null(standard) && standard != "---" && nchar(standard) > 3) {
+    st_parts <- strsplit(standard, " - ", fixed = TRUE)[[1]]
+    st_obj <- get_standard_details(grade, st_parts[1])
+    if (!is.null(st_obj)) {
+      std_detail <- sprintf("SECILMISH STANDART DETALLARI:\n- Kod: %s\n- Sahe: %s\n- Metn: %s\n- Blum seviyyesi: %s\n- PISA seviyyesi: %s",
+        st_obj$kod %||% "-", st_obj$sahe %||% "-", st_obj$metn %||% "-", st_obj$bloom %||% "-", st_obj$pisa %||% "-")
+    }
+  }
 
   beynelxalq_inst <- ""
   if (length(beynelxalq) > 0) {
@@ -374,90 +480,119 @@ build_lesson_prompt <- function(grade, topic, faaliyet, context, duration, langs
     beynelxalq_inst <- paste0("\nBEYNELXALQ STANDART UYGUNLUGU (MUTLEQ daxil et):\n", paste(parts, collapse = "\n"), "\n")
   }
 
-  difer_inst <- ""
-  if (diferensial) {
-    difer_inst <- '
-DIFERENSIAL TAPSHIRIQLAR (3 SEVIYYE — cedvel sheklinde):
-| Seviyye | Tapshiriq | Meqsed |
-|---------|---------|--------|
-| Zeif sagird | sade, destekli | anlama |
-| Orta sagird | musteqil | tetbiq |
-| Guclu sagird | yaradici, analitik | yaratma |'
-  }
-
-  rubrika_inst <- ""
-  if (rubrika) {
-    rubrika_inst <- '
-QIYMETLENDIRME METRIKASI (cedvel):
-| Meyar | 4 (ela) | 3 (yaxshi) | 2 (kafi) | 1 (qeyri-kafi) |
-|-------|---------|-----------|----------|----------------|
-| Anlama | ... | ... | ... | ... |
-| Tetbiq | ... | ... | ... | ... |
-| Nitq | ... | ... | ... | ... |
-| Ishtirak | ... | ... | ... | ... |
-
-OZUNUQIYMETLENDIRME (sagird ucun):
-- Movzunu basha dushdum
-- Numune getire bilerem
-- Hele anlamadigim var: ___________'
-  }
-
   paste0(
-'Sen Azerbaycan dili ve edebiyyat fennini derinden bilen ekspert metodist AI-san.
+'Sen Azerbaycan Respublikasinin 1-11-ci sinif Azerbaycan dili ve edebiyyat fennini derinden bilen,
+PISA/PIRLS/Blum/CEFR cercivelrini menitimseyen ekspert metodist AI-san.
+
+SENIN ESASS VEZIFEN: Bu ders planinda KONKRET movzunun KONKRET standarta NECE nail oldugunu
+muellime AYDIN ve PRAKTIK sekilde gostermekdir. Muellim bu plani oxuyanda:
+1) Bu movzunun bu standartla elaqesini AYDIN gormeli
+2) Her merhelenin standarta NECE xidmet etdiyini bashlsa dushmeli
+3) Sagirdlerin standarti NECE mecimsemeleri ucun KONKRET fealiyyetler gormeli
+4) Qiymetlendirmenin MEHZ bu standarti olcduyunu derk etmeli
+
 ', lang_inst, '
 
-PARAMETRLER:
+═══════════════════════════════════════
 SINIF: ', grade, '-ci sinif
 MOVZU: ', topic, '
 DERS TIPI: ', ders_tipi, '
-STANDART: ', if (!is.null(standard) && standard != "---") standard else "Umumixidmet", '
 FEALIYYET NOVU: ', faaliyet, '
 MUDDET: ', duration, ' deqiqe
 
-DERSLIKDEN KONTEKST:
+', topic_detail, '
+
+', std_detail, '
+
+', if (nchar(related_stds) > 0) paste0("ELAQELI STANDARTLAR VE KONTEKST:\n", related_stds, "\n") else "", '
+═══════════════════════════════════════
+
+DERSLIKDEN KONTEKST (bu sehifelerdeki material ders planinin ESASINI teshkil etmelidir):
 ', context, '
 ', beynelxalq_inst, '
 
-TELIM NETICELERI (Blum Taksonomiyasina gore):
-Dersin sonunda sagirdler:
-- Bilik seviyyesi: neyi xatirlayacaq
-- Anlama seviyyesi: neyi izah edecek
-- Tetbiq seviyyesi: neyi tetbiq edecek
-- Tehlil seviyyesi: neyi tehlil edecek
-- Qiymetlendirme: neyi qiymetlendirecek
-- Yaratma: ne yaradacaq (yuksek siniflerde)
+══════════════ VACIB TELEBLER ══════════════
 
-RESURSLAR VE HAZIRLIQ:
-- Derslik: sinif, sehife nomresi
-- Elave materiallar: vizual, audio, kart ve s.
+1. STANDART-MOVZU ELAQESI (EN VACIB HISSE):
+   Bu bolmede MUTLEQ izah et:
+   - Bu movzu bu standarta NECE xidmet edir?
+   - Standartda teleb olunan bacariq bu movzuda NECE formalashan?
+   - Sagird bu dersin sonunda standartin hansi telabini ode bilecek?
+   - KONKRET misal: "Bu standart sagirdden [X] teleb edir. Bu movzuda sagird [Y] ederek
+     bu bacarigi inkishaf etdirir. Meselen, [Z] tapshiriginda sagird mehz bu standarti tetbiq edir."
 
-DERSIN GEDISHATI:
+2. TELIM NETICELERI (Blum Taksonomiyasina gore — OLCULE BILEN feillerle):
+   Dersin sonunda sagirdler:
+   - Bilik: [KONKRET — meselen: "Ismin 6 halini sadalayir" — yox ki "bilir"]
+   - Anlama: [KONKRET — meselen: "Yiyeik halinin funksiyasini oz sozleri ile izah edir"]
+   - Tetbiq: [KONKRET — meselen: "Verilmish metinde isimlerin hallarini mueiyyen edir"]
+   - Tehlil: [KONKRET — meselen: "Iki metni muqayise ederek hal istifadesindeki ferqleri tehlil edir"]
+   - Qiymetlendirme: [eger uygunsa]
+   - Yaratma: [eger uygunsa]
 
-I. MOTIVASIYA VE FEALLASHDIRMA (', m1, ' deq)
-- Evvelki biliklerin aktivleshdirmesi
-- Acar suallar
-- Gozlenti: sagirdlerin movzu haqqinda ferziyyeleri
+3. RESURSLAR VE HAZIRLIQ:
+   - Derslik: KONKRET sehife nomreleri
+   - Levhe/proyektor hazrligi: ne yazilacaq/gosterilecek
+   - Elave material: ishci vereqleri, kartlar, audio/video
 
-II. YENI MATERIALIN IZAHI (', m2, ' deq)
-- Muellim izahi
-- Derslik metni ile ish
-- Numune tehlil
-', difer_inst, '
+4. DERSIN GEDISHATI (her merhelede standartla elaqe gosterilmelidir):
 
-III. MESHQ VE TETBIQ (', m3, ' deq)
-- Qrup ishi / cutluk ishi
-- Feal telim usulu: Dushun-Cutles-Paylas ve s.
-- Tapshiriq mezmunu
+   I. MOTIVASIYA VE FEALLASHDIRMA (', m1, ' deq)
+   - Evvelki biliklerin aktivleshdirmesi — KONKRET suallar yaz (minimum 3 sual)
+   - Bu merhelenin standarla elaqesi: sagirdin movcud biliyini yoxlayir
+   - Ferziiyye: sagirdlerden ne gozlenilir?
 
-IV. FORMATIV QIYMETLENDIRME (', m4, ' deq)
-- Yoxlama usulu: Cixis bileti / Mini test / Sual-cavab
-- Ugur meyarlari
-', rubrika_inst, '
+   II. YENI MATERIALIN IZAHI (', m2, ' deq)
+   - Muellim izahi: ADDIM-ADDIM ne edir, ne danishir, ne gosterir
+   - Derslik metni ile ish: HANSI sehife, HANSI tapshiriq, NECE istifade olunur
+   - Numune tehlil: KONKRET misal getir (meselen, cemleni tehlil et, sozun qurlushunugoster)
+   - STANDARTLA ELAQE: Bu izahin standartin hansi telabine cavab verdiyini goster
 
-V. UMUMILESHDIRME VE EV ISHI (', m5, ' deq)
-- Dersin xulasesi
-- Ev tapshirigi: diferensial — iki seviyye
-- Novbeti dersin elani
+   DIFERENSIAL TAPSHIRIQLAR (3 SEVIYYE):
+   | Seviyye | KONKRET Tapshiriq | Standarta Xidmeti | Blum Seviyyesi |
+   |---------|------------------|-------------------|----------------|
+   | Zeif sagird | [KONKRET ve SADE — meselen: "Verilmish 5 cumlede isimlerin altini ciz"] | Bilik/Anlama |  xatirlama |
+   | Orta sagird | [MUSTEQIL — meselen: "Metnden isimleri tap ve hallarini mueiyyen et"] | Tetbiq | tetbiq |
+   | Guclu sagird | [YARADICI — meselen: "Butun hallarda istifade olunan 6 cumle yaz"] | Yaratma | yaratma |
+
+   III. MESHQ VE TETBIQ (', m3, ' deq)
+   - FEAL TELIM USULU: Konkret usul sec (Dushun-Cutles-Paylas / Qalereya gezi / Beyin Hucumu / Rol oyunu)
+     ve bu usulun NECE tetbiq olundugunu addim-addim izah et
+   - Qrup/cutluk tapshirigi: KONKRET mezmun yaz — umumi "tapshiriq verin" yox!
+   - STANDARTLA ELAQE: Bu meshqin standarti NECE mohkemlendirdiyini goster
+
+   IV. FORMATIV QIYMETLENDIRME (', m4, ' deq)
+   - Yoxlama usulu: KONKRET SEC ve MEZMUNUNU yaz
+     (Meselen: "Cixis bileti: Asagidaki 3 sualdan 2-sine cavab ver: 1)... 2)... 3)...")
+   - Ugur meyarlari: Sagird NELERI ede bilse, standarta nail olmus sayilir?
+   - STANDARTLA ELAQE: Bu qiymetlendirme MEHZ bu standarti olcur
+
+   V. UMUMILESHDIRME VE EV ISHI (', m5, ' deq)
+   - Dersin xulasesi: Esass 3 netice
+   - Ev tapshirigi (2 seviyye):
+     * Butun sagirdler ucun: [KONKRET]
+     * Guclu sagirdler ucun: [ELAVE YARADICI]
+   - Novbeti ders haqqinda qisa melumat
+
+5. QIYMETLENDIRME RUBRIKASI:
+   | Meyar | 4 (ela) | 3 (yaxshi) | 2 (kafi) | 1 (qeyri-kafi) |
+   |-------|---------|-----------|----------|----------------|
+   | Standarta uygunluq | Standartin butun telablerini edir | Esass hisseisni edir | Qismen edir | Ede bilmir |
+   | Anlama | Movzunu derinden izah edir | Izah edir | Qismen izah edir | Izah ede bilmir |
+   | Tetbiq | Musteqil ve yaradici tetbiq edir | Musteqil tetbiq edir | Komekle tetbiq edir | Tetbiq ede bilmir |
+   | Nitq/Yazi | Seliss, zening dilde ifade edir | Duzgun ifade edir | Bezi sehvlerle | Coxlu sehvle |
+
+6. STANDARTA NAIL OLMA XULASESI (DERSIN SONUNDA):
+   Bu blokda muellim ucun yaz:
+   - "Bu ders [STANDART KODU] standartina bu yollarla nail olur: ..."
+   - "Sagird bu dersin sonunda [KONKRET bacariq] ede bilir ki, bu da standartin [KONKRET hissesine] cavab verir"
+   - "Novbeti dersde bu standarti [NECE] davam etdirmek olar"
+
+OZUNUQIYMETLENDIRME (sagird ucun):
+Dersn sonunda sagird ozune sual verir:
+- Bu gun [KONKRET bacariq] oyrendim: beli / xeyr
+- [KONKRET tapshiriq] hel ede bilerem: beli / xeyr
+- Hele anlamadigim var: ___________
 
 HTML FORMATI (CIDDI RIAYAT):
 Neticeni YALNIZ HTML teqleri ile ver. Markdown ISTIFADE ETME.
@@ -467,6 +602,7 @@ Neticeni YALNIZ HTML teqleri ile ver. Markdown ISTIFADE ETME.
   <div class="meta-grid">
     <div class="meta-item"><span class="label">Sinif:</span> ', grade, '-ci sinif</div>
     <div class="meta-item"><span class="label">Movzu:</span> ', topic, '</div>
+    <div class="meta-item"><span class="label">Standart:</span> [standart kodu ve metni]</div>
     <div class="meta-item"><span class="label">Muddet:</span> ', duration, ' deqiqe</div>
     <div class="meta-item"><span class="label">Fealiyyet:</span> ', faaliyet, '</div>
     <div class="meta-item"><span class="label">Ders tipi:</span> ', ders_tipi, '</div>
@@ -474,14 +610,15 @@ Neticeni YALNIZ HTML teqleri ile ver. Markdown ISTIFADE ETME.
   <div class="objectives">
     <h3>Telim Neticeleri (Blum Taksonomiyasi)</h3>
     <ul>
-      <li><strong>Bilik:</strong> Sagird ... bilecek</li>
-      <li><strong>Bacariq:</strong> Sagird ... tetbiq ede bilecek</li>
-      <li><strong>Munasibet:</strong> Sagird ... deyerlendire bilecek</li>
+      <li><strong>Bilik:</strong> Sagird [KONKRET] bilecek</li>
+      <li><strong>Bacariq:</strong> Sagird [KONKRET] tetbiq ede bilecek</li>
+      <li><strong>Munasibet:</strong> Sagird [KONKRET] deyerlendire bilecek</li>
     </ul>
   </div>
 </div>
 
-Beynelxalq standart uygunlugunu <div class="beynelxalq-box"> icinde goster.
+STANDART-MOVZU ELAQESINI <div class="beynelxalq-box"> icinde goster — bu AYRI ve BOYUK bolme olmalidir.
+Muellim bu bolmeni oxuyanda mehz bu movzunun bu standarta NECE nail oldugunu AYDIN gormelidir.
 
 HER MERHELE bele olmalidir:
 <div class="phase phase-[N]">
@@ -490,72 +627,130 @@ HER MERHELE bele olmalidir:
     <h3>MERHELE [N]: [AD]</h3>
     <span class="phase-time">[X] deq</span>
   </div>
-  <div class="teacher-activity"><strong>Muellim fealiyyeti:</strong> ...</div>
-  <div class="student-activity"><strong>Sagird fealiyyeti:</strong> ...</div>
-  <div class="textbook-ref"><strong>Derslik istinadi:</strong> seh. [XX]</div>
-  <div class="assessment"><strong>Formativ qiymetlendirme:</strong> ...</div>
+  <div class="teacher-activity"><strong>Muellim fealiyyeti:</strong> [DETALLI — ne deyir, ne gosterir, nece izah edir]</div>
+  <div class="student-activity"><strong>Sagird fealiyyeti:</strong> [DETALLI — ne edir, nece cavab verir, nece ishleyir]</div>
+  <div class="textbook-ref"><strong>Derslik istinadi:</strong> seh. [XX] — [NECE istifade olunur]</div>
+  <div class="assessment"><strong>Standarta xidmet:</strong> Bu merhele [STANDART] standartinin [HANSI] hissesini inkishaf etdirir</div>
 </div>
 
-Sonda MUTLEQ analiz bloku yaz.')
+Diferensial tapshiriqlari <div class="differentiation"> icinde goster:
+<div class="differentiation">
+  <div class="diff-level diff-base"><strong>Zeif sagird:</strong> [KONKRET tapshiriq]<br><em>Standarta xidmet: [izah]</em></div>
+  <div class="diff-level diff-mid"><strong>Orta sagird:</strong> [KONKRET tapshiriq]<br><em>Standarta xidmet: [izah]</em></div>
+  <div class="diff-level diff-high"><strong>Guclu sagird:</strong> [KONKRET tapshiriq]<br><em>Standarta xidmet: [izah]</em></div>
+</div>
+
+Sonda MUTLEQ iki analiz bloku yaz:
+1. <div class="stats-block"> — Blum/PISA/PIRLS paylamasi statistikasi
+2. <div class="beynelxalq-box"> — STANDARTA NAIL OLMA XULASESI: Bu ders bu standarta NECE nail oldu,
+   sagird ne qazandi, novbeti adimlar ne olmalidir. Muellim bunu oxuyanda bu dersin DEYERINI gormeli.')
 }
 
 build_test_prompt <- function(grade, topic, test_type, context, count, difficulty, langs = c("az"),
                                standard = NULL, metn_novu = "Bedii metn", rubrika_elave = TRUE) {
   lang_inst <- build_lang_instruction(langs)
-  rubrika_inst <- ""
-  if (rubrika_elave) {
-    rubrika_inst <- '
-ACIQ SUALLAR UCUN QIYMETLENDIRME RUBRIKASI:
-| Bal | Meyar |
-|-----|-------|
-| 4 | Esaslandirilmish, numuneli, strukturlu cavab |
-| 3 | Duzgun, lakin az esaslandirilmish |
-| 2 | Qismen duzgun |
-| 1 | Cuzi anlama numayish etdirir |
-| 0 | Cavab yoxdur / tamamile yanlish |'
+
+  # Standart-movzu elaqesi
+  std_detail <- ""
+  topic_detail <- ""
+  related_stds <- ""
+  tp_info <- get_topic_details(grade, topic)
+  if (!is.null(tp_info)) {
+    topic_detail <- sprintf("MOVZU DETALLARI:\n- Ad: %s\n- Sahe: %s\n- Standart kodu: %s\n- Derslik sehifesi: %s",
+      tp_info$ad %||% topic, tp_info$sahe %||% "-", tp_info$standard_kodu %||% "-", tp_info$sehife %||% "-")
+    related_stds <- get_related_standards(grade, topic)
+  }
+  if (!is.null(standard) && standard != "---" && nchar(standard) > 3) {
+    st_parts <- strsplit(standard, " - ", fixed = TRUE)[[1]]
+    st_obj <- get_standard_details(grade, st_parts[1])
+    if (!is.null(st_obj)) {
+      std_detail <- sprintf("SECILMISH STANDART DETALLARI:\n- Kod: %s\n- Sahe: %s\n- Metn: %s\n- Blum seviyyesi: %s\n- PISA seviyyesi: %s",
+        st_obj$kod %||% "-", st_obj$sahe %||% "-", st_obj$metn %||% "-", st_obj$bloom %||% "-", st_obj$pisa %||% "-")
+    }
   }
 
   paste0(
 'Sen Azerbaycan dili ve edebiyyat fenninden PISA formatinda test tapshiriqlari yaradan ekspert AI-san.
+Senin esas vezifen: her sualin KONKRET standarta ve movzuya NECE xidmet etdiyini gostermekdir.
+Muellim bu testi oxuyanda her sualin NIYE bu formada oldugunu ve HANSI bacarigi olcduyunu AYDIN gormelidir.
+
 ', lang_inst, '
 
-PARAMETRLER:
+═══════════════════════════════════════
 SINIF: ', grade, '-ci sinif
 MOVZU: ', topic, '
-STANDART: ', if (!is.null(standard) && standard != "---") standard else "Umumixidmet", '
 TEST TIPI: ', test_type, '
 TAPSHIRIQ SAYI: ', count, '
 CETINLIK: ', difficulty, '
 METN NOVU: ', metn_novu, '
 
-DERSLIKDEN KONTEKST:
+', topic_detail, '
+
+', std_detail, '
+
+', if (nchar(related_stds) > 0) paste0("ELAQELI STANDARTLAR:\n", related_stds, "\n") else "", '
+═══════════════════════════════════════
+
+DERSLIKDEN KONTEKST (suallar bu materiala esaslanmalidir):
 ', context, '
 
-TEST STRUKTURU (PISA FORMATI):
+══════════════ VACIB TELEBLER ══════════════
 
-I HISSE — OXUMA METNI:
-Kontekstual metn hazirla (150-300 soz, ', metn_novu, ' novunde, sinif seviyyesine uygun)
+1. STANDART-SUAL ELAQESI:
+   Her sualin yaninda goster:
+   - Bu sual HANSI standarti olcur (standart kodu ve metni)
+   - Bu sual standartin HANSI telabine cavab verir
+   - Sagird bu suala DUZGUN cavab verese, bu onun HANSI bacarigini subut edir
+   - Meselen: "Bu sual ', if (!is.null(standard) && standard != "---") standard else "[standart kodu]", ' standartini olcur.
+     Sagird bu suala cavab vermekle [KONKRET bacariq] numayish etdirir."
 
-II HISSE — COXSECIMLI SUALLAR (her sual 1 bal):
-- Her sual ucun PISA seviyyesini goster (Sev.1-6)
-- 4 variant (A, B, C, D)
-- Duzgun cavab + izah
-- Distraktorlarin niye sehv oldugunu izah et
+2. OXUMA METNI (I HISSE):
+   - ', metn_novu, ' novunde, ', grade, '-ci sinif seviyyesine uygun, 200-400 soz
+   - Metn derslik materialina UYGUN olmalidir — umumi internet metnleri yox!
+   - Metn icinde hem aciq melumat, hem gizli mena, hem muellif movqeyi olmalidir
+   - Metni MOVZU ile elaqeli yaz — meselen, eger movzu "Ismin hallari"-dirsa,
+     metn bu qrammatik quruluslarin zengin istifadesini numayish etdirmelidir
 
-III HISSE — QISA CAVABLI SUALLAR (her sual 2 bal):
-- Blum taksonomiya seviyyesini goster
-- Gozlenilen cavab
-- Qiymetlendirme meyari
+3. COXSECIMLI SUALLAR (II HISSE — her sual 1 bal):
+   Her sual ucun MUTLEQ goster:
+   - PISA seviyyesi (1-6) ve bu seviyyenin NECE oldugunu 1 cumlede izah et
+   - Blum taksonomiya seviyyesi
+   - Standart kodu ve standartin HANSI telabini olcur
+   - 4 variant (A, B, C, D) — distraktorlar REALIST olmalidir (sagirdlerin tipik sehvlerine esaslansn)
+   - Duzgun cavab + ETRAFLY izah (sadece "duzgun cavabdir" yox!)
+   - Her distraktorun NIYE sehv oldugunu izah et
+   - Muellim ucun qeyd: Bu sualda sagirdlerin coxu HANSI sehvi edir ve NIYE
 
-IV HISSE — ACIQ SUALLAR (her sual 4 bal):
-- PISA Sev.4-6 suallari
-- Genish cavab teleb eden kritik dushunce suallari
-', rubrika_inst, '
+4. QISA CAVABLI SUALLAR (III HISSE — her sual 2 bal):
+   - Blum taksonomiya seviyyesi + standart kodu
+   - Gozlenilen cavab — KONKRET ve ETRAFLY
+   - Qiymetlendirme meyari: 2 bal / 1 bal / 0 bal ucun AYRI-AYRI ne yazilmalidir
+   - Standarta xidmet izahi
 
-SUAL PAYLANMASI:
-- Suallarin 30%-i Sev.1-2 (asan)
-- Suallarin 50%-i Sev.3-4 (orta)
-- Suallarin 20%-i Sev.5-6 (cetin)
+5. ACIQ SUALLAR (IV HISSE — her sual 4 bal):
+   - PISA Sev.4-6 — kritik dushunce, qiymetlendirme, yaratma
+   - Sagirdden ESASLANDIRMA teleb et
+   - QIYMETLENDIRME RUBRIKASI (her aciq sual ucun):
+     | Bal | Meyar | Numune cavab |
+     |-----|-------|-------------|
+     | 4 | Esaslandirilmish, numuneli, strukturlu | [KONKRET numune] |
+     | 3 | Duzgun, lakin az esaslandirilmish | [KONKRET numune] |
+     | 2 | Qismen duzgun | [KONKRET numune] |
+     | 1 | Cuzi anlama | [KONKRET numune] |
+     | 0 | Cavab yoxdur / tamamile yanlish | - |
+   - Standarta xidmet: Bu sual standartin HANSI en yuksek telabini olcur
+
+6. SUAL PAYLANMASI:
+   - Suallarin 30%-i Sev.1-2 (bilik, anlama — asan)
+   - Suallarin 50%-i Sev.3-4 (tetbiq, tehlil — orta)
+   - Suallarin 20%-i Sev.5-6 (qiymetlendirme, yaratma — cetin)
+
+7. TEST SONU ANALIZ BLOKU (muellim ucun):
+   - Blum paylamasi cedveli: nece sual hansi seviyye
+   - PISA paylamasi: nece sual hansi PISA seviyyesi
+   - Standart uygunlugu: bu test HANSI standartlari olcur, NECE olcur
+   - Muellim ucun tovsiyyeler: testin neticelerine gore NECE fealiyyet qurmaq olar
+   - Zeif neticelerde: sagird bu suali sehv cavablandirirsa, NECE komek etmek olar
 
 HTML FORMATI:
 Neticeni YALNIZ HTML teqleri ile ver. Markdown ISTIFADE ETME.
@@ -565,26 +760,36 @@ Neticeni YALNIZ HTML teqleri ile ver. Markdown ISTIFADE ETME.
   <div class="meta-grid">
     <div class="meta-item"><span class="label">Sinif:</span> ', grade, '-ci sinif</div>
     <div class="meta-item"><span class="label">Movzu:</span> ', topic, '</div>
+    <div class="meta-item"><span class="label">Standart:</span> [standart kodu ve metni]</div>
     <div class="meta-item"><span class="label">Test tipi:</span> ', test_type, '</div>
     <div class="meta-item"><span class="label">Cetinlik:</span> ', difficulty, '</div>
     <div class="meta-item"><span class="label">Metn novu:</span> ', metn_novu, '</div>
+    <div class="meta-item"><span class="label">Sual sayi:</span> ', count, '</div>
   </div>
 </div>
 
-HER TAPSHIRIQ bele:
-<div class="question-block">
+HER TAPSHIRIQ bele olmalidir:
+<div class="question-block bloom-[seviyye]">
   <div class="question-header">
-    <span class="pisa-badge">PISA Sev.[N]</span>
-    <span class="bloom-badge">[BLUM SEVIYYESI]</span>
+    <span class="pisa-badge">PISA Sev.[N]: [seviyye adi]</span>
+    <span class="bloom-badge">Blum: [SEVIYYE]</span>
+    <span class="dok-badge">Standart: [KOD]</span>
   </div>
-  <div class="question-text"><strong>Tapshiriq [N].</strong> ...</div>
+  <div class="question-text"><strong>Tapshiriq [N].</strong> [SUAL METNI]</div>
+  [variantlar — eger coxsecimlidirse]
   <div class="answer-box">
-    <div class="answer">Duzgun cavab: ...</div>
-    <div class="solution"><strong>Izah:</strong> ...</div>
+    <div class="answer">Duzgun cavab: [CAVAB]</div>
+    <div class="solution"><strong>Izah:</strong> [ETRAFLY — niye duzgun, distraktorlar niye sehv]</div>
+    <div class="textbook-ref"><strong>Standarta xidmet:</strong> Bu sual [STANDART KODU] standartini olcur.
+    Sagird bu suala duzgun cavab vermekle [KONKRET bacariq] numayish etdirir.</div>
   </div>
 </div>
 
-Sonda test statistikasi elave et (Bloom paylamasi, cetinlik balansi, PISA uygunlugu).')
+Sonda MUTLEQ iki analiz bloku:
+1. <div class="stats-block"> — Blum/PISA paylamasi, cetinlik balansi statistikasi
+2. <div class="beynelxalq-box"> — STANDART UYGUNLUGU XULASESI: Bu test HANSI standartlari olcur,
+   NECE olcur, zeif neticelerde muellim NE etmelidir. Muellim bunu oxuyanda testin
+   standarti NECE olcduyunu ve neticelere gore NECE fealiyyet qurmalasini AYDIN gormelidir.')
 }
 
 build_monthly_prompt <- function(grade, month, weekly_hours, langs = c("az"),
@@ -922,10 +1127,17 @@ ui <- dashboardPage(skin = "green",
       # === HOME ===
       tabItem(tabName = "home",
         fluidRow(
-          infoBox("DERS PLANLARI", textOutput("home_plan_count"), icon = icon("book"), color = "green", width = 3),
-          infoBox("TESTLER", textOutput("home_test_count"), icon = icon("clipboard"), color = "olive", width = 3),
-          infoBox("MESAJLAR", textOutput("home_msg_count"), icon = icon("comments"), color = "teal", width = 3),
-          infoBox("CHUNKS", textOutput("home_chunk_count"), icon = icon("database"), color = "maroon", width = 3)
+          valueBoxOutput("home_esas_std_box", width = 2),
+          valueBoxOutput("home_alt_std_box", width = 2),
+          valueBoxOutput("home_topic_box", width = 2),
+          valueBoxOutput("home_plan_box", width = 2),
+          valueBoxOutput("home_test_box", width = 2),
+          valueBoxOutput("home_chunk_box", width = 2)
+        ),
+        fluidRow(
+          box(title = "Sinif uzre Standartlar, Alt-standartlar ve Movzular", width = 12, solidHeader = TRUE, status = "success",
+            DT::dataTableOutput("home_sinif_table")
+          )
         ),
         fluidRow(
           box(title = "Fealiyyet Saheleri", width = 6, solidHeader = TRUE, status = "success", plotly_or_msg("home_area_chart")),
@@ -1164,15 +1376,79 @@ server <- function(input, output, session) {
   output$an_eser_ui <- renderUI(selectizeInput("an_eser", "Derslikden eser secin:", choices = get_eserler_for_grade(input$an_grade),
     width = "100%", options = list(placeholder = "Eser secin...", create = FALSE)))
 
-  # === HOME ===
-  output$home_plan_count <- renderText(as.character(length(list.files(DERS_DIR, pattern = "\\.html$"))))
-  output$home_test_count <- renderText(as.character(length(list.files(TEST_DIR, pattern = "\\.html$"))))
-  output$home_msg_count  <- renderText(as.character(length(list.files(MSG_DIR, pattern = "\\.html$"))))
-  output$home_chunk_count <- renderText({
+  # === HOME — pre-compute counts ===
+  home_data <- local({
+    sinifler <- sort(as.integer(names(ALL_STANDARDS)))
+    res <- data.frame(
+      Sinif = character(0), Esas = integer(0), Alt = integer(0),
+      Movzu = integer(0), Nisbet = numeric(0), stringsAsFactors = FALSE
+    )
+    total_esas <- 0; total_alt <- 0; total_mov <- 0
+    for (s in sinifler) {
+      sc <- as.character(s)
+      st_list <- ALL_STANDARDS[[sc]]
+      kodlar <- c()
+      for (st in st_list) {
+        k <- st$kod
+        if (!is.null(k) && nchar(k) > 0) kodlar <- c(kodlar, k)
+      }
+      kodlar <- unique(kodlar)
+      n_alt <- length(kodlar)
+      esas <- c()
+      for (k in kodlar) {
+        p <- strsplit(k, "[.]")[[1]]
+        if (length(p) >= 2) esas <- c(esas, paste(p[1], p[2], sep = "."))
+      }
+      n_esas <- length(unique(esas))
+      tp <- ALL_TOPICS[[sc]]
+      n_mov <- if (!is.null(tp)) length(tp) else 0L
+      nisb <- if (n_alt > 0) round(n_mov / n_alt, 1) else 0
+      res <- rbind(res, data.frame(
+        Sinif = paste0(s, "-ci sinif"), Esas = n_esas, Alt = n_alt,
+        Movzu = n_mov, Nisbet = nisb, stringsAsFactors = FALSE
+      ))
+      total_esas <- total_esas + n_esas
+      total_alt <- total_alt + n_alt
+      total_mov <- total_mov + n_mov
+    }
+    res <- rbind(res, data.frame(
+      Sinif = "YEKUN", Esas = total_esas, Alt = total_alt,
+      Movzu = total_mov, Nisbet = round(total_mov / total_alt, 1),
+      stringsAsFactors = FALSE
+    ))
+    list(df = res, total_esas = total_esas, total_alt = total_alt, total_mov = total_mov)
+  })
+  cat("HOME DATA: esas=", home_data$total_esas, " alt=", home_data$total_alt, " mov=", home_data$total_mov, "\n")
+
+  output$home_esas_std_box <- renderValueBox({
+    valueBox(home_data$total_esas, "Esas Standart", icon = icon("certificate"), color = "green")
+  })
+  output$home_alt_std_box <- renderValueBox({
+    valueBox(home_data$total_alt, "Alt-standart", icon = icon("sitemap"), color = "olive")
+  })
+  output$home_topic_box <- renderValueBox({
+    valueBox(home_data$total_mov, "Movzu", icon = icon("list"), color = "teal")
+  })
+  output$home_plan_box <- renderValueBox({
+    n <- length(list.files(DERS_DIR, pattern = "\\.html$"))
+    valueBox(n, "Ders Plani", icon = icon("book"), color = "aqua")
+  })
+  output$home_test_box <- renderValueBox({
+    n <- length(list.files(TEST_DIR, pattern = "\\.html$"))
+    valueBox(n, "Test", icon = icon("clipboard"), color = "yellow")
+  })
+  output$home_chunk_box <- renderValueBox({
     fs <- list.files(CHUNKS_DIR, pattern = "\\.json$", full.names = TRUE)
     total <- 0
     for (f in fs) tryCatch({ total <- total + length(fromJSON(f, simplifyVector = FALSE)) }, error = function(e) {})
-    as.character(total)
+    valueBox(total, "Chunk", icon = icon("database"), color = "maroon")
+  })
+
+  output$home_sinif_table <- DT::renderDataTable({
+    df <- home_data$df
+    colnames(df) <- c("Sinif", "Esas standart", "Alt-standart", "Movzu", "Nisbet (movzu/alt-std)")
+    DT::datatable(df, options = list(pageLength = 13, dom = "t", ordering = FALSE),
+                  rownames = FALSE, class = "compact stripe hover")
   })
 
   if (PLOTLY_OK) {

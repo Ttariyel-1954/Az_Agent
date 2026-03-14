@@ -1,463 +1,6254 @@
 {
-  "1": {
-    "bolmeler": [
-      {
-        "bolme": "Əlifba dövrü",
-        "movzular": [
-          {"ad": "Sait səslər", "seh": "8-16"},
-          {"ad": "Samit səslər", "seh": "17-28"},
-          {"ad": "Heca və söz", "seh": "29-38"},
-          {"ad": "Böyük hərf ilə yazılış", "seh": "39-46"},
-          {"ad": "Əlifba ardıcıllığı", "seh": "47-54"}
-        ]
-      },
-      {
-        "bolme": "Oxu bacarıqları",
-        "movzular": [
-          {"ad": "Hərflərin birləşməsi və oxunuşu", "seh": "55-64"},
-          {"ad": "Sadə mətnlərin oxunması", "seh": "65-74"},
-          {"ad": "Şeirlərin oxunması və əzbərlənməsi", "seh": "75-82"},
-          {"ad": "Şəkillər üzrə danışma", "seh": "83-90"}
-        ]
-      },
-      {
-        "bolme": "Yazı bacarıqları",
-        "movzular": [
-          {"ad": "Hərflərin düzgün yazılışı", "seh": "91-100"},
-          {"ad": "Sözlərin köçürülməsi", "seh": "101-108"},
-          {"ad": "Sadə cümlələrin yazılması", "seh": "109-116"},
-          {"ad": "Diktant yazma", "seh": "117-124"}
-        ]
-      },
-      {
-        "bolme": "Dinləmə və danışma",
-        "movzular": [
-          {"ad": "Dinləyib başa düşmə", "seh": "125-132"},
-          {"ad": "Sadə sualları cavablandırma", "seh": "133-138"},
-          {"ad": "Nağıl danışma", "seh": "139-146"}
-        ]
-      }
-    ]
-  },
-  "2": {
-    "bolmeler": [
-      {
-        "bolme": "Nitq hissələri (giriş)",
-        "movzular": [
-          {"ad": "İsim — əşyanın adı", "seh": "6-14"},
-          {"ad": "Feil — hərəkət bildirən sözlər", "seh": "15-24"},
-          {"ad": "Sifət — əlaməti bildirən sözlər", "seh": "25-32"},
-          {"ad": "Say — miqdarı bildirən sözlər", "seh": "33-38"}
-        ]
-      },
-      {
-        "bolme": "Cümlə quruluşu",
-        "movzular": [
-          {"ad": "Söz birləşmələri", "seh": "39-46"},
-          {"ad": "Nəqli cümlə", "seh": "47-54"},
-          {"ad": "Sual cümləsi", "seh": "55-60"},
-          {"ad": "Nida cümləsi", "seh": "61-66"},
-          {"ad": "Cümlədə söz sırası", "seh": "67-74"}
-        ]
-      },
-      {
-        "bolme": "Oxu və anlama",
-        "movzular": [
-          {"ad": "Mətnin mövzusunu müəyyənləşdirmə", "seh": "75-84"},
-          {"ad": "Əsas fikri tapma", "seh": "85-92"},
-          {"ad": "Hekayə oxusu və təhlili", "seh": "93-102"},
-          {"ad": "Şeir oxusu", "seh": "103-110"}
-        ]
-      },
-      {
-        "bolme": "Yazı və imla",
-        "movzular": [
-          {"ad": "Saitlə başlayan şəkilçilər", "seh": "111-118"},
-          {"ad": "Samitlə başlayan şəkilçilər", "seh": "119-126"},
-          {"ad": "Sözün sətirdən-sətrə keçirilməsi", "seh": "127-132"},
-          {"ad": "Hekayə yazma", "seh": "133-140"}
-        ]
-      }
-    ]
-  },
-  "3": {
-    "bolmeler": [
-      {
-        "bolme": "İsim",
-        "movzular": [
-          {"ad": "Xüsusi və ümumi isimlər", "seh": "6-14"},
-          {"ad": "İsmin tək və cəm halı", "seh": "15-22"},
-          {"ad": "İsmin mənsubiyyətə görə dəyişməsi", "seh": "23-30"},
-          {"ad": "İsmin quruluşca növləri", "seh": "31-38"}
-        ]
-      },
-      {
-        "bolme": "Sifət və say",
-        "movzular": [
-          {"ad": "Sifətin mənaca növləri", "seh": "39-48"},
-          {"ad": "Sifətin dərəcələri", "seh": "49-56"},
-          {"ad": "Miqdar sayları", "seh": "57-64"},
-          {"ad": "Sıra sayları", "seh": "65-70"}
-        ]
-      },
-      {
-        "bolme": "Feil",
-        "movzular": [
-          {"ad": "Feilin məna növləri", "seh": "71-80"},
-          {"ad": "Feilin zamana görə dəyişməsi", "seh": "81-90"},
-          {"ad": "Feilin şəxsə görə dəyişməsi", "seh": "91-98"},
-          {"ad": "Təsdiq və inkar feillər", "seh": "99-106"}
-        ]
-      },
-      {
-        "bolme": "Cümlə üzvləri",
-        "movzular": [
-          {"ad": "Mübtəda", "seh": "107-114"},
-          {"ad": "Xəbər", "seh": "115-122"},
-          {"ad": "Tamamlıq", "seh": "123-130"},
-          {"ad": "Təyin və zərflik", "seh": "131-140"}
-        ]
-      },
-      {
-        "bolme": "Oxu və yazı",
-        "movzular": [
-          {"ad": "Təsviri mətn yazma", "seh": "141-148"},
-          {"ad": "Məktub yazma", "seh": "149-154"},
-          {"ad": "Mətnin hissələri (giriş, əsas, nəticə)", "seh": "155-162"}
-        ]
-      }
-    ]
-  },
-  "4": {
-    "bolmeler": [
-      {
-        "bolme": "Nitq hissələri (dərinləşmə)",
-        "movzular": [
-          {"ad": "İsmin hallanması", "seh": "6-16"},
-          {"ad": "Feilin şəkilləri", "seh": "17-26"},
-          {"ad": "Əvəzlik", "seh": "27-36"},
-          {"ad": "Zərf", "seh": "37-44"},
-          {"ad": "Qoşma və bağlayıcılar", "seh": "45-52"}
-        ]
-      },
-      {
-        "bolme": "Cümlə növləri",
-        "movzular": [
-          {"ad": "Sadə cümlə", "seh": "53-62"},
-          {"ad": "Bağlayıcısız mürəkkəb cümlə", "seh": "63-70"},
-          {"ad": "Mübtəda və xəbər arasında tire", "seh": "71-76"},
-          {"ad": "Həmcins üzvlü cümlə", "seh": "77-84"}
-        ]
-      },
-      {
-        "bolme": "Oxu və anlama",
-        "movzular": [
-          {"ad": "Bədii mətn oxusu", "seh": "85-94"},
-          {"ad": "Elmi-kütləvi mətn oxusu", "seh": "95-102"},
-          {"ad": "Mətnə aid suallar yaratma", "seh": "103-110"},
-          {"ad": "Xülasə çıxarma", "seh": "111-118"}
-        ]
-      },
-      {
-        "bolme": "Yazılı ifadə",
-        "movzular": [
-          {"ad": "İnşa yazma qaydaları", "seh": "119-128"},
-          {"ad": "Plan üzrə hekayə yazma", "seh": "129-136"},
-          {"ad": "Təqdimat hazırlamaq", "seh": "137-144"}
-        ]
-      }
-    ]
-  },
-  "5": {
-    "bolmeler": [
-      {
-        "bolme": "Fonetika",
-        "movzular": [
-          {"ad": "Danışıq səsləri və hərflər", "seh": "8-18"},
-          {"ad": "Sait və samit səslər", "seh": "19-28"},
-          {"ad": "Ahəng qanunu", "seh": "29-36"},
-          {"ad": "Vurğu", "seh": "37-42"},
-          {"ad": "Fonetik təhlil", "seh": "43-50"}
-        ]
-      },
-      {
-        "bolme": "Leksika",
-        "movzular": [
-          {"ad": "Sözün leksik mənası", "seh": "51-60"},
-          {"ad": "Çoxmənalı sözlər", "seh": "61-68"},
-          {"ad": "Omonim, sinonim, antonim", "seh": "69-78"},
-          {"ad": "Frazeoloji birləşmələr", "seh": "79-86"}
-        ]
-      },
-      {
-        "bolme": "Söz yaradıcılığı",
-        "movzular": [
-          {"ad": "Kök və şəkilçi", "seh": "87-96"},
-          {"ad": "Leksik və qrammatik şəkilçilər", "seh": "97-106"},
-          {"ad": "Sözün tərkibinə görə təhlili", "seh": "107-114"},
-          {"ad": "Düzəltmə sözlər", "seh": "115-122"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat",
-        "movzular": [
-          {"ad": "Şifahi xalq ədəbiyyatı: nağıllar", "seh": "123-134"},
-          {"ad": "Nizami Gəncəvi — həyatı və yaradıcılığı", "seh": "135-146"},
-          {"ad": "M.Füzuli — qəzəlləri", "seh": "147-156"},
-          {"ad": "Müasir uşaq ədəbiyyatı", "seh": "157-166"}
-        ]
-      }
-    ]
-  },
-  "6": {
-    "bolmeler": [
-      {
-        "bolme": "Morfologiya — İsim",
-        "movzular": [
-          {"ad": "İsmin halları (ətraflı)", "seh": "6-18"},
-          {"ad": "İsmin quruluşca növləri", "seh": "19-28"},
-          {"ad": "İsmin mənsubiyyət kateqoriyası", "seh": "29-36"},
-          {"ad": "İsmin morfoloji təhlili", "seh": "37-44"}
-        ]
-      },
-      {
-        "bolme": "Morfologiya — Feil",
-        "movzular": [
-          {"ad": "Feilin zamanları", "seh": "45-56"},
-          {"ad": "Feilin şəkilləri", "seh": "57-66"},
-          {"ad": "Təsriflənməyən feillər (məsdər, feli sifət, feli bağlama)", "seh": "67-78"},
-          {"ad": "Feilin morfoloji təhlili", "seh": "79-86"}
-        ]
-      },
-      {
-        "bolme": "Sintaksis",
-        "movzular": [
-          {"ad": "Söz birləşmələri", "seh": "87-96"},
-          {"ad": "Cümlə üzvləri (təkrar)", "seh": "97-108"},
-          {"ad": "Həmcins üzvlər və vergül", "seh": "109-116"},
-          {"ad": "Vasitəsiz və vasitəli nitq", "seh": "117-124"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat",
-        "movzular": [
-          {"ad": "Dədə Qorqud dastanı", "seh": "125-138"},
-          {"ad": "M.P.Vaqif — qoşmaları", "seh": "139-148"},
-          {"ad": "A.Bakıxanov — hekayələri", "seh": "149-158"},
-          {"ad": "C.Məmmədquluzadə — \"Poçt qutusu\"", "seh": "159-168"}
-        ]
-      }
-    ]
-  },
-  "7": {
-    "bolmeler": [
-      {
-        "bolme": "İsmin halları (dərinləşmə)",
-        "movzular": [
-          {"ad": "Adlıq və yiyəlik hal", "seh": "6-16"},
-          {"ad": "Yönlük və təsirlik hal", "seh": "17-26"},
-          {"ad": "Yerlik və çıxışlıq hal", "seh": "27-36"},
-          {"ad": "İsmin hal şəkilçiləri ilə digər şəkilçilərin fərqi", "seh": "37-44"}
-        ]
-      },
-      {
-        "bolme": "Feilin zamanları (dərinləşmə)",
-        "movzular": [
-          {"ad": "Keçmiş zaman formaları", "seh": "45-56"},
-          {"ad": "İndiki zaman", "seh": "57-64"},
-          {"ad": "Gələcək zaman formaları", "seh": "65-74"},
-          {"ad": "Zaman formalarının üslubi xüsusiyyətləri", "seh": "75-82"}
-        ]
-      },
-      {
-        "bolme": "Köməkçi nitq hissələri",
-        "movzular": [
-          {"ad": "Qoşmalar", "seh": "83-92"},
-          {"ad": "Bağlayıcılar", "seh": "93-102"},
-          {"ad": "Ədat, modal sözlər və nidalar", "seh": "103-112"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat",
-        "movzular": [
-          {"ad": "M.F.Axundzadə — komediyaları", "seh": "113-126"},
-          {"ad": "S.Ə.Şirvani — şeirləri", "seh": "127-136"},
-          {"ad": "C.Cabbarlı — \"Oqtay Eloğlu\"", "seh": "137-148"},
-          {"ad": "Hüseyn Cavid — \"İblis\"", "seh": "149-160"},
-          {"ad": "Bədii əsərdə süjet və kompozisiya", "seh": "161-170"}
-        ]
-      }
-    ]
-  },
-  "8": {
-    "bolmeler": [
-      {
-        "bolme": "Mürəkkəb cümlə",
-        "movzular": [
-          {"ad": "Tabesiz mürəkkəb cümlə", "seh": "6-18"},
-          {"ad": "Tabeli mürəkkəb cümlə", "seh": "19-32"},
-          {"ad": "Tabeli mürəkkəb cümlənin növləri", "seh": "33-46"},
-          {"ad": "Mürəkkəb cümlənin sintaktik təhlili", "seh": "47-56"}
-        ]
-      },
-      {
-        "bolme": "Durğu işarələri",
-        "movzular": [
-          {"ad": "Vergül və nöqtəli vergül", "seh": "57-66"},
-          {"ad": "Qoşa nöqtə və tire", "seh": "67-74"},
-          {"ad": "Dırnaq işarəsi və mötərizə", "seh": "75-82"},
-          {"ad": "Durğu işarələrinin üslubi rolu", "seh": "83-90"}
-        ]
-      },
-      {
-        "bolme": "Mətn üzərində iş",
-        "movzular": [
-          {"ad": "Mətn və onun əlamətləri", "seh": "91-100"},
-          {"ad": "Mətnin növləri: təsvir, hekayə, mühakimə", "seh": "101-110"},
-          {"ad": "Mətnin quruluşu və rabitəlilik", "seh": "111-118"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat",
-        "movzular": [
-          {"ad": "M.Ə.Sabir — satirik şeirləri", "seh": "119-132"},
-          {"ad": "Ə.Haqverdiyev — hekayələri", "seh": "133-142"},
-          {"ad": "Mir Cəlal — \"Bir gəncin manifesti\"", "seh": "143-154"},
-          {"ad": "S.Vurğun — \"Vaqif\"", "seh": "155-166"},
-          {"ad": "Bədii əsərdə obrazlar sistemi", "seh": "167-176"}
-        ]
-      }
-    ]
-  },
-  "9": {
-    "bolmeler": [
-      {
-        "bolme": "Üslubiyyat",
-        "movzular": [
-          {"ad": "Bədii üslub", "seh": "6-16"},
-          {"ad": "Elmi üslub", "seh": "17-24"},
-          {"ad": "Publisistik üslub", "seh": "25-34"},
-          {"ad": "Rəsmi-işgüzar və məişət üslubu", "seh": "35-44"},
-          {"ad": "Üslubi fiqurlar", "seh": "45-54"}
-        ]
-      },
-      {
-        "bolme": "Mətn analizi",
-        "movzular": [
-          {"ad": "Mətnin kommunikativ məqsədi", "seh": "55-64"},
-          {"ad": "Arqumentli mətn yazma", "seh": "65-74"},
-          {"ad": "Tənqidi oxu bacarıqları", "seh": "75-84"},
-          {"ad": "Referativ mətn hazırlama", "seh": "85-92"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat tarixi (qədim dövr)",
-        "movzular": [
-          {"ad": "Qədim türk yazılı abidələri", "seh": "93-104"},
-          {"ad": "Nizami Gəncəvi — \"Xəmsə\"", "seh": "105-118"},
-          {"ad": "İmadəddin Nəsimi — fəlsəfi lirikası", "seh": "119-130"},
-          {"ad": "Şah İsmayıl Xətai — yaradıcılığı", "seh": "131-140"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat tarixi (orta dövr)",
-        "movzular": [
-          {"ad": "Məhəmməd Füzuli — qəzəl sənətkarlığı", "seh": "141-154"},
-          {"ad": "Molla Pənah Vaqif — xalq şeiri ənənəsi", "seh": "155-164"},
-          {"ad": "Qasım bəy Zakir — satirik şeirləri", "seh": "165-174"}
-        ]
-      }
-    ]
-  },
-  "10": {
-    "bolmeler": [
-      {
-        "bolme": "Dil tarixi",
-        "movzular": [
-          {"ad": "Azərbaycan dilinin tarixi inkişaf mərhələləri", "seh": "6-18"},
-          {"ad": "Azərbaycan ədəbi dilinin formalaşması", "seh": "19-30"},
-          {"ad": "Türk dilləri ailəsi və Azərbaycan dili", "seh": "31-40"},
-          {"ad": "Müasir Azərbaycan dilinin normaları", "seh": "41-50"}
-        ]
-      },
-      {
-        "bolme": "Bədii əsər təhlili",
-        "movzular": [
-          {"ad": "Ədəbi növlər və janrlar", "seh": "51-62"},
-          {"ad": "Bədii dilin ifadə vasitələri (təşbeh, metafora, metonimiya)", "seh": "63-76"},
-          {"ad": "Şeir texnikası: vəzn, qafiyə, bənd", "seh": "77-88"},
-          {"ad": "Nəsr əsərlərinin təhlil metodikası", "seh": "89-100"}
-        ]
-      },
-      {
-        "bolme": "Akademik yazı",
-        "movzular": [
-          {"ad": "Esse yazma qaydaları", "seh": "101-110"},
-          {"ad": "Tədqiqat işinin strukturu", "seh": "111-120"},
-          {"ad": "Mənbələrə istinad və sitat gətirmə", "seh": "121-128"},
-          {"ad": "Arqumentativ esse", "seh": "129-138"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat (XIX-XX əsr)",
-        "movzular": [
-          {"ad": "M.F.Axundzadə — maarifçilik ədəbiyyatı", "seh": "139-152"},
-          {"ad": "H.Cavid — romantizm", "seh": "153-164"},
-          {"ad": "C.Cabbarlı — dramaturgiya", "seh": "165-176"},
-          {"ad": "S.Vurğun — lirika və dramaturgiya", "seh": "177-188"},
-          {"ad": "İ.Əfəndiyev — psixoloji nəsr", "seh": "189-200"}
-        ]
-      }
-    ]
-  },
-  "11": {
-    "bolmeler": [
-      {
-        "bolme": "Publisistik üslub",
-        "movzular": [
-          {"ad": "Publisistikanın növləri: məqalə, oçerk, esse", "seh": "6-18"},
-          {"ad": "Media savadlılığı və tənqidi təhlil", "seh": "19-28"},
-          {"ad": "İctimai-siyasi mətnlərin təhlili", "seh": "29-38"},
-          {"ad": "Natiqlik sənəti və çıxış hazırlamaq", "seh": "39-48"}
-        ]
-      },
-      {
-        "bolme": "Ədəbi tənqid",
-        "movzular": [
-          {"ad": "Ədəbi tənqidin mahiyyəti və növləri", "seh": "49-60"},
-          {"ad": "Müqayisəli ədəbi təhlil", "seh": "61-72"},
-          {"ad": "Resenziya və rəy yazma", "seh": "73-82"},
-          {"ad": "Müasir Azərbaycan ədəbiyyatına baxış", "seh": "83-94"}
-        ]
-      },
-      {
-        "bolme": "Esse və akademik yazı",
-        "movzular": [
-          {"ad": "Esse növləri: təhlili, təsviri, arqumentativ", "seh": "95-106"},
-          {"ad": "Akademik dil və terminologiya", "seh": "107-116"},
-          {"ad": "Layihə işinin yazılması", "seh": "117-126"},
-          {"ad": "Portfel (portfolio) hazırlamaq", "seh": "127-134"}
-        ]
-      },
-      {
-        "bolme": "Ədəbiyyat (XX-XXI əsr)",
-        "movzular": [
-          {"ad": "B.Vahabzadə — fəlsəfi lirika", "seh": "135-148"},
-          {"ad": "İ.Əfəndiyev — \"Dağlar arxasında üç dost\"", "seh": "149-160"},
-          {"ad": "Anar — müasir nəsr", "seh": "161-172"},
-          {"ad": "Elçin — hekayə və roman sənətkarlığı", "seh": "173-184"},
-          {"ad": "Müasir Azərbaycan poeziyası", "seh": "185-196"}
-        ]
-      },
-      {
-        "bolme": "Yekun təkrar və imtahana hazırlıq",
-        "movzular": [
-          {"ad": "Fonetika və leksika təkrarı", "seh": "197-204"},
-          {"ad": "Morfologiya və sintaksis təkrarı", "seh": "205-214"},
-          {"ad": "Ədəbiyyat tarixi üzrə yekun təkrar", "seh": "215-224"},
-          {"ad": "İmtahan formatında test həlli", "seh": "225-234"}
-        ]
-      }
-    ]
-  }
+  "1": [
+    {
+      "ad": "Nağıl dinləyək: «Tülkü və Qarğa» — suallara cavab",
+      "standard_kodu": "1-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "8-10"
+    },
+    {
+      "ad": "Hekayə dinləmə: «Mənim ailəm» — kim? nə? harada?",
+      "standard_kodu": "1-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "11-13"
+    },
+    {
+      "ad": "«Günəş və Külək» nağılı — hadisələri şərh etmə",
+      "standard_kodu": "1-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "14-16"
+    },
+    {
+      "ad": "Dinlədiyim hekayəni danışıram — fakt və hadisə",
+      "standard_kodu": "1-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-19"
+    },
+    {
+      "ad": "Nağıl qəhrəmanlarına münasibət: yaxşı və pis",
+      "standard_kodu": "1-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "20-22"
+    },
+    {
+      "ad": "«Dovşanla Tısbağa» — qəhrəmana məktub yazaq",
+      "standard_kodu": "1-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "23-25"
+    },
+    {
+      "ad": "Sinif müzakirəsi: «Ən yaxşı fəsil hansıdır?»",
+      "standard_kodu": "1-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "26-28"
+    },
+    {
+      "ad": "Fikir ifadəsi: «Heyvanları qorumaq lazımdır»",
+      "standard_kodu": "1-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-31"
+    },
+    {
+      "ad": "Dialoq qurmaq: «Bazarda alış-veriş»",
+      "standard_kodu": "1-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "32-34"
+    },
+    {
+      "ad": "Cütlük işi: dostumla tanışlıq dialoqu",
+      "standard_kodu": "1-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "35-37"
+    },
+    {
+      "ad": "Dinlədiyim nağılı sinifə danışıram",
+      "standard_kodu": "1-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "38-40"
+    },
+    {
+      "ad": "Oxuduğum şeiri sinif qarşısında söyləyirəm",
+      "standard_kodu": "1-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-43"
+    },
+    {
+      "ad": "Komiks oxuyaq və danışaq: «Pişik və siçan»",
+      "standard_kodu": "1-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "44-46"
+    },
+    {
+      "ad": "Sxem üzrə danışma: gündəlik rejimim",
+      "standard_kodu": "1-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "47-49"
+    },
+    {
+      "ad": "Sevdiyim heyvan haqqında 3-4 cümlə",
+      "standard_kodu": "1-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "50-52"
+    },
+    {
+      "ad": "Məktəbdə olan hadisəni danışıram",
+      "standard_kodu": "1-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "53-55"
+    },
+    {
+      "ad": "Mini araşdırma: «Suyun faydaları» — təqdimat",
+      "standard_kodu": "1-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "56-58"
+    },
+    {
+      "ad": "Ailə araşdırması: nənəmin uşaqlığı",
+      "standard_kodu": "1-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "59-61"
+    },
+    {
+      "ad": "Nağılın davamını təxmin et: «Balıq və balıqçı»",
+      "standard_kodu": "1-1.3.5",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "62-64"
+    },
+    {
+      "ad": "Hekayənin sonunu özün fikirləş",
+      "standard_kodu": "1-1.3.5",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "65-67"
+    },
+    {
+      "ad": "Sözləri düzgün sıraya qoy — cümlə qur",
+      "standard_kodu": "1-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "68-70"
+    },
+    {
+      "ad": "Qarışıq sözlərdən düzgün cümlə qurmaq oyunu",
+      "standard_kodu": "1-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "71-73"
+    },
+    {
+      "ad": "İntonasiya ilə oxuyaq: sevinc, kədər, təəccüb",
+      "standard_kodu": "1-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "74-76"
+    },
+    {
+      "ad": "Rol oyunu: müxtəlif hisslərlə danışmaq",
+      "standard_kodu": "1-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "77-79"
+    },
+    {
+      "ad": "Hərfləri tanıyaq: sait səslər Aa, Əə, Oo",
+      "standard_kodu": "1-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "8-12"
+    },
+    {
+      "ad": "Hecaları birləşdirərək sözlər oxuyaq",
+      "standard_kodu": "1-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "13-18"
+    },
+    {
+      "ad": "Sadə cümlələri oxuyaq: «Ana gəldi»",
+      "standard_kodu": "1-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "19-24"
+    },
+    {
+      "ad": "Nöqtə, sual və nida işarəsi ilə oxumaq",
+      "standard_kodu": "1-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "25-28"
+    },
+    {
+      "ad": "Cümlə sonundakı işarəyə görə səs tonu dəyişmək",
+      "standard_kodu": "1-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "29-32"
+    },
+    {
+      "ad": "Mətn oxu: Kim? Nə vaxt? Harada? suallarına cavab",
+      "standard_kodu": "1-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "33-36"
+    },
+    {
+      "ad": "Hekayədə baş qəhrəmanı və hadisəni tap",
+      "standard_kodu": "1-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "37-40"
+    },
+    {
+      "ad": "Oxuduğun mətni şəkillə uyğunlaşdır",
+      "standard_kodu": "1-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "41-44"
+    },
+    {
+      "ad": "Şəkildən istifadə edərək mətni anla",
+      "standard_kodu": "1-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "45-48"
+    },
+    {
+      "ad": "Yeni sözlər öyrənək: mətndən tanımadığın sözlər",
+      "standard_kodu": "1-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "49-52"
+    },
+    {
+      "ad": "Sözün mənasını mətndən tap — kontekst ipucu",
+      "standard_kodu": "1-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "53-56"
+    },
+    {
+      "ad": "Niyə belə oldu? Səbəb-nəticə əlaqəsi tapaq",
+      "standard_kodu": "1-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "57-60"
+    },
+    {
+      "ad": "«Çünki» sözü ilə cavab ver — səbəb tapmaq",
+      "standard_kodu": "1-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "61-64"
+    },
+    {
+      "ad": "Qəhrəman necə adamdır? Xarakter xüsusiyyətləri",
+      "standard_kodu": "1-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "Nağıl obrazları: ağıllı tülkü, tənbəl ayı",
+      "standard_kodu": "1-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "69-72"
+    },
+    {
+      "ad": "Mətnin əsas fikri nədir? Başlıq seç",
+      "standard_kodu": "1-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "73-76"
+    },
+    {
+      "ad": "Nağılın bizə öyrətdiyi dərs — əsas fikir",
+      "standard_kodu": "1-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "77-80"
+    },
+    {
+      "ad": "Qəhrəmanın hərəkəti düzgün idi? Münasibət bildir",
+      "standard_kodu": "1-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "81-84"
+    },
+    {
+      "ad": "Sən olsaydın nə edərdin? Obraza münasibət",
+      "standard_kodu": "1-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "85-88"
+    },
+    {
+      "ad": "Nağıla yeni son yaz — yaradıcı yanaşma",
+      "standard_kodu": "1-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "89-92"
+    },
+    {
+      "ad": "Hekayəni şəkillərlə davam etdir",
+      "standard_kodu": "1-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "93-96"
+    },
+    {
+      "ad": "Şeir və hekayə — nə fərqi var?",
+      "standard_kodu": "1-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "97-100"
+    },
+    {
+      "ad": "Nəzm və nəsr: qafiyəli və qafiyəsiz mətnlər",
+      "standard_kodu": "1-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "8-12"
+    },
+    {
+      "ad": "Hərflərin düzgün yazılışı: böyük və kiçik hərflər",
+      "standard_kodu": "1-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "14-18"
+    },
+    {
+      "ad": "Gözəl yazı məşqi: sözlər və cümlələr",
+      "standard_kodu": "1-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Şəkillərə bax, ardıcıl hekayə yaz",
+      "standard_kodu": "1-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "Səhərdən axşama — günümü yazıram",
+      "standard_kodu": "1-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "Böyük hərflə başlamaq və nöqtə qoymaq",
+      "standard_kodu": "1-3.1.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "Diktant: sadə cümlələr — orfoqrafiya qaydaları",
+      "standard_kodu": "1-3.1.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Ailəm haqqında 3-4 cümlə yazıram",
+      "standard_kodu": "1-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Sevdiyim yeməyi təsvir edirəm — yazı",
+      "standard_kodu": "1-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Plan üzrə yazı: «Mənim dostum»",
+      "standard_kodu": "1-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Plan üzrə yazı: «Yaz fəsli»",
+      "standard_kodu": "1-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Ad günü açıqcası yazaq",
+      "standard_kodu": "1-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Özüm haqqında anket doldururam",
+      "standard_kodu": "1-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Plakat hazırla: «Təbiəti qoruyaq»",
+      "standard_kodu": "1-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Şəkilli kitabça hazırlamaq — layihə işi",
+      "standard_kodu": "1-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Sait və samit səslər — fərqləndirmə",
+      "standard_kodu": "1-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "8-12"
+    },
+    {
+      "ad": "Sözləri hecalara ayıraq — heca qaydası",
+      "standard_kodu": "1-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "13-16"
+    },
+    {
+      "ad": "Neçə heca var? — əl çalmaqla heca saymaq",
+      "standard_kodu": "1-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "17-20"
+    },
+    {
+      "ad": "Azərbaycan əlifbası: 32 hərf",
+      "standard_kodu": "1-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "21-24"
+    },
+    {
+      "ad": "Əlifba sırasına düz: sözləri sırala",
+      "standard_kodu": "1-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "25-28"
+    },
+    {
+      "ad": "Böyük hərflə yazılan sözlər: ad, soyad, şəhər",
+      "standard_kodu": "1-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "29-32"
+    },
+    {
+      "ad": "Orfoqrafiya qaydası: sözün düzgün yazılışı",
+      "standard_kodu": "1-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "33-36"
+    },
+    {
+      "ad": "İsim: əşyanın adını bildirən sözlər",
+      "standard_kodu": "1-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "37-40"
+    },
+    {
+      "ad": "Feil: hərəkət bildirən sözlər — nə edir?",
+      "standard_kodu": "1-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "41-44"
+    },
+    {
+      "ad": "Sifət və say: əlamət və miqdar bildirən sözlər",
+      "standard_kodu": "1-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "45-48"
+    },
+    {
+      "ad": "Cümlə nədir? Sözdən fərqi",
+      "standard_kodu": "1-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "49-52"
+    },
+    {
+      "ad": "Nəqli, sual və nida cümlələri",
+      "standard_kodu": "1-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "53-56"
+    },
+    {
+      "ad": "Nöqtə, sual işarəsi, nida işarəsi — harda qoyulur?",
+      "standard_kodu": "1-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "57-60"
+    },
+    {
+      "ad": "Cümləni oxu, düzgün durğu işarəsini seç",
+      "standard_kodu": "1-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "61-64"
+    },
+    {
+      "ad": "Bu söz nə deməkdir? — sadə izah vermək",
+      "standard_kodu": "1-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "Sözü şəkillə izah et — lüğət oyunu",
+      "standard_kodu": "1-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "69-72"
+    }
+  ],
+  "2": [
+    {
+      "ad": "Hekayə dinləmə: «Ağac əkən kişi» — əsas məqamlar",
+      "standard_kodu": "2-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "6-10"
+    },
+    {
+      "ad": "Dinlə və cavab ver: mətn üzrə faktoloji suallar",
+      "standard_kodu": "2-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "11-14"
+    },
+    {
+      "ad": "Məzmun şərhi: nağıldakı obrazlara münasibət",
+      "standard_kodu": "2-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "15-18"
+    },
+    {
+      "ad": "Dinlədiyim hekayədəki fikrə münasibət bildirirəm",
+      "standard_kodu": "2-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Nağılın davamını uydur: yaradıcı dinləmə",
+      "standard_kodu": "2-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "Hekayəni genişləndir: yeni hadisə əlavə et",
+      "standard_kodu": "2-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "Həyatdan nümunə gətir: «Dostluq» mövzusu",
+      "standard_kodu": "2-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "Fikrə münasibət: nümunələrlə əsaslandırma",
+      "standard_kodu": "2-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Sual-cavab dialoqu: mövzu üzrə müsahibə",
+      "standard_kodu": "2-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Dialoq qurmaq: «Kitabxanada» situasiyası",
+      "standard_kodu": "2-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Plan üzrə nəql etmə: oxuduğum hekayə",
+      "standard_kodu": "2-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Dinlədiyim mətni 5 cümlə ilə nəql et",
+      "standard_kodu": "2-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Şəkil üzrə hekayə danış: illustrasiya təqdimatı",
+      "standard_kodu": "2-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Sxem oxumaq: gündəlik fəaliyyət cədvəli",
+      "standard_kodu": "2-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Təəssürat paylaş: «Yay tətilim» mövzusu",
+      "standard_kodu": "2-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Fikir ifadəsi: «Ən maraqlı kitab» haqqında",
+      "standard_kodu": "2-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Araşdırma təqdimatı: «Bitkilərin həyatı»",
+      "standard_kodu": "2-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Mini-layihə: məlumat toplayıb təqdim et",
+      "standard_kodu": "2-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "75-78"
+    },
+    {
+      "ad": "Yeni sözlər öyrən, cümlədə istifadə et",
+      "standard_kodu": "2-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "79-82"
+    },
+    {
+      "ad": "Kontekstə uyğun söz seçimi — nitq zənginliyi",
+      "standard_kodu": "2-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "83-86"
+    },
+    {
+      "ad": "Məntiqi vurğu: hansı sözü vurğulayaq?",
+      "standard_kodu": "2-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "87-90"
+    },
+    {
+      "ad": "Səs tonunu tənzimlə: yavaş, ucadan, pıçıltı",
+      "standard_kodu": "2-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Sürətli oxu məşqi: vaxt ölçməklə oxu",
+      "standard_kodu": "2-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "6-10"
+    },
+    {
+      "ad": "Aydın səslə oxu: «Quş və uşaq» hekayəsi",
+      "standard_kodu": "2-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "11-14"
+    },
+    {
+      "ad": "Durğu işarələrinə riayətlə oxu: dialoqlu mətn",
+      "standard_kodu": "2-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "15-18"
+    },
+    {
+      "ad": "Vergül, nöqtə, nida — pauza və intonasiya",
+      "standard_kodu": "2-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Mətndən hadisə, obraz, zaman və məkan tap",
+      "standard_kodu": "2-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "«Xəzər dənizi» mətni: fakt və fikirləri ayır",
+      "standard_kodu": "2-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "Cədvəl və diaqramdan məlumat oxu",
+      "standard_kodu": "2-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "Xəritə oxumaq: məlumatı qrafik təsvirdən al",
+      "standard_kodu": "2-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Kontekstdən söz mənası müəyyən et: ipucu tap",
+      "standard_kodu": "2-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Naməlum sözlər: mətndən mənasını anla",
+      "standard_kodu": "2-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Hadisə-fakt-fikir əlaqəsi: mətn təhlili",
+      "standard_kodu": "2-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Səbəb-nəticə zənciri: nə oldu, niyə oldu?",
+      "standard_kodu": "2-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Obraz təhlili: xarakter cizgilərini müəyyən et",
+      "standard_kodu": "2-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Qəhrəmanın davranışından xarakterini anla",
+      "standard_kodu": "2-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Mətnin əsas fikri: ən mühüm cümləni tap",
+      "standard_kodu": "2-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Başlıq seç: əsas fikrə uyğun başlıq",
+      "standard_kodu": "2-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Obraza münasibət: razısan ya yox? Niyə?",
+      "standard_kodu": "2-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Fakt və hadisəyə şəxsi münasibət bildir",
+      "standard_kodu": "2-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "75-78"
+    },
+    {
+      "ad": "Mətni davam etdir: öz sonunu yaz",
+      "standard_kodu": "2-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "79-82"
+    },
+    {
+      "ad": "Təxəyyül ilə hekayəni genişləndir",
+      "standard_kodu": "2-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "83-86"
+    },
+    {
+      "ad": "Bədii və qeyri-bədii mətn: fərqləri öyrən",
+      "standard_kodu": "2-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-90"
+    },
+    {
+      "ad": "Nağıl və məlumat mətni — struktur fərqləri",
+      "standard_kodu": "2-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "İki mətni müqayisə et: mövzu və ideya",
+      "standard_kodu": "2-2.4.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Eyni mövzuda iki hekayə — fərq və oxşarlıq",
+      "standard_kodu": "2-2.4.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Yazı normaları: aydın və oxunaqlı xətt",
+      "standard_kodu": "2-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "6-10"
+    },
+    {
+      "ad": "Hüsnxət məşqi: cümlə yazma qaydaları",
+      "standard_kodu": "2-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "11-14"
+    },
+    {
+      "ad": "Ardıcıl yaz: hadisələri sıra ilə qeyd et",
+      "standard_kodu": "2-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "15-18"
+    },
+    {
+      "ad": "Şəkil ardıcıllığına görə hekayə yaz",
+      "standard_kodu": "2-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Orfoqrafiya və punktuasiya: diktant yazaq",
+      "standard_kodu": "2-3.1.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "Qrammatik qaydalarla yazı: böyük hərf, durğu",
+      "standard_kodu": "2-3.1.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "Biliyimi yazıda əks etdirirəm: «Ölkəm» yazısı",
+      "standard_kodu": "2-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "Yeni öyrəndiklərimi yazıram: informativ yazı",
+      "standard_kodu": "2-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Bədii mətn yaz: «Sehrli orman» hekayəsi",
+      "standard_kodu": "2-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Təxəyyüllə yaz: «Uçan xalça» nağılı",
+      "standard_kodu": "2-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Suallar əsasında informativ mətn yaz",
+      "standard_kodu": "2-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Qeyri-bədii mətn: «Pişiklər haqqında» yazı",
+      "standard_kodu": "2-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Təqdimat posterı hazırla: vizual üsullar",
+      "standard_kodu": "2-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Şəkilli kitabça: vizual forma ilə təqdimat",
+      "standard_kodu": "2-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Saitlərin növləri: incə və qalın saitlər",
+      "standard_kodu": "2-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "6-10"
+    },
+    {
+      "ad": "Dodaq və dodaq olmayan saitlər",
+      "standard_kodu": "2-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "11-14"
+    },
+    {
+      "ad": "Əlifba sırasına düzmək: lüğətlə iş",
+      "standard_kodu": "2-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "15-18"
+    },
+    {
+      "ad": "Sözləri əlifba sırasına qoy — yarış oyunu",
+      "standard_kodu": "2-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Sadə orfoqrafik qaydalar: tez-tez səhv yazılan sözlər",
+      "standard_kodu": "2-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "Orfoqrafik lüğətlə iş: sözü yoxla",
+      "standard_kodu": "2-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "İsim, feil, sifət, say — morfoloji tərkib",
+      "standard_kodu": "2-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "Sözü kök və şəkilçiyə ayır",
+      "standard_kodu": "2-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Cümlənin məqsədi: nəqli, sual, nida",
+      "standard_kodu": "2-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Cümlənin ifadə etdiyi fikri müəyyən et",
+      "standard_kodu": "2-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Cümlə sonunda durğu işarəsi: nöqtə, sual, nida",
+      "standard_kodu": "2-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Durğu işarələri tapşırığı: düzgün işarəni qoy",
+      "standard_kodu": "2-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Vergülün işlənməsi: sadalama zamanı",
+      "standard_kodu": "2-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Vergül qaydası: sadə qaydalara əməl et",
+      "standard_kodu": "2-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Sözün mənası: kontekstdən anlama",
+      "standard_kodu": "2-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Tanımadığın sözü mətndən başa düş",
+      "standard_kodu": "2-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Sözü izah et: sinonim, antonim, izah üsulları",
+      "standard_kodu": "2-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Söz mənasının izahı: şəkil, nümunə, tərif",
+      "standard_kodu": "2-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "75-78"
+    }
+  ],
+  "3": [
+    {
+      "ad": "«Balaca şahzadə» nağılı — dinləmə və əsas məqamları qeyd etmə",
+      "standard_kodu": "3-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "6-10"
+    },
+    {
+      "ad": "Heyvanlar haqqında hekayə — əsas hadisələri siyahıya al",
+      "standard_kodu": "3-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "11-14"
+    },
+    {
+      "ad": "Elmi-populyar mətn dinləmə: «Su dövranı» — qeydlər",
+      "standard_kodu": "3-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "15-18"
+    },
+    {
+      "ad": "«Meşədəki dostlar» hekayəsi — əsas epizodu tap",
+      "standard_kodu": "3-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Nağılın ideyasını müəyyən et: «Ağıllı kəndçi»",
+      "standard_kodu": "3-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "Hekayənin davamını təxmin et: «Sirli ada»",
+      "standard_kodu": "3-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "Nağılı genişləndir: yeni qəhrəman əlavə et",
+      "standard_kodu": "3-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "Sinif müzakirəsi: «Kitab oxumaq faydalıdır» — mövzuda qal",
+      "standard_kodu": "3-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Qrup müzakirəsi: «Təbiəti necə qoruyaq?» — fokuslu danışma",
+      "standard_kodu": "3-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Fikrə münasibət: «Ev heyvanı saxlamaq yaxşıdır» — əsaslandır",
+      "standard_kodu": "3-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Arqument gətirmə məşqi: lehinə və əleyhinə fikirlər",
+      "standard_kodu": "3-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Müsahibə oyunu: müəllimə suallar ver",
+      "standard_kodu": "3-1.2.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Aydınlaşdırıcı suallar: 5W+1H (kim, nə, harada...)",
+      "standard_kodu": "3-1.2.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Nağılı öz sözlərinlə yaradıcı danış",
+      "standard_kodu": "3-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Hekayəni rol ilə nəql et: ifadəli danışma",
+      "standard_kodu": "3-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Hava proqnozu cədvəlini şifahi izah et",
+      "standard_kodu": "3-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Sinif anketinin nəticələrini şifahi təqdim et",
+      "standard_kodu": "3-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Sevdiyim peşə haqqında danışıram — təqdimat",
+      "standard_kodu": "3-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "75-78"
+    },
+    {
+      "ad": "Doğulduğum şəhər haqqında 5 dəqiqəlik çıxış",
+      "standard_kodu": "3-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "79-82"
+    },
+    {
+      "ad": "Mini araşdırma: «Azərbaycan bayrağı» — təqdimat",
+      "standard_kodu": "3-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "83-86"
+    },
+    {
+      "ad": "Layihə təqdimatı: «Sağlam qidalanma» araşdırması",
+      "standard_kodu": "3-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "87-90"
+    },
+    {
+      "ad": "Cümlə qur: sözləri düzgün formada birləşdir",
+      "standard_kodu": "3-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Qrammatik cəhətdən düzgün nitq: hal şəkilçiləri",
+      "standard_kodu": "3-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "İfadəli danışma: hissləri üz ifadəsi ilə göstər",
+      "standard_kodu": "3-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Teatr oyunu: personajın emosiyalarını canlandır",
+      "standard_kodu": "3-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Sürətli oxu məşqi: «Payız gəldi» hekayəsi",
+      "standard_kodu": "3-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "6-10"
+    },
+    {
+      "ad": "Səlis oxu yarışı: bir dəqiqədə neçə söz?",
+      "standard_kodu": "3-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "11-14"
+    },
+    {
+      "ad": "Dialoq oxusu: «Baba və nəvə» — rol bölgüsü",
+      "standard_kodu": "3-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "15-18"
+    },
+    {
+      "ad": "Pyes parçası oxusu: hər obraz üçün səs tonu",
+      "standard_kodu": "3-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Oxu və qeyd götür: «Azərbaycan meşələri» mətni",
+      "standard_kodu": "3-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "Əsas fikirləri altını çəkərək oxu",
+      "standard_kodu": "3-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "Cədvəl və sxemdən məlumat al: hava cədvəli",
+      "standard_kodu": "3-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "İllustrasiyalı mətni oxu: şəkil-mətn uyğunluğu",
+      "standard_kodu": "3-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Tanımadığın sözü mətndən başa düş: kontekst ipucu",
+      "standard_kodu": "3-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Sözün mənasını tap: köməkçi sözlər və cümlələr",
+      "standard_kodu": "3-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Mətn təhlili: «Niyə çiçəklər soldu?» — səbəb tap",
+      "standard_kodu": "3-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Hadisələr zənciri: əvvəl → sonra → nəticə",
+      "standard_kodu": "3-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Obraz haqqında fikir: «Nənənin bağı» hekayəsində nənə kimdir?",
+      "standard_kodu": "3-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Dialoqdan xarakter anla: qəhrəman necə danışır?",
+      "standard_kodu": "3-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Əsas fikri dəstəkləyən cümlələri tap: «Vətən» mətni",
+      "standard_kodu": "3-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Mətnin əsas fikri və yardımçı fikirlər",
+      "standard_kodu": "3-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Mənə hansı qəhrəman bənzəyir? — əsaslandır",
+      "standard_kodu": "3-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Obrazın hərəkətini qiymətləndir: doğru ya səhv?",
+      "standard_kodu": "3-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "75-78"
+    },
+    {
+      "ad": "Hekayəni öz sözlərinlə genişləndirərək danış",
+      "standard_kodu": "3-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "79-82"
+    },
+    {
+      "ad": "Nağıla yeni epizod əlavə et və nəql et",
+      "standard_kodu": "3-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "83-86"
+    },
+    {
+      "ad": "Mətnin hissələri: giriş, əsas hissə, nəticə",
+      "standard_kodu": "3-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-90"
+    },
+    {
+      "ad": "Dil-üslub: bədii və elmi mətnin fərqi",
+      "standard_kodu": "3-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "İki nağılı müqayisə et: «Tülkü» mövzusunda",
+      "standard_kodu": "3-2.4.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Bədii və informativ mətnləri müqayisə et",
+      "standard_kodu": "3-2.4.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Yazını hissələrə böl: giriş, əsas, nəticə",
+      "standard_kodu": "3-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "60-64"
+    },
+    {
+      "ad": "Abzas yaratmaq: hər fikrə ayrı abzas",
+      "standard_kodu": "3-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "Özünü redaktə et: yazıdakı səhvləri tap və düzəlt",
+      "standard_kodu": "3-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "69-72"
+    },
+    {
+      "ad": "Cütlük redaktəsi: dostunun yazısını yoxla",
+      "standard_kodu": "3-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "73-76"
+    },
+    {
+      "ad": "Dinlədiyim hekayəni yazıda ifadə et: «Ay və Günəş»",
+      "standard_kodu": "3-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "77-80"
+    },
+    {
+      "ad": "Oxuduğum mətndən öyrəndiklərimi yazıram",
+      "standard_kodu": "3-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "81-84"
+    },
+    {
+      "ad": "Yaradıcı yazı: «Sehrli qalem» hekayəsi — təxəyyül",
+      "standard_kodu": "3-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "85-88"
+    },
+    {
+      "ad": "Şeir yazmağa cəhd: qafiyəli misralar",
+      "standard_kodu": "3-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "89-92"
+    },
+    {
+      "ad": "Məlumat mətni yaz: «Azərbaycan heyvanları»",
+      "standard_kodu": "3-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "93-96"
+    },
+    {
+      "ad": "Kiçik ensiklopediya yazısı: seçdiyim mövzuda",
+      "standard_kodu": "3-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "97-100"
+    },
+    {
+      "ad": "Dəvətnamə yazaq: doğum günü üçün",
+      "standard_kodu": "3-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "101-104"
+    },
+    {
+      "ad": "Təbrik kartı yazma: Novruz bayramı münasibəti ilə",
+      "standard_kodu": "3-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "105-106"
+    },
+    {
+      "ad": "Poster hazırla: «Kitab oxu!» kampaniyası",
+      "standard_kodu": "3-3.2.5",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "60-64"
+    },
+    {
+      "ad": "Şəkilli plakat: layihə işini vizual təqdim et",
+      "standard_kodu": "3-3.2.5",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "İncə və qalın saitlər: yazılış qaydası",
+      "standard_kodu": "3-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "80-84"
+    },
+    {
+      "ad": "O-Ö, U-Ü saitlərinin yazılış fərqi",
+      "standard_kodu": "3-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "85-88"
+    },
+    {
+      "ad": "Mürəkkəb sözlər: bitişik yazılan sözlər",
+      "standard_kodu": "3-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "89-92"
+    },
+    {
+      "ad": "Defislə yazılan mürəkkəb sözlər",
+      "standard_kodu": "3-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "93-96"
+    },
+    {
+      "ad": "Şəkilçi qaydaları: -lar/-lər, -lıq/-lik",
+      "standard_kodu": "3-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "97-100"
+    },
+    {
+      "ad": "Söz sonuna şəkilçi artırmaq: ahəng qanunu",
+      "standard_kodu": "3-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "101-104"
+    },
+    {
+      "ad": "Nitq hissələri: isim, feil, sifəti fərqləndir",
+      "standard_kodu": "3-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "80-84"
+    },
+    {
+      "ad": "Sözün morfoloji tərkibi: kök + şəkilçi",
+      "standard_kodu": "3-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "85-88"
+    },
+    {
+      "ad": "Say və zərf — qrammatik mənalarını öyrən",
+      "standard_kodu": "3-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "89-92"
+    },
+    {
+      "ad": "Söz birləşməsi və cümlə: fərqini öyrən",
+      "standard_kodu": "3-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "93-96"
+    },
+    {
+      "ad": "Cümlənin baş üzvləri: mübtəda və xəbər",
+      "standard_kodu": "3-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "97-100"
+    },
+    {
+      "ad": "Dialoqda tire və durğu işarələri",
+      "standard_kodu": "3-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "101-104"
+    },
+    {
+      "ad": "Dialoq yazma qaydaları: düzgün punktuasiya",
+      "standard_kodu": "3-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "80-84"
+    },
+    {
+      "ad": "Mürəkkəb cümlədə vergül: iki baş cümlə",
+      "standard_kodu": "3-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "85-88"
+    },
+    {
+      "ad": "Bağlayıcılı cümlədə vergülün yeri",
+      "standard_kodu": "3-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "89-92"
+    },
+    {
+      "ad": "Söz kökünə görə mənasını təxmin et",
+      "standard_kodu": "3-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "93-96"
+    },
+    {
+      "ad": "Şəkilçi artır — məna necə dəyişir?",
+      "standard_kodu": "3-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "97-100"
+    },
+    {
+      "ad": "Sözü izah et: tərif, sinonim, antonim üsulu",
+      "standard_kodu": "3-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "101-104"
+    },
+    {
+      "ad": "Lüğətlə iş: izahlı lüğətdən istifadə",
+      "standard_kodu": "3-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "80-84"
+    }
+  ],
+  "4": [
+    {
+      "ad": "Qeyd götürərək dinlə: «Xəzər dənizi» mətni",
+      "standard_kodu": "4-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "6-10"
+    },
+    {
+      "ad": "Dinləmə strategiyası: açar sözləri qeyd et",
+      "standard_kodu": "4-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "11-14"
+    },
+    {
+      "ad": "Hekayə dinlə — ideya və məzmunu şərh et",
+      "standard_kodu": "4-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "15-18"
+    },
+    {
+      "ad": "Elmi-kütləvi mətn: «Kosmosun sirləri» — şərh",
+      "standard_kodu": "4-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "19-22"
+    },
+    {
+      "ad": "Dinlədiyim hekayəyə yeni son yaz",
+      "standard_kodu": "4-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "23-26"
+    },
+    {
+      "ad": "Mətni genişləndir: öz versiyamı əlavə edirəm",
+      "standard_kodu": "4-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "27-30"
+    },
+    {
+      "ad": "Debat: «İnternet faydalıdır ya zərərli?» — arqument",
+      "standard_kodu": "4-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "31-34"
+    },
+    {
+      "ad": "Fikri təsdiq/təkzib: əks-arqument gətir",
+      "standard_kodu": "4-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Müsahibə tərtib et: suallar hazırla, dialoq qur",
+      "standard_kodu": "4-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Jurnalist oyunu: sinif yoldaşına müsahibə",
+      "standard_kodu": "4-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Hekayəni genişləndirib danış: əlavə detallar",
+      "standard_kodu": "4-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Mətni əlavə faktlarla zənginləşdir: şifahi təqdimat",
+      "standard_kodu": "4-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Diaqram üzrə şifahi izah: ölkə statistikası",
+      "standard_kodu": "4-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Xəritə oxu və şifahi təqdimat et",
+      "standard_kodu": "4-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Sevdiyim kitab haqqında 5 dəqiqəlik çıxış",
+      "standard_kodu": "4-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Təəssüratlarımı paylaşıram: ekskursiya haqqında",
+      "standard_kodu": "4-1.3.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Layihə təqdimatı: «Tarixi abidələrimiz»",
+      "standard_kodu": "4-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Araşdırma nəticəsini sinifə çatdır: poster + danışma",
+      "standard_kodu": "4-1.3.4",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "75-78"
+    },
+    {
+      "ad": "Leksik norma: düzgün sözü seç, cümlədə istifadə et",
+      "standard_kodu": "4-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "79-82"
+    },
+    {
+      "ad": "Qrammatik norma: feilin düzgün zamanını seç",
+      "standard_kodu": "4-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "83-86"
+    },
+    {
+      "ad": "Bədən dili və göz təması: auditoriya qarşısında çıxış",
+      "standard_kodu": "4-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "87-90"
+    },
+    {
+      "ad": "İntonasiya və jest məşqi: hekayəni ifadəli danış",
+      "standard_kodu": "4-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Çətin sözləri aydın tələffüzlə oxu: «Novruz» mətni",
+      "standard_kodu": "4-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-34"
+    },
+    {
+      "ad": "Kiçikhəcmli mətn oxusu: tələffüz məşqi",
+      "standard_kodu": "4-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Məzmuna uyğun səs tonu: kədərli, sevincli, gərgin",
+      "standard_kodu": "4-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "İfadəli oxu: şeir oxusu müsabiqəsi",
+      "standard_kodu": "4-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Açıq ifadə olunmuş məlumatı tap: «İqlim» mətni",
+      "standard_kodu": "4-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Mətndən konkret faktı çıxar: suallara cavab",
+      "standard_kodu": "4-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Cədvəl və diaqramdan məlumat oxu: şagird statistikası",
+      "standard_kodu": "4-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Sxemdən informasiya çıxar: ailə şəcərəsi",
+      "standard_kodu": "4-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Kontekstdən sözün mənasını tap + lüğətdən yoxla",
+      "standard_kodu": "4-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Lüğətlə iş: izahlı və orfoqrafik lüğət",
+      "standard_kodu": "4-2.2.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Fikir-fakt-hadisə əlaqəsi: «Qobustan» mətni",
+      "standard_kodu": "4-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Fikirləri faktlarla əlaqələndir: sübut tap",
+      "standard_kodu": "4-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "75-78"
+    },
+    {
+      "ad": "Obraza münasibət: mətndən sitat gətir və əsaslandır",
+      "standard_kodu": "4-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "79-82"
+    },
+    {
+      "ad": "Qəhrəmanın davranışını qiymətləndir: dəlil gətir",
+      "standard_kodu": "4-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "83-86"
+    },
+    {
+      "ad": "Əsas fikri həyatla əlaqələndir: nümunə gətir",
+      "standard_kodu": "4-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-90"
+    },
+    {
+      "ad": "Hekayənin əsas fikri — gündəlik həyatda tətbiqi",
+      "standard_kodu": "4-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Müəllif yanaşmasına münasibət bildir",
+      "standard_kodu": "4-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Obrazları və müəllifi qiymətləndir: «Salatın əhvalatı»",
+      "standard_kodu": "4-2.4.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Mətni dəyişdir: başqa janrda yenidən yaz",
+      "standard_kodu": "4-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Hekayəni genişləndir: yeni personaj əlavə et",
+      "standard_kodu": "4-2.4.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "107-110"
+    },
+    {
+      "ad": "Mətn təhlili: məzmun, struktur, dil-üslub",
+      "standard_kodu": "4-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-34"
+    },
+    {
+      "ad": "Bədii vasitələri tap: epitet, bənzətmə, təkrar",
+      "standard_kodu": "4-2.4.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "İki mətni müqayisə et: struktur və bədii xüsusiyyətlər",
+      "standard_kodu": "4-2.4.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Nağıl və hekayə müqayisəsi: janr xüsusiyyətləri",
+      "standard_kodu": "4-2.4.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Xronoloji ardıcıllıqla yaz: gündəlik hadisə",
+      "standard_kodu": "4-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "60-64"
+    },
+    {
+      "ad": "Məlumatları hissələrə böl: giriş-əsas-nəticə",
+      "standard_kodu": "4-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "Ədəbi dil normaları: səhvləri tap, düzəlt",
+      "standard_kodu": "4-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "69-72"
+    },
+    {
+      "ad": "Yazını redaktə et: orfoqrafiya, qrammatika yoxla",
+      "standard_kodu": "4-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "73-76"
+    },
+    {
+      "ad": "Gördüyüm hadisə əsasında hekayə yaz",
+      "standard_kodu": "4-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "77-80"
+    },
+    {
+      "ad": "Faktlara əsasən mətn yaz: «Mənim şəhərim»",
+      "standard_kodu": "4-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "81-84"
+    },
+    {
+      "ad": "Bədii yazı: «Ulduzların söhbəti» — təxəyyül",
+      "standard_kodu": "4-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "85-88"
+    },
+    {
+      "ad": "Nağıl janrında hekayə yaz: fantastik süjet",
+      "standard_kodu": "4-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "89-92"
+    },
+    {
+      "ad": "Qeyri-bədii yazı: araşdırma nəticələri",
+      "standard_kodu": "4-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "93-96"
+    },
+    {
+      "ad": "İnformasiya mətni yaz: məktəb həyatı haqqında",
+      "standard_kodu": "4-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "97-100"
+    },
+    {
+      "ad": "Əməli yazı: elan və bildiriş yazma qaydaları",
+      "standard_kodu": "4-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "101-104"
+    },
+    {
+      "ad": "Rəsmi yazı nümunəsi: dərs cədvəli, plan",
+      "standard_kodu": "4-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "105-108"
+    },
+    {
+      "ad": "Vizual təqdimat hazırla: plakat, kitabça",
+      "standard_kodu": "4-3.2.5",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "109-112"
+    },
+    {
+      "ad": "Layihə posteri: şəkil, qrafik, mətn birləşdir",
+      "standard_kodu": "4-3.2.5",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "60-64"
+    },
+    {
+      "ad": "Sait harmoniyası: incə-qalın sait qaydası",
+      "standard_kodu": "4-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Samitlərin yazılışı: kar və cingiltili cütlər",
+      "standard_kodu": "4-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Bitişik, ayrı, defislə yazılış qaydaları",
+      "standard_kodu": "4-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Mürəkkəb sözlərin yazılışı: birləşdirmə qaydaları",
+      "standard_kodu": "4-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Böyük hərflə yazılış: şəxs adları, coğrafi adlar",
+      "standard_kodu": "4-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Xüsusi isimlərin böyük hərflə yazılışı qaydaları",
+      "standard_kodu": "4-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-110"
+    },
+    {
+      "ad": "İsimin hallanması: altı hal",
+      "standard_kodu": "4-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Feilin zamanları: keçmiş, indiki, gələcək",
+      "standard_kodu": "4-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Sifətin dərəcələri: müqayisə, üstünlük",
+      "standard_kodu": "4-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Köməkçi nitq hissələri: qoşma, bağlayıcı, ədat",
+      "standard_kodu": "4-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Qoşma və bağlayıcı: cümlədəki funksiyası",
+      "standard_kodu": "4-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Cümlə üzvləri: mübtəda, xəbər, tamamlıq",
+      "standard_kodu": "4-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-110"
+    },
+    {
+      "ad": "Cümlənin semantik təhlili: nə haqqındadır?",
+      "standard_kodu": "4-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "O, bu əvəzliklərindən sonra vergül qaydası",
+      "standard_kodu": "4-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Əvəzlikdən sonra vergül: məşq tapşırıqları",
+      "standard_kodu": "4-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Defis və tire: fərqini öyrən və tətbiq et",
+      "standard_kodu": "4-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Tire qaydası: mübtəda-xəbər arasında",
+      "standard_kodu": "4-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Sitatda dırnaq işarəsi: qaydalar və nümunələr",
+      "standard_kodu": "4-4.3.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-110"
+    },
+    {
+      "ad": "Sitat gətirmə qaydası: dırnaq içində yazma",
+      "standard_kodu": "4-4.3.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "İxtisarlarda nöqtə: s., və s., prof., dos.",
+      "standard_kodu": "4-4.3.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "İxtisarlanmış sözlərin yazılış qaydaları",
+      "standard_kodu": "4-4.3.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Mötərizə işarəsinin funksiyası: izah, əlavə",
+      "standard_kodu": "4-4.3.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Mötərizə qaydası: nə vaxt istifadə olunur?",
+      "standard_kodu": "4-4.3.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Sözün mənasını kök və şəkilçidən anla",
+      "standard_kodu": "4-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-110"
+    },
+    {
+      "ad": "Morfoloji təhlil: sözün mənasını morfemdən tap",
+      "standard_kodu": "4-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Leksik vahidlərin izahı: sinonim, antonim, omonim",
+      "standard_kodu": "4-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Sözü müxtəlif üsullarla izah et: tərif, nümunə",
+      "standard_kodu": "4-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Leksik kateqoriyalar: peşə sözləri, termin, ümumi",
+      "standard_kodu": "4-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Sözləri tematik qruplara ayır: ərzaq, geyim, peşə",
+      "standard_kodu": "4-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    }
+  ],
+  "5": [
+    {
+      "ad": "Açar sözləri qeyd edərək dinlə: «Azərbaycanın təbiəti»",
+      "standard_kodu": "5-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "8-12"
+    },
+    {
+      "ad": "Dinləmə strategiyası: T-cədvəl ilə qeyd götürmə",
+      "standard_kodu": "5-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "13-16"
+    },
+    {
+      "ad": "Mətni dinlə — mövzu, məzmun, ideyanı şərh et",
+      "standard_kodu": "5-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-20"
+    },
+    {
+      "ad": "Hekayənin strukturunu müəyyən et: dinlə və izah et",
+      "standard_kodu": "5-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "21-24"
+    },
+    {
+      "ad": "Obrazlara münasibəti əsaslandır: «Niyə belə düşünürsən?»",
+      "standard_kodu": "5-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "25-28"
+    },
+    {
+      "ad": "Qəhrəmanın hərəkətini qiymətləndir: arqumentlə",
+      "standard_kodu": "5-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-32"
+    },
+    {
+      "ad": "Dialoq qurmaq: araşdırdığın mövzuda sual-cavab",
+      "standard_kodu": "5-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "33-36"
+    },
+    {
+      "ad": "Müsahibə oyunu: mövzu üzrə hazırlıqlı suallar",
+      "standard_kodu": "5-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "37-40"
+    },
+    {
+      "ad": "Debat: «Mobil telefonlar məktəbdə olmalıdırmı?»",
+      "standard_kodu": "5-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-44"
+    },
+    {
+      "ad": "Müzakirə forumu: mülahizələrini söylə, dinlə",
+      "standard_kodu": "5-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "45-48"
+    },
+    {
+      "ad": "Plan qur və nəql et: oxuduğun kitab haqqında",
+      "standard_kodu": "5-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "49-52"
+    },
+    {
+      "ad": "Hekayəni plana salaraq nəql et: 3 hissə",
+      "standard_kodu": "5-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "53-56"
+    },
+    {
+      "ad": "Araşdırma təqdimatı: «Ekoloji problemlər» mövzusu",
+      "standard_kodu": "5-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "57-60"
+    },
+    {
+      "ad": "Məlumatları rabitəli çatdır: «Sağlam həyat tərzi»",
+      "standard_kodu": "5-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "61-64"
+    },
+    {
+      "ad": "Orfoepiya qaydaları: düzgün tələffüz məşqi",
+      "standard_kodu": "5-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "Tələffüz məşqi: q-k, ğ-g, x-h fərqləri",
+      "standard_kodu": "5-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "69-72"
+    },
+    {
+      "ad": "İntonasiya məşqi: nəqli, sual, nida cümlələri",
+      "standard_kodu": "5-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "73-76"
+    },
+    {
+      "ad": "Şeir deklamasiyası: ifadəli intonasiya ilə",
+      "standard_kodu": "5-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "77-80"
+    },
+    {
+      "ad": "Bədii mətn oxusu: hekayəni müvafiq tonla oxu",
+      "standard_kodu": "5-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-34"
+    },
+    {
+      "ad": "Qeyri-bədii mətn oxusu: elmi-populyar məqalə",
+      "standard_kodu": "5-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Açıq ifadə olunmuş məlumatları tap: sual-cavab",
+      "standard_kodu": "5-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Mətndən konkret informasiya çıxar: «Vulkanlar»",
+      "standard_kodu": "5-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Tanış olmayan sözün mənası: kontekst ipucları",
+      "standard_kodu": "5-2.1.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "Söz mənasını mətndən müəyyən et: strategiya",
+      "standard_kodu": "5-2.1.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Fikirlər və faktlar arasında əlaqə: «Ekologiya» mətni",
+      "standard_kodu": "5-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Mətn analizi: hadisələr arasındakı əlaqəni çək",
+      "standard_kodu": "5-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Sətiraltı fikir: yazılmayan mənalar",
+      "standard_kodu": "5-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "İmplisit informasiya: mətndə gizlənmiş fikir",
+      "standard_kodu": "5-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-70"
+    },
+    {
+      "ad": "Obrazların davranışı: xarakter xüsusiyyətlərini tap",
+      "standard_kodu": "5-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "71-74"
+    },
+    {
+      "ad": "Hadisələrdən çıxarım: fikir müəyyənləşdir",
+      "standard_kodu": "5-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "75-78"
+    },
+    {
+      "ad": "Fakt və müəllif mövqeyi: fərqini öyrən",
+      "standard_kodu": "5-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "79-82"
+    },
+    {
+      "ad": "Müəllifin rəyi: obyektiv fakt yoxsa şəxsi fikir?",
+      "standard_kodu": "5-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-34"
+    },
+    {
+      "ad": "Mətnin strukturu: giriş, inkişaf, nəticə",
+      "standard_kodu": "5-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-38"
+    },
+    {
+      "ad": "Struktur elementləri: başlıq, abzas, nəticə",
+      "standard_kodu": "5-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "39-42"
+    },
+    {
+      "ad": "Dil-üslub təhlili: bədii və elmi üslub fərqi",
+      "standard_kodu": "5-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "43-46"
+    },
+    {
+      "ad": "Bədii vasitələr: epitet, bənzətmə, metafora",
+      "standard_kodu": "5-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-50"
+    },
+    {
+      "ad": "İki mətni müqayisə et: eyni mövzu, fərqli ideya",
+      "standard_kodu": "5-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "51-54"
+    },
+    {
+      "ad": "Müqayisəli oxu: iki müəllifin yanaşması",
+      "standard_kodu": "5-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-58"
+    },
+    {
+      "ad": "Mətn məzmununa şəxsi münasibət: «Razıyam çünki...»",
+      "standard_kodu": "5-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "59-62"
+    },
+    {
+      "ad": "Tənqidi münasibət: güclü və zəif tərəflər",
+      "standard_kodu": "5-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "63-66"
+    },
+    {
+      "ad": "Abzas quruluşu: fikirləri abzaslara böl",
+      "standard_kodu": "5-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "60-64"
+    },
+    {
+      "ad": "Mətn strukturlaşdırma: giriş-əsas-nəticə planı",
+      "standard_kodu": "5-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "Ədəbi dil normaları: yazıda orfoqrafiya yoxlama",
+      "standard_kodu": "5-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "69-72"
+    },
+    {
+      "ad": "Yazını redaktə et: dil normaları baxımından",
+      "standard_kodu": "5-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "73-76"
+    },
+    {
+      "ad": "Qeyri-bədii yazı: «Azərbaycan mətbəxi» haqqında mətn",
+      "standard_kodu": "5-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "77-80"
+    },
+    {
+      "ad": "Informativ mətn yaz: araşdırdığın mövzuda",
+      "standard_kodu": "5-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "81-82"
+    },
+    {
+      "ad": "İnşa yazma: «Unudulmaz gün» — təxəyyül və fakt",
+      "standard_kodu": "5-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "60-64"
+    },
+    {
+      "ad": "Bədii hekayə yaz: «Yaz macərası»",
+      "standard_kodu": "5-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "65-68"
+    },
+    {
+      "ad": "Əməli yazı: məktub yazma qaydaları",
+      "standard_kodu": "5-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "69-72"
+    },
+    {
+      "ad": "Rəsmi məktub: müəllimə, direktora müraciət",
+      "standard_kodu": "5-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "73-76"
+    },
+    {
+      "ad": "Sadə təqdimat materialı: poster + yazılı izah",
+      "standard_kodu": "5-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "77-80"
+    },
+    {
+      "ad": "Layihə təqdimatı hazırla: vizual + mətn",
+      "standard_kodu": "5-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "81-82"
+    },
+    {
+      "ad": "Saitlərin növləri: incə-qalın, dodaqlanan-dodaqlanmayan",
+      "standard_kodu": "5-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Samitlərin təsnifatı: kar-cingiltili, burun-ağız",
+      "standard_kodu": "5-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Bəzi sait və samitlərin yazılışı: ə/e, k/q fərqi",
+      "standard_kodu": "5-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Tələffüz və yazılış fərqi: kağız/kağaz, mətbəx/mətbəx",
+      "standard_kodu": "5-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Sətirdən-sətrə keçirmə qaydaları: heca bölgüsü",
+      "standard_kodu": "5-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Söz bölmə məşqi: harada kəsmək olar?",
+      "standard_kodu": "5-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Xüsusi isimlərin böyük hərflə yazılışı: nələr böyükdür?",
+      "standard_kodu": "5-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Coğrafi adlar, tarixi hadisələr: böyük hərf qaydası",
+      "standard_kodu": "5-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Sayların şəkilçilə yazılışı: 5-ci, 10-cu qaydası",
+      "standard_kodu": "5-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Sıra saylarının yazılışı: -ıncı/-inci qaydası",
+      "standard_kodu": "5-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Mürəkkəb sözlər: komponentlər arası məna əlaqəsi",
+      "standard_kodu": "5-4.1.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Bitişik yazılan mürəkkəb sözlər: qaydalar",
+      "standard_kodu": "5-4.1.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Azaltma-çoxaltma sifətləri: yapyaşıl, göm-göy",
+      "standard_kodu": "5-4.1.7",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Sifətin dərəcələrinin orfoqrafiyası",
+      "standard_kodu": "5-4.1.7",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Əsas nitq hissələri: isim, sifət, say, feil, zərf",
+      "standard_kodu": "5-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Morfoloji kateqoriyalar: hal, şəxs, zaman",
+      "standard_kodu": "5-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Köməkçi nitq hissələri: qoşma, bağlayıcı, ədat, modal",
+      "standard_kodu": "5-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Əsas və köməkçi nitq hissəsinin fərqi",
+      "standard_kodu": "5-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Söz birləşməsi: tabelilik əlaqəsi ilə qurulan",
+      "standard_kodu": "5-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Söz, söz birləşməsi, cümlə: fərqlər",
+      "standard_kodu": "5-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Qrammatik əsas: mübtəda və xəbəri tap",
+      "standard_kodu": "5-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Cümlənin qrammatik əsası məşqi",
+      "standard_kodu": "5-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Cümlə növləri: sadə və mürəkkəb, bəsit və geniş",
+      "standard_kodu": "5-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Cümlənin məqsəd və intonasiyaya görə növləri",
+      "standard_kodu": "5-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Cümlə sonunda durğu işarəsi: məqsəd və intonasiya",
+      "standard_kodu": "5-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Nöqtə, sual, nida: düzgün seçim məşqi",
+      "standard_kodu": "5-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Mürəkkəb cümlədə vergül: hissələr arasında",
+      "standard_kodu": "5-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Vergül qaydası: tabesiz mürəkkəb cümlələrdə",
+      "standard_kodu": "5-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Morfem mənası: kök, şəkilçi, sözün semantikası",
+      "standard_kodu": "5-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    },
+    {
+      "ad": "Sözün mənasını morfemlərə ayıraraq anla",
+      "standard_kodu": "5-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-106"
+    },
+    {
+      "ad": "Söz izahı: sinonim, antonim, omonim ilə izah et",
+      "standard_kodu": "5-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "86-90"
+    },
+    {
+      "ad": "Söz izahı üsulları: tərif, nümunə, müqayisə",
+      "standard_kodu": "5-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-94"
+    },
+    {
+      "ad": "Həqiqi və məcazi məna: söz mənasının çalarları",
+      "standard_kodu": "5-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-98"
+    },
+    {
+      "ad": "Frazeologizmlər: «baş sındırmaq», «göz yaşı tökmək»",
+      "standard_kodu": "5-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-102"
+    }
+  ],
+  "6": [
+    {
+      "ad": "«Əlvida, bilmirəm» — dinlə və məzmunu müzakirə et",
+      "standard_kodu": "6-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "10-16"
+    },
+    {
+      "ad": "Xəbər reportajı dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "6-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-22"
+    },
+    {
+      "ad": "«Quş dili» (M.Ə.Sabir) — dinlə və mətndəki əsas fikri dəstəkləyən faktları",
+      "standard_kodu": "6-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "14-20"
+    },
+    {
+      "ad": "Radio verilişi dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "6-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "21-26"
+    },
+    {
+      "ad": "«Vətənim» şeiri — dinlə və mətndə hadisə və fikirlərə münasibətini",
+      "standard_kodu": "6-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "18-24"
+    },
+    {
+      "ad": "Müəllim mühazirəsi dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "6-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "25-30"
+    },
+    {
+      "ad": "Müzakirə: «Hikmət xəzinəsi» əsasında — və debatlarda tolerantlıq nümayiş etdirir",
+      "standard_kodu": "6-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "22-28"
+    },
+    {
+      "ad": "Sinif debatı: «Ana laylası» mövzusunda",
+      "standard_kodu": "6-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-34"
+    },
+    {
+      "ad": "Müzakirə: «Bəs zınqırovu kim asacaq?» əsasında — zamanı danışanın fikrini verdiyi suallar",
+      "standard_kodu": "6-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "26-32"
+    },
+    {
+      "ad": "Sinif debatı: «Ağabəyim ağa» mövzusunda",
+      "standard_kodu": "6-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "33-38"
+    },
+    {
+      "ad": "Şifahi təqdimat: «Ana laylası» əsəri haqqında",
+      "standard_kodu": "6-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "6-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "Şifahi təqdimat: «Ağabəyim ağa» əsəri haqqında",
+      "standard_kodu": "6-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "34-40"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "6-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-46"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "6-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "38-44"
+    },
+    {
+      "ad": "İfadəli danışma: «Kəlilə və Dimnə» parçasını təqdim et",
+      "standard_kodu": "6-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "45-50"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "6-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "42-48"
+    },
+    {
+      "ad": "İfadəli danışma: «Əlvida, bilmirəm» parçasını təqdim et",
+      "standard_kodu": "6-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "49-54"
+    },
+    {
+      "ad": "«Quş dili» (M.Ə.Sabir) — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "6-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: «Vətənim» şeiri mətni",
+      "standard_kodu": "6-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "«Vətənim» şeiri — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "6-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "85-91"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: «Hikmət xəzinəsi» mətni",
+      "standard_kodu": "6-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "92-97"
+    },
+    {
+      "ad": "«Hikmət xəzinəsi» — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "6-2.1.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: «Bəs zınqırovu kim asacaq?» mətni",
+      "standard_kodu": "6-2.1.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "«Bəs zınqırovu kim asacaq?» oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "6-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-41"
+    },
+    {
+      "ad": "Sətiraltı məna: «Ana laylası» mətnində gizli informasiya",
+      "standard_kodu": "6-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "42-47"
+    },
+    {
+      "ad": "«Ana laylası» oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "6-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "40-46"
+    },
+    {
+      "ad": "Sətiraltı məna: «Ağabəyim ağa» mətnində gizli informasiya",
+      "standard_kodu": "6-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-52"
+    },
+    {
+      "ad": "«Ağabəyim ağa» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "6-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "45-51"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Ağabəyim ağa» və «Kəlilə və Dimnə»",
+      "standard_kodu": "6-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "52-57"
+    },
+    {
+      "ad": "«Kəlilə və Dimnə» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "6-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "50-56"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Kəlilə və Dimnə» və «Əlvida, bilmirəm»",
+      "standard_kodu": "6-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "57-62"
+    },
+    {
+      "ad": "«Əlvida, bilmirəm» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "6-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-61"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Əlvida, bilmirəm» və «Quş dili» (M.Ə.Sabir)",
+      "standard_kodu": "6-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "62-67"
+    },
+    {
+      "ad": "«Quş dili» (M.Ə.Sabir) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "6-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "60-66"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Quş dili» (M.Ə.Sabir) və «Vətənim» şeiri",
+      "standard_kodu": "6-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-72"
+    },
+    {
+      "ad": "«Vətənim» şeiri — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "6-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "65-71"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Vətənim» şeiri və «Hikmət xəzinəsi»",
+      "standard_kodu": "6-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "72-77"
+    },
+    {
+      "ad": "«Hikmət xəzinəsi» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "6-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "70-76"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Hikmət xəzinəsi» və «Bəs zınqırovu kim asacaq?»",
+      "standard_kodu": "6-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "77-82"
+    },
+    {
+      "ad": "Yazı strukturu: mətn yazarkən bədii və qeyri-bədii mətnlərin struktur",
+      "standard_kodu": "6-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "64-70"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "6-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "71-76"
+    },
+    {
+      "ad": "Yazı strukturu: yazısında ədəbi dilin normalarına riayət edir",
+      "standard_kodu": "6-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "68-74"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "6-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "75-80"
+    },
+    {
+      "ad": "Təlimat yazma: «Bəs zınqırovu kim asacaq?» əsasında",
+      "standard_kodu": "6-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "72-78"
+    },
+    {
+      "ad": "Yaradıcı yazı: araşdırdığı mənbələrdən istifadə etməklə qeyri-bədii",
+      "standard_kodu": "6-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "79-84"
+    },
+    {
+      "ad": "Məruzə tezisləri yazma: «Bəs zınqırovu kim asacaq?» əsasında",
+      "standard_kodu": "6-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "76-82"
+    },
+    {
+      "ad": "Yaradıcı yazı: tənqidi və yaradıcı təfəkkür nümayiş etdirməklə bədii",
+      "standard_kodu": "6-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "83-88"
+    },
+    {
+      "ad": "Rəy yazısı yazma: «Bəs zınqırovu kim asacaq?» əsasında",
+      "standard_kodu": "6-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Yaradıcı yazı: sadə direktiv xarakterli mətnlər tertib edir",
+      "standard_kodu": "6-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "Esse yazma: «Bəs zınqırovu kim asacaq?» əsasında",
+      "standard_kodu": "6-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Yaradıcı yazı: bir neçə mənbədən istifadə etməklə apardığı araşdırma",
+      "standard_kodu": "6-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "İsmin halları (ətraflı): sözlərdə kar və cingiltili samitlərin deyilişi və",
+      "standard_kodu": "6-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: i̇smin halları (ətraflı) — tapşırıqlar",
+      "standard_kodu": "6-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Feilin zamanları: səsdüşümü və səsartımı baş verən sözlərdə orfoqrafiya",
+      "standard_kodu": "6-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: feilin zamanları — tapşırıqlar",
+      "standard_kodu": "6-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Təsriflənməyən feillər: mürəkkəb adların böyük hərflə yazılışı qaydalarına",
+      "standard_kodu": "6-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: təsriflənməyən feillər — tapşırıqlar",
+      "standard_kodu": "6-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Sifətin dərəcələri: l samiti ilə başlanan şəkilçilərin tələffüz",
+      "standard_kodu": "6-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: sifətin dərəcələri — tapşırıqlar",
+      "standard_kodu": "6-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Zərf və onun növləri: xəbər vəzifəsində olan sözlərin deyilişi və yazılışı",
+      "standard_kodu": "6-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: zərf və onun növləri — tapşırıqlar",
+      "standard_kodu": "6-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Qoşma və bağlayıcı: sözlərdə bəzi şəkilçi və morfemlərin yazılışı ilə",
+      "standard_kodu": "6-4.1.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: qoşma və bağlayıcı — tapşırıqlar",
+      "standard_kodu": "6-4.1.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Ədat və modal sözlər: sözlərin təkrarından yaranan mürəkkəb sözlərin",
+      "standard_kodu": "6-4.1.7",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: ədat və modal sözlər — tapşırıqlar",
+      "standard_kodu": "6-4.1.7",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Nida: bəzi köməkçi nitq hissələrinin bitişik və ayrı",
+      "standard_kodu": "6-4.1.8",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: nida — tapşırıqlar",
+      "standard_kodu": "6-4.1.8",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    },
+    {
+      "ad": "İsmin halları (ətraflı): kontekstdən çıxış edərək əsas nitq hissələrinin",
+      "standard_kodu": "6-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "120-126"
+    },
+    {
+      "ad": "İsmin halları (ətraflı) — «Bəs zınqırovu kim asacaq?» mətnindən nümunələrlə",
+      "standard_kodu": "6-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "127-132"
+    },
+    {
+      "ad": "Feilin zamanları: köməkçi nitq hissələrinin semantik mənalarını və",
+      "standard_kodu": "6-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Feilin zamanları — «Bəs zınqırovu kim asacaq?» mətnindən nümunələrlə",
+      "standard_kodu": "6-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Təsriflənməyən feillər: i̇smi və feili birləşmələrin növlərini və yaranma",
+      "standard_kodu": "6-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Təsriflənməyən feillər — «Bəs zınqırovu kim asacaq?» mətnindən nümunələrlə",
+      "standard_kodu": "6-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Sifətin dərəcələri: cümlədəki fikrin ifadə olunmasında baş və",
+      "standard_kodu": "6-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Sifətin dərəcələri — «Bəs zınqırovu kim asacaq?» mətnindən nümunələrlə",
+      "standard_kodu": "6-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Zərf və onun növləri: cümlədə söz sırasını müəyyən edir",
+      "standard_kodu": "6-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Zərf və onun növləri — «Bəs zınqırovu kim asacaq?» mətnindən nümunələrlə",
+      "standard_kodu": "6-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Durğu işarələri: bağlayıcılardan əvvəl və sonra vergül işarəsindən",
+      "standard_kodu": "6-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Punktuasiya məşqi: «Bəs zınqırovu kim asacaq?» mətnində durğu işarələri",
+      "standard_kodu": "6-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Durğu işarələri: o, bu əvəzliyindən sonra vergül işarəsindən yerində",
+      "standard_kodu": "6-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Punktuasiya məşqi: «Bəs zınqırovu kim asacaq?» mətnində durğu işarələri",
+      "standard_kodu": "6-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Leksika: sözün morfoloji tərkibindən çıxış edərək mənasını",
+      "standard_kodu": "6-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Söz təhlili: «Bəs zınqırovu kim asacaq?» mətnindən nümunələr",
+      "standard_kodu": "6-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Leksika: sözü izah edərkən hiperonim, sinonim və antonimlər",
+      "standard_kodu": "6-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Söz təhlili: «Bəs zınqırovu kim asacaq?» mətnindən nümunələr",
+      "standard_kodu": "6-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Leksika: bədii mətnlərdə sadə məcazları və üslubi fiqurları",
+      "standard_kodu": "6-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Söz təhlili: «Bəs zınqırovu kim asacaq?» mətnindən nümunələr",
+      "standard_kodu": "6-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    }
+  ],
+  "7": [
+    {
+      "ad": "«Koroğlu» dastanı — dinlə və mətnin planını götürdüyü qeydləri",
+      "standard_kodu": "7-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "10-16"
+    },
+    {
+      "ad": "Elmi-populyar çıxış dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "7-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-22"
+    },
+    {
+      "ad": "«Əsli və Kərəm» — dinlə və mətndəki fakt və fikirləri ümumi",
+      "standard_kodu": "7-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "14-20"
+    },
+    {
+      "ad": "Tarixi sənəd oxunuşu dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "7-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "21-26"
+    },
+    {
+      "ad": "«Leyli və Məcnun» (Füzuli) — dinlə və məzmunu müzakirə et",
+      "standard_kodu": "7-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "18-24"
+    },
+    {
+      "ad": "Debat dinləmə dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "7-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "25-30"
+    },
+    {
+      "ad": "Müzakirə: M.Ə.Sabir satirası əsasında — və debatlarda təyin olunmuş formata əməl edir",
+      "standard_kodu": "7-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "22-28"
+    },
+    {
+      "ad": "Sinif debatı: «Molla Nəsrəddin» jurnalı» mövzusunda",
+      "standard_kodu": "7-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-34"
+    },
+    {
+      "ad": "Müzakirə: «Hophopnamə» əsasında — və debatlarda qarşı tərəfin fikrinə",
+      "standard_kodu": "7-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "26-32"
+    },
+    {
+      "ad": "Sinif debatı: «Dədə Qorqud» boyları» mövzusunda",
+      "standard_kodu": "7-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "33-38"
+    },
+    {
+      "ad": "Şifahi təqdimat: «Molla Nəsrəddin» jurnalı əsəri haqqında",
+      "standard_kodu": "7-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "7-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "Şifahi təqdimat: «Dədə Qorqud» boyları əsəri haqqında",
+      "standard_kodu": "7-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "34-40"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "7-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-46"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "7-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "38-44"
+    },
+    {
+      "ad": "İfadəli danışma: S.Ə.Şirvani qəzəlləri parçasını təqdim et",
+      "standard_kodu": "7-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "45-50"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "7-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "42-48"
+    },
+    {
+      "ad": "İfadəli danışma: «Koroğlu» dastanı parçasını təqdim et",
+      "standard_kodu": "7-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "49-54"
+    },
+    {
+      "ad": "«Əsli və Kərəm» — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "7-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: «Leyli və Məcnun» (Füzuli) mətni",
+      "standard_kodu": "7-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "«Leyli və Məcnun» (Füzuli) — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "7-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "85-91"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: M.Ə.Sabir satirası mətni",
+      "standard_kodu": "7-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "92-97"
+    },
+    {
+      "ad": "M.Ə.Sabir satirası oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "7-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Sətiraltı məna: «Hophopnamə» mətnində gizli informasiya",
+      "standard_kodu": "7-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "«Hophopnamə» oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "7-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-41"
+    },
+    {
+      "ad": "Sətiraltı məna: «Molla Nəsrəddin» jurnalı mətnində gizli informasiya",
+      "standard_kodu": "7-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "42-47"
+    },
+    {
+      "ad": "«Molla Nəsrəddin» jurnalı — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "7-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "40-46"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Molla Nəsrəddin» jurnalı və «Dədə Qorqud» boyları",
+      "standard_kodu": "7-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-52"
+    },
+    {
+      "ad": "«Dədə Qorqud» boyları — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "7-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "45-51"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Dədə Qorqud» boyları və S.Ə.Şirvani qəzəlləri",
+      "standard_kodu": "7-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "52-57"
+    },
+    {
+      "ad": "S.Ə.Şirvani qəzəlləri — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "7-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "50-56"
+    },
+    {
+      "ad": "Müqayisəli oxu: S.Ə.Şirvani qəzəlləri və «Koroğlu» dastanı",
+      "standard_kodu": "7-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "57-62"
+    },
+    {
+      "ad": "«Koroğlu» dastanı — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "7-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-61"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Koroğlu» dastanı və «Əsli və Kərəm»",
+      "standard_kodu": "7-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "62-67"
+    },
+    {
+      "ad": "«Əsli və Kərəm» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "7-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "60-66"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Əsli və Kərəm» və «Leyli və Məcnun» (Füzuli)",
+      "standard_kodu": "7-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-72"
+    },
+    {
+      "ad": "«Leyli və Məcnun» (Füzuli) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "7-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "65-71"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Leyli və Məcnun» (Füzuli) və M.Ə.Sabir satirası",
+      "standard_kodu": "7-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "72-77"
+    },
+    {
+      "ad": "Yazı strukturu: mətnin növündən asılı olaraq yazısında fikir və",
+      "standard_kodu": "7-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "64-70"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "7-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "71-76"
+    },
+    {
+      "ad": "Yazı strukturu: yazısında ədəbi dilin normalarına riayət edir",
+      "standard_kodu": "7-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "68-74"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "7-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "75-80"
+    },
+    {
+      "ad": "Qaydalar siyahısı yazma: M.Ə.Sabir satirası əsasında",
+      "standard_kodu": "7-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "72-78"
+    },
+    {
+      "ad": "Yaradıcı yazı: tanış olduğu məlumatlar əsasında informativ və",
+      "standard_kodu": "7-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "79-84"
+    },
+    {
+      "ad": "Tezis yazma: M.Ə.Sabir satirası əsasında",
+      "standard_kodu": "7-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "76-82"
+    },
+    {
+      "ad": "Yaradıcı yazı: mövzu ilə bağlı fikirlərini arqumentləşdirməklə",
+      "standard_kodu": "7-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "83-88"
+    },
+    {
+      "ad": "Referat yazma: M.Ə.Sabir satirası əsasında",
+      "standard_kodu": "7-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Yaradıcı yazı: sadə direktiv xarakterli mətnlər tərtib edir",
+      "standard_kodu": "7-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "Izahedici mətn yazma: M.Ə.Sabir satirası əsasında",
+      "standard_kodu": "7-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Yaradıcı yazı: mənbələrdən istifadə etməklə mövzunu müxtəlif",
+      "standard_kodu": "7-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "İsmin hallanması — dərinləşmə: vurğusu dəyişməklə mənası dəyişən sözlərin",
+      "standard_kodu": "7-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: i̇smin hallanması — dərinləşmə — tapşırıqlar",
+      "standard_kodu": "7-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Feilin növləri (təsirli-təsirsiz): mürəkkəb adların böyük hərflə yazılışı qaydalarına",
+      "standard_kodu": "7-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: feilin növləri (təsirli-təsirsiz) — tapşırıqlar",
+      "standard_kodu": "7-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Sifətin quruluşca növləri: bəzi sözlərin hal şəkilçiləri qəbul edərkən deyilişi",
+      "standard_kodu": "7-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: sifətin quruluşca növləri — tapşırıqlar",
+      "standard_kodu": "7-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Əvəzliyin növləri: sinonim və hiponimlərin birləşməsindən əmələ gələn",
+      "standard_kodu": "7-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: əvəzliyin növləri — tapşırıqlar",
+      "standard_kodu": "7-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Sayın növləri: bəzi köməkçi nitq hissələrinin bitişik və ayrı",
+      "standard_kodu": "7-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: sayın növləri — tapşırıqlar",
+      "standard_kodu": "7-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Feili sifət: kontekstdən çıxış edərək əsas nitq hissələrinin",
+      "standard_kodu": "7-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Feili sifət — M.Ə.Sabir satirası mətnindən nümunələrlə",
+      "standard_kodu": "7-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Feili bağlama: köməkçi nitq hissələrinin semantik məna növlərinin",
+      "standard_kodu": "7-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Feili bağlama — M.Ə.Sabir satirası mətnindən nümunələrlə",
+      "standard_kodu": "7-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Məsdər: cümlədə söz birləşmələrini və onların sintaktik",
+      "standard_kodu": "7-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Məsdər — M.Ə.Sabir satirası mətnindən nümunələrlə",
+      "standard_kodu": "7-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    },
+    {
+      "ad": "İsmin hallanması — dərinləşmə: cümlədəki fikrin ifadə olunmasında cümlə üzvlərinin",
+      "standard_kodu": "7-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "120-126"
+    },
+    {
+      "ad": "İsmin hallanması — dərinləşmə — M.Ə.Sabir satirası mətnindən nümunələrlə",
+      "standard_kodu": "7-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "127-132"
+    },
+    {
+      "ad": "Feilin növləri (təsirli-təsirsiz): sual və nida cümlələrinin yaranma yollarını müəyyən",
+      "standard_kodu": "7-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Feilin növləri (təsirli-təsirsiz) — M.Ə.Sabir satirası mətnindən nümunələrlə",
+      "standard_kodu": "7-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Durğu işarələri: xitab və ara sözlərdə durğu işarələrindən yerində",
+      "standard_kodu": "7-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Punktuasiya məşqi: M.Ə.Sabir satirası mətnində durğu işarələri",
+      "standard_kodu": "7-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Durğu işarələri: həmcins cümlə üzvlərində vergül işarəsindən yerində",
+      "standard_kodu": "7-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Punktuasiya məşqi: M.Ə.Sabir satirası mətnində durğu işarələri",
+      "standard_kodu": "7-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Leksika: sözün morfoloji tərkibindən çıxış edərək mənasını",
+      "standard_kodu": "7-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Söz təhlili: M.Ə.Sabir satirası mətnindən nümunələr",
+      "standard_kodu": "7-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Leksika: sözü izah etmək üçün anlayışın xüsusiyyətlərini",
+      "standard_kodu": "7-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Söz təhlili: M.Ə.Sabir satirası mətnindən nümunələr",
+      "standard_kodu": "7-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Leksika: bədii mətnlərdə sadə məcazları və üslubi fiqurları",
+      "standard_kodu": "7-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Söz təhlili: M.Ə.Sabir satirası mətnindən nümunələr",
+      "standard_kodu": "7-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    }
+  ],
+  "8": [
+    {
+      "ad": "«Vətənim» (S.Vurğun) — dinlə və mətndən götürdüyü qeydləri qrafik",
+      "standard_kodu": "8-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "10-16"
+    },
+    {
+      "ad": "Arxiv audio yazısı dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "8-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-22"
+    },
+    {
+      "ad": "«Ağabəyim» (tarixi hekayə) — dinlə və mətndəki fakt və fikirləri ümumiləşdirərək",
+      "standard_kodu": "8-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "14-20"
+    },
+    {
+      "ad": "Analitik proqram dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "8-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "21-26"
+    },
+    {
+      "ad": "«Beşikdən qəbirə» (Hz.Məhəmməd) — dinlə və məzmunu müzakirə et",
+      "standard_kodu": "8-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "18-24"
+    },
+    {
+      "ad": "Mühazirə dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "8-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "25-30"
+    },
+    {
+      "ad": "Müzakirə: Ü.Hacıbəyov publisistikası əsasında — və debatlarda təyin olunmuş formata və",
+      "standard_kodu": "8-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "22-28"
+    },
+    {
+      "ad": "Sinif debatı: «C.Cabbarlı «Od gəlini» mövzusunda",
+      "standard_kodu": "8-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-34"
+    },
+    {
+      "ad": "Müzakirə: «Arşın mal alan» (komediya) əsasında — də səslənən müxtəlif fikirləri yığcam şək",
+      "standard_kodu": "8-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "26-32"
+    },
+    {
+      "ad": "Sinif debatı: «Azərbaycan» (S.Vurğun)» mövzusunda",
+      "standard_kodu": "8-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "33-38"
+    },
+    {
+      "ad": "Şifahi təqdimat: C.Cabbarlı «Od gəlini» əsəri haqqında",
+      "standard_kodu": "8-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "8-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "Şifahi təqdimat: «Azərbaycan» (S.Vurğun) əsəri haqqında",
+      "standard_kodu": "8-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "34-40"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "8-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-46"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "8-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "38-44"
+    },
+    {
+      "ad": "İfadəli danışma: M.Hüseyn hekayələri parçasını təqdim et",
+      "standard_kodu": "8-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "45-50"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "8-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "42-48"
+    },
+    {
+      "ad": "İfadəli danışma: «Vətənim» (S.Vurğun) parçasını təqdim et",
+      "standard_kodu": "8-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "49-54"
+    },
+    {
+      "ad": "«Ağabəyim» (tarixi hekayə) — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "8-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: «Beşikdən qəbirə» (Hz.Məhəmməd) mətni",
+      "standard_kodu": "8-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "«Beşikdən qəbirə» (Hz.Məhəmməd) — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "8-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "85-91"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: Ü.Hacıbəyov publisistikası mətni",
+      "standard_kodu": "8-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "92-97"
+    },
+    {
+      "ad": "Ü.Hacıbəyov publisistikası oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "8-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Sətiraltı məna: «Arşın mal alan» (komediya) mətnində gizli informasiya",
+      "standard_kodu": "8-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "«Arşın mal alan» (komediya) oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "8-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-41"
+    },
+    {
+      "ad": "Sətiraltı məna: C.Cabbarlı «Od gəlini» mətnində gizli informasiya",
+      "standard_kodu": "8-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "42-47"
+    },
+    {
+      "ad": "C.Cabbarlı «Od gəlini» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "8-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "40-46"
+    },
+    {
+      "ad": "Müqayisəli oxu: C.Cabbarlı «Od gəlini» və «Azərbaycan» (S.Vurğun)",
+      "standard_kodu": "8-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-52"
+    },
+    {
+      "ad": "«Azərbaycan» (S.Vurğun) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "8-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "45-51"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Azərbaycan» (S.Vurğun) və M.Hüseyn hekayələri",
+      "standard_kodu": "8-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "52-57"
+    },
+    {
+      "ad": "M.Hüseyn hekayələri — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "8-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "50-56"
+    },
+    {
+      "ad": "Müqayisəli oxu: M.Hüseyn hekayələri və «Vətənim» (S.Vurğun)",
+      "standard_kodu": "8-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "57-62"
+    },
+    {
+      "ad": "«Vətənim» (S.Vurğun) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "8-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-61"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Vətənim» (S.Vurğun) və «Ağabəyim» (tarixi hekayə)",
+      "standard_kodu": "8-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "62-67"
+    },
+    {
+      "ad": "«Ağabəyim» (tarixi hekayə) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "8-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "60-66"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Ağabəyim» (tarixi hekayə) və «Beşikdən qəbirə» (Hz.Məhəmməd)",
+      "standard_kodu": "8-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-72"
+    },
+    {
+      "ad": "«Beşikdən qəbirə» (Hz.Məhəmməd) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "8-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "65-71"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Beşikdən qəbirə» (Hz.Məhəmməd) və Ü.Hacıbəyov publisistikası",
+      "standard_kodu": "8-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "72-77"
+    },
+    {
+      "ad": "Yazı strukturu: mətn yazarkən müxtəlif növ mətnlərə xas olan struktur",
+      "standard_kodu": "8-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "64-70"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "8-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "71-76"
+    },
+    {
+      "ad": "Yazı strukturu: yazısında ədəbi dilin normalarına riayət edir",
+      "standard_kodu": "8-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "68-74"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "8-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "75-80"
+    },
+    {
+      "ad": "Ərizə yazma: Ü.Hacıbəyov publisistikası əsasında",
+      "standard_kodu": "8-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "72-78"
+    },
+    {
+      "ad": "Yaradıcı yazı: dinlədiyi və ya oxuduğu mətnlə bağlı icmal xarakterli",
+      "standard_kodu": "8-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "79-84"
+    },
+    {
+      "ad": "Protokol yazma: Ü.Hacıbəyov publisistikası əsasında",
+      "standard_kodu": "8-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "76-82"
+    },
+    {
+      "ad": "Yaradıcı yazı: təsviri və mühakimə xarakterli mətnlərin",
+      "standard_kodu": "8-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "83-88"
+    },
+    {
+      "ad": "Təqdimat yazma: Ü.Hacıbəyov publisistikası əsasında",
+      "standard_kodu": "8-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Yaradıcı yazı: sadə formalı işgüzar sənədlər tərtib edir",
+      "standard_kodu": "8-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "Kitab icmalı yazma: Ü.Hacıbəyov publisistikası əsasında",
+      "standard_kodu": "8-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Yaradıcı yazı: müxtəlif fənlər üzrə biliklərini araşdırdığı",
+      "standard_kodu": "8-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Tabesiz mürəkkəb cümlə: bəzi alınma sözlərdə və uzun saitli sözlərdə vurğulu",
+      "standard_kodu": "8-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: tabesiz mürəkkəb cümlə — tapşırıqlar",
+      "standard_kodu": "8-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Tabeli mürəkkəb cümlə: mürəkkəb adların böyük hərflə yazılışı qaydalarına",
+      "standard_kodu": "8-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: tabeli mürəkkəb cümlə — tapşırıqlar",
+      "standard_kodu": "8-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Tabeli mürəkkəb cümlənin növləri: açıq saitle bitən çoxhecalı feillərə y bitişdirici",
+      "standard_kodu": "8-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: tabeli mürəkkəb cümlənin növləri — tapşırıqlar",
+      "standard_kodu": "8-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Vasitəsiz və vasitəli nitq: i̇zafət tərkiblərinin yazılış qaydalarına əməl edir",
+      "standard_kodu": "8-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: vasitəsiz və vasitəli nitq — tapşırıqlar",
+      "standard_kodu": "8-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Durğu işarələri sistemi: sözlərdə idi, imiş hissəciklərinin deyilişi və",
+      "standard_kodu": "8-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: durğu işarələri sistemi — tapşırıqlar",
+      "standard_kodu": "8-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Sintaktik təhlil: kontekstdən çıxış edərək əsas nitq hissələrinin",
+      "standard_kodu": "8-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Sintaktik təhlil — Ü.Hacıbəyov publisistikası mətnindən nümunələrlə",
+      "standard_kodu": "8-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Tabesiz mürəkkəb cümlə: i̇di, imiş hissəciklərinin qoşulduğu feillərin",
+      "standard_kodu": "8-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Tabesiz mürəkkəb cümlə — Ü.Hacıbəyov publisistikası mətnindən nümunələrlə",
+      "standard_kodu": "8-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Tabeli mürəkkəb cümlə: cümlədə söz birləşmələrini və onların sintaktik",
+      "standard_kodu": "8-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Tabeli mürəkkəb cümlə — Ü.Hacıbəyov publisistikası mətnindən nümunələrlə",
+      "standard_kodu": "8-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    },
+    {
+      "ad": "Tabeli mürəkkəb cümlənin növləri: cümlədə sözlər arasında sintaktik əlaqədən çıxış",
+      "standard_kodu": "8-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "120-126"
+    },
+    {
+      "ad": "Tabeli mürəkkəb cümlənin növləri — Ü.Hacıbəyov publisistikası mətnindən nümunələrlə",
+      "standard_kodu": "8-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "127-132"
+    },
+    {
+      "ad": "Vasitəsiz və vasitəli nitq: tabeli müstəqil cümlənin komponentləri arasında məna",
+      "standard_kodu": "8-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Vasitəsiz və vasitəli nitq — Ü.Hacıbəyov publisistikası mətnindən nümunələrlə",
+      "standard_kodu": "8-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Durğu işarələri: aydınlaşdırma əlaqəli mürəkkəb cümlədə durğu",
+      "standard_kodu": "8-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Punktuasiya məşqi: Ü.Hacıbəyov publisistikası mətnində durğu işarələri",
+      "standard_kodu": "8-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Durğu işarələri: nöqtə, üç nöqtə, sual və nida işarələrinin işlənmə",
+      "standard_kodu": "8-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Punktuasiya məşqi: Ü.Hacıbəyov publisistikası mətnində durğu işarələri",
+      "standard_kodu": "8-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Leksika: sözün morfoloji tərkibindən çıxış edərək mənasını",
+      "standard_kodu": "8-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Söz təhlili: Ü.Hacıbəyov publisistikası mətnindən nümunələr",
+      "standard_kodu": "8-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Leksika: hiperonimin köməyi ilə sözü izah edərkən uyğun",
+      "standard_kodu": "8-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Söz təhlili: Ü.Hacıbəyov publisistikası mətnindən nümunələr",
+      "standard_kodu": "8-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Leksika: bədii mətnlərdə metonimiya, metafor, sinekdoxa kimi",
+      "standard_kodu": "8-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Söz təhlili: Ü.Hacıbəyov publisistikası mətnindən nümunələr",
+      "standard_kodu": "8-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    }
+  ],
+  "9": [
+    {
+      "ad": "«Mənim anam» (R.Rza) — dinlə və mətndən götürdüyü qeydləri qrafik",
+      "standard_kodu": "9-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "10-16"
+    },
+    {
+      "ad": "Akademik məruzə dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "9-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-22"
+    },
+    {
+      "ad": "Nizami Gəncəvi «Xəmsə» — dinlə və məlumatları başqa mənbələrdən aldığı",
+      "standard_kodu": "9-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "14-20"
+    },
+    {
+      "ad": "Polemik çıxış dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "9-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "21-26"
+    },
+    {
+      "ad": "İ.Nəsimi fəlsəfi qəzəlləri — dinlə və məzmunu müzakirə et",
+      "standard_kodu": "9-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "18-24"
+    },
+    {
+      "ad": "Media təhlili dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "9-1.1.3",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "25-30"
+    },
+    {
+      "ad": "Müzakirə: M.Füzuli «Leyli və Məcnun» əsasında — və ya debatın gedişi ilə bağlı şərtlərə əm",
+      "standard_kodu": "9-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "22-28"
+    },
+    {
+      "ad": "Sinif debatı: «A.Bakıxanov publisistikası» mövzusunda",
+      "standard_kodu": "9-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-34"
+    },
+    {
+      "ad": "Müzakirə: M.P.Vaqif qoşmaları əsasında — fikir mübadiləsi",
+      "standard_kodu": "9-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "26-32"
+    },
+    {
+      "ad": "Sinif debatı: «M.F.Axundzadə komediyaları» mövzusunda",
+      "standard_kodu": "9-1.2.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "33-38"
+    },
+    {
+      "ad": "Şifahi təqdimat: A.Bakıxanov publisistikası əsəri haqqında",
+      "standard_kodu": "9-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "9-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "Şifahi təqdimat: M.F.Axundzadə komediyaları əsəri haqqında",
+      "standard_kodu": "9-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "34-40"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "9-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-46"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "9-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "38-44"
+    },
+    {
+      "ad": "İfadəli danışma: «Danabaş kəndinin əhvalatları» (C.Məmmədquluzadə) parçasını təqdim et",
+      "standard_kodu": "9-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "45-50"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "9-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "42-48"
+    },
+    {
+      "ad": "İfadəli danışma: «Mənim anam» (R.Rza) parçasını təqdim et",
+      "standard_kodu": "9-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "49-54"
+    },
+    {
+      "ad": "Nizami Gəncəvi «Xəmsə» — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "9-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: İ.Nəsimi fəlsəfi qəzəlləri mətni",
+      "standard_kodu": "9-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "İ.Nəsimi fəlsəfi qəzəlləri — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "9-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "85-91"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: M.Füzuli «Leyli və Məcnun» mətni",
+      "standard_kodu": "9-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "92-97"
+    },
+    {
+      "ad": "M.Füzuli «Leyli və Məcnun» oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "9-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Sətiraltı məna: M.P.Vaqif qoşmaları mətnində gizli informasiya",
+      "standard_kodu": "9-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "M.P.Vaqif qoşmaları oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "9-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-41"
+    },
+    {
+      "ad": "Sətiraltı məna: A.Bakıxanov publisistikası mətnində gizli informasiya",
+      "standard_kodu": "9-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "42-47"
+    },
+    {
+      "ad": "A.Bakıxanov publisistikası — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "9-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "40-46"
+    },
+    {
+      "ad": "Müqayisəli oxu: A.Bakıxanov publisistikası və M.F.Axundzadə komediyaları",
+      "standard_kodu": "9-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-52"
+    },
+    {
+      "ad": "M.F.Axundzadə komediyaları — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "9-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "45-51"
+    },
+    {
+      "ad": "Müqayisəli oxu: M.F.Axundzadə komediyaları və «Danabaş kəndinin əhvalatları» (C.Məmmədqulu",
+      "standard_kodu": "9-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "52-57"
+    },
+    {
+      "ad": "«Danabaş kəndinin əhvalatları» (C.Məmmədquluzadə) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "9-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "50-56"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Danabaş kəndinin əhvalatları» (C.Məmmədquluzadə) və «Mənim anam» (R.Rza)",
+      "standard_kodu": "9-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "57-62"
+    },
+    {
+      "ad": "«Mənim anam» (R.Rza) — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "9-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-61"
+    },
+    {
+      "ad": "Müqayisəli oxu: «Mənim anam» (R.Rza) və Nizami Gəncəvi «Xəmsə»",
+      "standard_kodu": "9-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "62-67"
+    },
+    {
+      "ad": "Nizami Gəncəvi «Xəmsə» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "9-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "60-66"
+    },
+    {
+      "ad": "Müqayisəli oxu: Nizami Gəncəvi «Xəmsə» və İ.Nəsimi fəlsəfi qəzəlləri",
+      "standard_kodu": "9-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-72"
+    },
+    {
+      "ad": "İ.Nəsimi fəlsəfi qəzəlləri — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "9-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "65-71"
+    },
+    {
+      "ad": "Müqayisəli oxu: İ.Nəsimi fəlsəfi qəzəlləri və M.Füzuli «Leyli və Məcnun»",
+      "standard_kodu": "9-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "72-77"
+    },
+    {
+      "ad": "Yazı strukturu: mətni strukturlaşdırarkən onun forma və məzmun",
+      "standard_kodu": "9-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "64-70"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "9-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "71-76"
+    },
+    {
+      "ad": "Yazı strukturu: yazısında ədəbi dilin normalarına riayət edir",
+      "standard_kodu": "9-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "68-74"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "9-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "75-80"
+    },
+    {
+      "ad": "Motivasiya məktubu yazma: M.Füzuli «Leyli və Məcnun» əsasında",
+      "standard_kodu": "9-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "72-78"
+    },
+    {
+      "ad": "Yaradıcı yazı: araşdırmaları əsasında qeyri-xronoloji informativ",
+      "standard_kodu": "9-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "79-84"
+    },
+    {
+      "ad": "Resenziya yazma: M.Füzuli «Leyli və Məcnun» əsasında",
+      "standard_kodu": "9-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "76-82"
+    },
+    {
+      "ad": "Yaradıcı yazı: fikir, arqument və faktlar arasında məntiqi əlaqəni",
+      "standard_kodu": "9-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "83-88"
+    },
+    {
+      "ad": "Müqayisəli təhlil yazma: M.Füzuli «Leyli və Məcnun» əsasında",
+      "standard_kodu": "9-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Yaradıcı yazı: sadə formalı işgüzar sənədlər tərtib edir",
+      "standard_kodu": "9-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "Analitik esse yazma: M.Füzuli «Leyli və Məcnun» əsasında",
+      "standard_kodu": "9-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Yaradıcı yazı: əldə etdiyi məlumatları tezislər, açar sözlər",
+      "standard_kodu": "9-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Üslubiyyat: bədii üslub: paronimlərin yazılışında orfoqrafik normalara riayət",
+      "standard_kodu": "9-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: üslubiyyat: bədii üslub — tapşırıqlar",
+      "standard_kodu": "9-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Elmi üslub: dırnaq içində yazılan mürəkkəb adların böyük hərflə",
+      "standard_kodu": "9-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: elmi üslub — tapşırıqlar",
+      "standard_kodu": "9-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Publisistik üslub: sözlərdə q, k, ğ, g samitləri olan şəkilçilərin",
+      "standard_kodu": "9-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: publisistik üslub — tapşırıqlar",
+      "standard_kodu": "9-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Rəsmi-işgüzar üslub: abreviaturların və onlara qoşulan şəkilçilərin",
+      "standard_kodu": "9-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: rəsmi-işgüzar üslub — tapşırıqlar",
+      "standard_kodu": "9-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Mətn linqvistikası: söz birləşmələri və tərkibi sözlərdən yaranmış",
+      "standard_kodu": "9-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: mətn linqvistikası — tapşırıqlar",
+      "standard_kodu": "9-4.1.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Arxaizmlər və neologizmlər: sözlərdə isə, ikən hissəciklərinin şəkilçiləşmə",
+      "standard_kodu": "9-4.1.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: arxaizmlər və neologizmlər — tapşırıqlar",
+      "standard_kodu": "9-4.1.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Frazeologiya: kontekstdən çıxış edərək köməkçi söz və morfemlərin",
+      "standard_kodu": "9-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Frazeologiya — M.Füzuli «Leyli və Məcnun» mətnindən nümunələrlə",
+      "standard_kodu": "9-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Leksikoqrafiya: i̇sə, ikən sözlərinin semantik mənasını müəyyən edir",
+      "standard_kodu": "9-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Leksikoqrafiya — M.Füzuli «Leyli və Məcnun» mətnindən nümunələrlə",
+      "standard_kodu": "9-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    },
+    {
+      "ad": "Üslubiyyat: bədii üslub: cümlə üzvü rolunda çıxış edən mürəkkəb söz",
+      "standard_kodu": "9-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "120-126"
+    },
+    {
+      "ad": "Üslubiyyat: bədii üslub — M.Füzuli «Leyli və Məcnun» mətnindən nümunələrlə",
+      "standard_kodu": "9-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "127-132"
+    },
+    {
+      "ad": "Elmi üslub: həmcins cümlə üzvləri və ümumiləşdirici sözü, cümlə",
+      "standard_kodu": "9-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Elmi üslub — M.Füzuli «Leyli və Məcnun» mətnindən nümunələrlə",
+      "standard_kodu": "9-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Publisistik üslub: vasitəsiz nitqin vasitəli nitqə çevrilməsi yollarının",
+      "standard_kodu": "9-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Publisistik üslub — M.Füzuli «Leyli və Məcnun» mətnindən nümunələrlə",
+      "standard_kodu": "9-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Rəsmi-işgüzar üslub: tabeli mürəkkəb cümlənin sadə cümləyə çevrilməsi",
+      "standard_kodu": "9-4.2.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Rəsmi-işgüzar üslub — M.Füzuli «Leyli və Məcnun» mətnindən nümunələrlə",
+      "standard_kodu": "9-4.2.6",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Durğu işarələri: vasitəsiz nitqdə və dialoqlarda durğu işarələrindən",
+      "standard_kodu": "9-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Punktuasiya məşqi: M.Füzuli «Leyli və Məcnun» mətnində durğu işarələri",
+      "standard_kodu": "9-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Durğu işarələri: həmcins cümlə üzvləri arasında durğu işarələrindən",
+      "standard_kodu": "9-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Punktuasiya məşqi: M.Füzuli «Leyli və Məcnun» mətnində durğu işarələri",
+      "standard_kodu": "9-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Leksika: sözün morfoloji tərkibindən çıxış edərək mənasını",
+      "standard_kodu": "9-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Söz təhlili: M.Füzuli «Leyli və Məcnun» mətnindən nümunələr",
+      "standard_kodu": "9-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Leksika: mətndə rast gəlinən arxaizm və dialektizmləri",
+      "standard_kodu": "9-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Söz təhlili: M.Füzuli «Leyli və Məcnun» mətnindən nümunələr",
+      "standard_kodu": "9-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Leksika: sözün leksikoqrafik qaydalara uyğun izahını verir və",
+      "standard_kodu": "9-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Söz təhlili: M.Füzuli «Leyli və Məcnun» mətnindən nümunələr",
+      "standard_kodu": "9-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Leksika: bədii mətndəki sadə üslubi fiqurları müəyyən edir",
+      "standard_kodu": "9-4.4.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Söz təhlili: M.Füzuli «Leyli və Məcnun» mətnindən nümunələr",
+      "standard_kodu": "9-4.4.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    }
+  ],
+  "10": [
+    {
+      "ad": "Nizami «İskəndərnamə» — dinlə və mətndən götürdüyü qeydləri qrafik",
+      "standard_kodu": "10-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "10-16"
+    },
+    {
+      "ad": "Konfrans çıxışı dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "10-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-22"
+    },
+    {
+      "ad": "Xaqani Şirvani qəsidələri — dinlə və məlumatları şəxsi bilikləri ilə müqayisə",
+      "standard_kodu": "10-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "14-20"
+    },
+    {
+      "ad": "Elmi seminar dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "10-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "21-26"
+    },
+    {
+      "ad": "Müzakirə: İ.Nəsimi hürufi fəlsəfəsi əsasında — zamanı səslənən fikirlərlə bağlı arqument v",
+      "standard_kodu": "10-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "18-24"
+    },
+    {
+      "ad": "Sinif debatı: «M.Füzuli «Şikayətnamə» mövzusunda",
+      "standard_kodu": "10-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "25-30"
+    },
+    {
+      "ad": "Şifahi təqdimat: Ş.İ.Xətai qəzəlləri əsəri haqqında",
+      "standard_kodu": "10-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "22-28"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "10-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-34"
+    },
+    {
+      "ad": "Şifahi təqdimat: M.Füzuli «Şikayətnamə» əsəri haqqında",
+      "standard_kodu": "10-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "26-32"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "10-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "33-38"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "10-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "İfadəli danışma: M.P.Vaqif «Bayatılar» parçasını təqdim et",
+      "standard_kodu": "10-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "10-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "34-40"
+    },
+    {
+      "ad": "İfadəli danışma: A.Bakıxanov «Əsərləri» parçasını təqdim et",
+      "standard_kodu": "10-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-46"
+    },
+    {
+      "ad": "Q.Zakir satirası — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "10-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "70-76"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: Nizami «İskəndərnamə» mətni",
+      "standard_kodu": "10-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "77-82"
+    },
+    {
+      "ad": "Nizami «İskəndərnamə» — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "10-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "75-81"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: Xaqani Şirvani qəsidələri mətni",
+      "standard_kodu": "10-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "82-87"
+    },
+    {
+      "ad": "Xaqani Şirvani qəsidələri oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "10-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Sətiraltı məna: İ.Nəsimi hürufi fəlsəfəsi mətnində gizli informasiya",
+      "standard_kodu": "10-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "İ.Nəsimi hürufi fəlsəfəsi oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "10-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "85-91"
+    },
+    {
+      "ad": "Sətiraltı məna: Ş.İ.Xətai qəzəlləri mətnində gizli informasiya",
+      "standard_kodu": "10-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "92-97"
+    },
+    {
+      "ad": "Ş.İ.Xətai qəzəlləri — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "10-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Müqayisəli oxu: Ş.İ.Xətai qəzəlləri və M.Füzuli «Şikayətnamə»",
+      "standard_kodu": "10-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "M.Füzuli «Şikayətnamə» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "10-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-41"
+    },
+    {
+      "ad": "Müqayisəli oxu: M.Füzuli «Şikayətnamə» və M.P.Vaqif «Bayatılar»",
+      "standard_kodu": "10-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "42-47"
+    },
+    {
+      "ad": "M.P.Vaqif «Bayatılar» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "10-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "40-46"
+    },
+    {
+      "ad": "Müqayisəli oxu: M.P.Vaqif «Bayatılar» və A.Bakıxanov «Əsərləri»",
+      "standard_kodu": "10-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-52"
+    },
+    {
+      "ad": "A.Bakıxanov «Əsərləri» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "10-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "45-51"
+    },
+    {
+      "ad": "Müqayisəli oxu: A.Bakıxanov «Əsərləri» və Q.Zakir satirası",
+      "standard_kodu": "10-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "52-57"
+    },
+    {
+      "ad": "Q.Zakir satirası — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "10-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "50-56"
+    },
+    {
+      "ad": "Müqayisəli oxu: Q.Zakir satirası və Nizami «İskəndərnamə»",
+      "standard_kodu": "10-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "57-62"
+    },
+    {
+      "ad": "Nizami «İskəndərnamə» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "10-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-61"
+    },
+    {
+      "ad": "Müqayisəli oxu: Nizami «İskəndərnamə» və Xaqani Şirvani qəsidələri",
+      "standard_kodu": "10-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "62-67"
+    },
+    {
+      "ad": "Yazı strukturu: mətn yazarkən struktur elementlərinin funksiyalarını",
+      "standard_kodu": "10-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "64-70"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "10-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "71-76"
+    },
+    {
+      "ad": "Yazı strukturu: yazısında ədəbi dilin normalarına riayət edir",
+      "standard_kodu": "10-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "68-74"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "10-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "75-80"
+    },
+    {
+      "ad": "Mənbə təhlili yazma: Xaqani Şirvani qəsidələri əsasında",
+      "standard_kodu": "10-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "72-78"
+    },
+    {
+      "ad": "Yaradıcı yazı: məlumatları yazıda əks etdirərkən informativ və",
+      "standard_kodu": "10-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "79-84"
+    },
+    {
+      "ad": "Layihə təklifi yazma: Xaqani Şirvani qəsidələri əsasında",
+      "standard_kodu": "10-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "76-82"
+    },
+    {
+      "ad": "Yaradıcı yazı: mövzu ilə bağlı araşdırdığı mənbələrə tənqidi",
+      "standard_kodu": "10-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "83-88"
+    },
+    {
+      "ad": "Annotasiya yazma: Xaqani Şirvani qəsidələri əsasında",
+      "standard_kodu": "10-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Yaradıcı yazı: sadə formalı işgüzar sənədlər tərtib edir",
+      "standard_kodu": "10-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "Tənqidi esse yazma: Xaqani Şirvani qəsidələri əsasında",
+      "standard_kodu": "10-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Yaradıcı yazı: əldə etdiyi məlumatlara öz mövqeyini ifadə etməklə",
+      "standard_kodu": "10-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Azərbaycan dilinin tarixi: alınma sözlərin yazılışını mənbə dildəki tələffüzü",
+      "standard_kodu": "10-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: azərbaycan dilinin tarixi — tapşırıqlar",
+      "standard_kodu": "10-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Türk dilləri ailəsi: mürəkkəb adların böyük hərflə yazılışı qaydalarına",
+      "standard_kodu": "10-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: türk dilləri ailəsi — tapşırıqlar",
+      "standard_kodu": "10-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Ədəbi dilin normaları: yazılı və şifahi nitqdə morfonoloji qaydalara əməl",
+      "standard_kodu": "10-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: ədəbi dilin normaları — tapşırıqlar",
+      "standard_kodu": "10-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Alınma sözlər: mürəkkəb və tərkibi sözlərin bitişik, ayrı və defislə",
+      "standard_kodu": "10-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: alınma sözlər — tapşırıqlar",
+      "standard_kodu": "10-4.1.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Söz yaradıcılığı: kontekstdən çıxış edərək sözlərin qrammatik formasını",
+      "standard_kodu": "10-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Söz yaradıcılığı — Xaqani Şirvani qəsidələri mətnindən nümunələrlə",
+      "standard_kodu": "10-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Terminologiya: müxtəlif konstruksiyalı söz birləşmələrini",
+      "standard_kodu": "10-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Terminologiya — Xaqani Şirvani qəsidələri mətnindən nümunələrlə",
+      "standard_kodu": "10-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Üslubi fiqurlar: həmcins cümlə üzvlərinə xas cəhətlərin",
+      "standard_kodu": "10-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Üslubi fiqurlar — Xaqani Şirvani qəsidələri mətnindən nümunələrlə",
+      "standard_kodu": "10-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Azərbaycan dilinin tarixi: cümlə üzvləri və ümumiləşdirici sözü, cümlə üzvü və",
+      "standard_kodu": "10-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Azərbaycan dilinin tarixi — Xaqani Şirvani qəsidələri mətnindən nümunələrlə",
+      "standard_kodu": "10-4.2.4",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    },
+    {
+      "ad": "Türk dilləri ailəsi: əlavə cümlənin semantik funksiyasını müəyyən edir",
+      "standard_kodu": "10-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "120-126"
+    },
+    {
+      "ad": "Türk dilləri ailəsi — Xaqani Şirvani qəsidələri mətnindən nümunələrlə",
+      "standard_kodu": "10-4.2.5",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "127-132"
+    },
+    {
+      "ad": "Durğu işarələri: əlavə cümlələrdə durğu işarələrindən istifadə edir",
+      "standard_kodu": "10-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Punktuasiya məşqi: Xaqani Şirvani qəsidələri mətnində durğu işarələri",
+      "standard_kodu": "10-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Durğu işarələri: vergül, mötərizə, dırnaq işarələrinin işlənmə",
+      "standard_kodu": "10-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Punktuasiya məşqi: Xaqani Şirvani qəsidələri mətnində durğu işarələri",
+      "standard_kodu": "10-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Leksika: sözün morfoloji tərkibindən çıxış edərək mənasını",
+      "standard_kodu": "10-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Söz təhlili: Xaqani Şirvani qəsidələri mətnindən nümunələr",
+      "standard_kodu": "10-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "Leksika: konkret varlıq bildirən isimlərin izahını verir və",
+      "standard_kodu": "10-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Söz təhlili: Xaqani Şirvani qəsidələri mətnindən nümunələr",
+      "standard_kodu": "10-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Leksika: nitqdə qeyri-fəal leksikaya aid söz və ifadələrin",
+      "standard_kodu": "10-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Söz təhlili: Xaqani Şirvani qəsidələri mətnindən nümunələr",
+      "standard_kodu": "10-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    }
+  ],
+  "11": [
+    {
+      "ad": "C.Məmmədquluzadə «Ölülər» — dinlə və mətnin məzmununu görsəlləşdirmək məqsədi",
+      "standard_kodu": "11-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "10-16"
+    },
+    {
+      "ad": "Parlament debatı dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "11-1.1.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "17-22"
+    },
+    {
+      "ad": "Ü.Hacıbəyov felyetonları — dinlə və mətndəki fikirlərlə arqument və faktlar",
+      "standard_kodu": "11-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "14-20"
+    },
+    {
+      "ad": "Akademik diskurs dinləmə: əsas fikirləri qeyd et",
+      "standard_kodu": "11-1.1.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "21-26"
+    },
+    {
+      "ad": "Müzakirə: H.Cavid «İblis» əsasında — fikir mübadiləsi",
+      "standard_kodu": "11-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "18-24"
+    },
+    {
+      "ad": "Sinif debatı: «C.Cabbarlı «Oqtay Eloğlu» mövzusunda",
+      "standard_kodu": "11-1.2.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "25-30"
+    },
+    {
+      "ad": "Şifahi təqdimat: M.Ə.Sabir «Hophopnamə» əsəri haqqında",
+      "standard_kodu": "11-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "22-28"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "11-1.3.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "29-34"
+    },
+    {
+      "ad": "Şifahi təqdimat: C.Cabbarlı «Oqtay Eloğlu» əsəri haqqında",
+      "standard_kodu": "11-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "26-32"
+    },
+    {
+      "ad": "Mövzu üzrə çıxış hazırla və nəql et",
+      "standard_kodu": "11-1.3.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "33-38"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "11-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "İfadəli danışma: S.Vurğun «Vaqif» dramı parçasını təqdim et",
+      "standard_kodu": "11-1.4.1",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "Nitq mədəniyyəti: düzgün tələffüz və intonasiya məşqi",
+      "standard_kodu": "11-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "34-40"
+    },
+    {
+      "ad": "İfadəli danışma: İ.Əfəndiyev «Söyüdlü arx» parçasını təqdim et",
+      "standard_kodu": "11-1.4.2",
+      "sahe": "Dinləmə və danışma",
+      "saat": 1,
+      "sehife": "41-46"
+    },
+    {
+      "ad": "B.Vahabzadə «Gülüstan» poeması — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "11-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "70-76"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: C.Məmmədquluzadə «Ölülər» mətni",
+      "standard_kodu": "11-2.1.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "77-82"
+    },
+    {
+      "ad": "C.Məmmədquluzadə «Ölülər» — ifadəli oxu və məzmun anlama",
+      "standard_kodu": "11-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "75-81"
+    },
+    {
+      "ad": "Kontekstdən söz mənasını müəyyən et: Ü.Hacıbəyov felyetonları mətni",
+      "standard_kodu": "11-2.1.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "82-87"
+    },
+    {
+      "ad": "Ü.Hacıbəyov felyetonları oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "11-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Sətiraltı məna: H.Cavid «İblis» mətnində gizli informasiya",
+      "standard_kodu": "11-2.2.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "H.Cavid «İblis» oxusu: fakt və fikir əlaqəsini müəyyən et",
+      "standard_kodu": "11-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "85-91"
+    },
+    {
+      "ad": "Sətiraltı məna: M.Ə.Sabir «Hophopnamə» mətnində gizli informasiya",
+      "standard_kodu": "11-2.2.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "92-97"
+    },
+    {
+      "ad": "M.Ə.Sabir «Hophopnamə» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "11-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "30-36"
+    },
+    {
+      "ad": "Müqayisəli oxu: M.Ə.Sabir «Hophopnamə» və C.Cabbarlı «Oqtay Eloğlu»",
+      "standard_kodu": "11-2.3.1",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "37-42"
+    },
+    {
+      "ad": "C.Cabbarlı «Oqtay Eloğlu» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "11-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "35-41"
+    },
+    {
+      "ad": "Müqayisəli oxu: C.Cabbarlı «Oqtay Eloğlu» və S.Vurğun «Vaqif» dramı",
+      "standard_kodu": "11-2.3.2",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "42-47"
+    },
+    {
+      "ad": "S.Vurğun «Vaqif» dramı — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "11-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "40-46"
+    },
+    {
+      "ad": "Müqayisəli oxu: S.Vurğun «Vaqif» dramı və İ.Əfəndiyev «Söyüdlü arx»",
+      "standard_kodu": "11-2.3.3",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "47-52"
+    },
+    {
+      "ad": "İ.Əfəndiyev «Söyüdlü arx» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "11-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "45-51"
+    },
+    {
+      "ad": "Müqayisəli oxu: İ.Əfəndiyev «Söyüdlü arx» və B.Vahabzadə «Gülüstan» poeması",
+      "standard_kodu": "11-2.3.4",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "52-57"
+    },
+    {
+      "ad": "B.Vahabzadə «Gülüstan» poeması — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "11-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "50-56"
+    },
+    {
+      "ad": "Müqayisəli oxu: B.Vahabzadə «Gülüstan» poeması və C.Məmmədquluzadə «Ölülər»",
+      "standard_kodu": "11-2.3.5",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "57-62"
+    },
+    {
+      "ad": "C.Məmmədquluzadə «Ölülər» — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "11-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "55-61"
+    },
+    {
+      "ad": "Müqayisəli oxu: C.Məmmədquluzadə «Ölülər» və Ü.Hacıbəyov felyetonları",
+      "standard_kodu": "11-2.3.6",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "62-67"
+    },
+    {
+      "ad": "Ü.Hacıbəyov felyetonları — dil-üslub təhlili və bədii vasitələr",
+      "standard_kodu": "11-2.3.7",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "60-66"
+    },
+    {
+      "ad": "Müqayisəli oxu: Ü.Hacıbəyov felyetonları və H.Cavid «İblis»",
+      "standard_kodu": "11-2.3.7",
+      "sahe": "Oxu",
+      "saat": 1,
+      "sehife": "67-72"
+    },
+    {
+      "ad": "Yazı strukturu: özünün və başqasının mətnini yenidən yazımla",
+      "standard_kodu": "11-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "64-70"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "11-3.1.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "71-76"
+    },
+    {
+      "ad": "Yazı strukturu: yazısında ədəbi dilin normalarına riayət edir",
+      "standard_kodu": "11-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "68-74"
+    },
+    {
+      "ad": "Redaktə məşqi: yazını dil normaları baxımından təkmilləşdir",
+      "standard_kodu": "11-3.1.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "75-80"
+    },
+    {
+      "ad": "Protokol yazma: H.Cavid «İblis» əsasında",
+      "standard_kodu": "11-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "72-78"
+    },
+    {
+      "ad": "Yaradıcı yazı: məlumatları yazıda əks etdirərkən vaxt və həcm",
+      "standard_kodu": "11-3.2.1",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "79-84"
+    },
+    {
+      "ad": "Media təhlili yazma: H.Cavid «İblis» əsasında",
+      "standard_kodu": "11-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "76-82"
+    },
+    {
+      "ad": "Yaradıcı yazı: araşdırdığı mənbələrdən istifadə etməklə polemik",
+      "standard_kodu": "11-3.2.2",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "83-88"
+    },
+    {
+      "ad": "Disputa hazırlıq yazma: H.Cavid «İblis» əsasında",
+      "standard_kodu": "11-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "80-86"
+    },
+    {
+      "ad": "Yaradıcı yazı: sadə formalı işgüzar sənədlər tərtib edir",
+      "standard_kodu": "11-3.2.3",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "87-92"
+    },
+    {
+      "ad": "Polemik esse yazma: H.Cavid «İblis» əsasında",
+      "standard_kodu": "11-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Yaradıcı yazı: təqdimat materiallarında əldə etdiyi məlumatlara",
+      "standard_kodu": "11-3.2.4",
+      "sahe": "Yazı",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Dilçiliyin sahələri: nitqində fonetik qanunauyğunluqlardan çıxış edərək",
+      "standard_kodu": "11-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: dilçiliyin sahələri — tapşırıqlar",
+      "standard_kodu": "11-4.1.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    },
+    {
+      "ad": "Fonetik qanunauyğunluqlar: alınma morfemlə işlənən bir sıra adların böyük hərflə",
+      "standard_kodu": "11-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "92-98"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: fonetik qanunauyğunluqlar — tapşırıqlar",
+      "standard_kodu": "11-4.1.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "99-104"
+    },
+    {
+      "ad": "İltisaqilik: qrammatik omonimlik təşkil edən söz morfemlərin",
+      "standard_kodu": "11-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "96-102"
+    },
+    {
+      "ad": "Orfoqrafiya məşqi: i̇ltisaqilik — tapşırıqlar",
+      "standard_kodu": "11-4.1.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "103-108"
+    },
+    {
+      "ad": "Sintaktik fiqurlar: dildə iltisaqilik hadisəsini izah edir",
+      "standard_kodu": "11-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "100-106"
+    },
+    {
+      "ad": "Sintaktik fiqurlar — H.Cavid «İblis» mətnindən nümunələrlə",
+      "standard_kodu": "11-4.2.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "107-112"
+    },
+    {
+      "ad": "Leksik kateqoriyalar: nitqin ekspressivliyinə xidmət edən sintaktik",
+      "standard_kodu": "11-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "104-110"
+    },
+    {
+      "ad": "Leksik kateqoriyalar — H.Cavid «İblis» mətnindən nümunələrlə",
+      "standard_kodu": "11-4.2.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "111-116"
+    },
+    {
+      "ad": "Natiqlik sənəti: fikrin dəqiq və anlaşıqlı ifadə olunması üçün uyğun",
+      "standard_kodu": "11-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "108-114"
+    },
+    {
+      "ad": "Natiqlik sənəti — H.Cavid «İblis» mətnindən nümunələrlə",
+      "standard_kodu": "11-4.2.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "115-120"
+    },
+    {
+      "ad": "Durğu işarələri: qoşa nöqtə, nöqtəli vergül və tire işarələrinin",
+      "standard_kodu": "11-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "112-118"
+    },
+    {
+      "ad": "Punktuasiya məşqi: H.Cavid «İblis» mətnində durğu işarələri",
+      "standard_kodu": "11-4.3.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "119-124"
+    },
+    {
+      "ad": "Durğu işarələri: yanışı gələn sual və nida işarələrinin ardıcıllığına",
+      "standard_kodu": "11-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "116-122"
+    },
+    {
+      "ad": "Punktuasiya məşqi: H.Cavid «İblis» mətnində durğu işarələri",
+      "standard_kodu": "11-4.3.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "123-128"
+    },
+    {
+      "ad": "Leksika: söz tərkibindəki morfemlərin semantik mənasından",
+      "standard_kodu": "11-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "120-126"
+    },
+    {
+      "ad": "Söz təhlili: H.Cavid «İblis» mətnindən nümunələr",
+      "standard_kodu": "11-4.4.1",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "127-132"
+    },
+    {
+      "ad": "Leksika: leksik kateqoriyaları fərqləndirir",
+      "standard_kodu": "11-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "84-90"
+    },
+    {
+      "ad": "Söz təhlili: H.Cavid «İblis» mətnindən nümunələr",
+      "standard_kodu": "11-4.4.2",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "91-96"
+    },
+    {
+      "ad": "Leksika: söz və ifadələrin üslubi xüsusiyyətlərini izah edir",
+      "standard_kodu": "11-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "88-94"
+    },
+    {
+      "ad": "Söz təhlili: H.Cavid «İblis» mətnindən nümunələr",
+      "standard_kodu": "11-4.4.3",
+      "sahe": "Dil qaydaları",
+      "saat": 1,
+      "sehife": "95-100"
+    }
+  ]
 }
