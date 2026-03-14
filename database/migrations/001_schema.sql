@@ -15,7 +15,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE TABLE IF NOT EXISTS azdili_standartlari (
     id SERIAL PRIMARY KEY,
     sinif INTEGER NOT NULL CHECK (sinif BETWEEN 1 AND 11),
-    saha VARCHAR(50) NOT NULL CHECK (saha IN ('oxu', 'yazi', 'qrammatika', 'danisiq', 'edebiyyat')),
+    saha VARCHAR(50) NOT NULL CHECK (saha IN ('dinleme_danisma', 'oxu', 'yazi', 'dil_qaydalari')),
     standard_kodu VARCHAR(20) NOT NULL,
     standard_metni TEXT NOT NULL,
     alstandart_kodu VARCHAR(20),
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS azdili_standartlari (
 
 COMMENT ON TABLE azdili_standartlari IS 'Azerbaycan dili fenni uzre milli kurikulum standartlari';
 COMMENT ON COLUMN azdili_standartlari.sinif IS 'Sinif nomresi (1-11)';
-COMMENT ON COLUMN azdili_standartlari.saha IS 'Mezmun xetti: oxu, yazi, qrammatika, danisiq, edebiyyat';
+COMMENT ON COLUMN azdili_standartlari.saha IS 'Mezmun xetti: dinleme_danisma, oxu, yazi, dil_qaydalari';
 COMMENT ON COLUMN azdili_standartlari.standard_kodu IS 'Standart kodu, mes: 1.1.1';
 COMMENT ON COLUMN azdili_standartlari.standard_metni IS 'Standartin tam metni';
 COMMENT ON COLUMN azdili_standartlari.alstandart_kodu IS 'Alt-standart kodu';
