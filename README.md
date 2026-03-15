@@ -1,8 +1,14 @@
-# 📚 Azərbaycan Dili Müəllim Agenti v1.0
+# 📚 Azərbaycan Dili Müəllim Agenti v3.0
 
 **ARTI 2026 — Azərbaycan Respublikası Təhsil İnstitutu**
 
 Azərbaycan dili və ədəbiyyat müəllimləri üçün AI-əsaslı agent sistemi.
+
+## Canlı Demo
+
+- **Shiny App:** https://t01061954.shinyapps.io/Az-Muellim-Agent/
+- **Binder (Shiny):** https://mybinder.org/v2/gh/Ttariyel-1954/Az_Agent/main?urlpath=shiny/r_shiny/app/
+- **Binder (RStudio):** https://mybinder.org/v2/gh/Ttariyel-1954/Az_Agent/main?urlpath=rstudio
 
 ## Xüsusiyyətlər
 
@@ -146,6 +152,16 @@ DEFAULT_AI_MODEL=claude-sonnet-4-20250514
 PORT=3000
 SHINY_PORT=4040
 ```
+
+## Verilənlər
+
+| Göstərici | Say |
+|-----------|-----|
+| Əsas standart | 147 |
+| Alt-standart | 442 |
+| Mövzu | 890 |
+| Dərslik chunk | 519 |
+| Sinif | 1-11 |
 
 ## Lisenziya
 
