@@ -14,8 +14,9 @@ library(jsonlite)
 PLOTLY_OK <- tryCatch({ library(plotly); TRUE }, error = function(e) {
   message("plotly yuklenmedi: ", e$message); FALSE })
 
-LOCAL_DIR <- normalizePath("~/Desktop/Az_agent", mustWork = FALSE)
-APP_DIR   <- if (dir.exists(LOCAL_DIR)) LOCAL_DIR else getwd()
+PROJECT_DIR <- normalizePath("~/projects/ai-agents/Az_agent", mustWork = FALSE)
+LOCAL_DIR   <- normalizePath("~/Desktop/Az_agent", mustWork = FALSE)
+APP_DIR     <- if (dir.exists(PROJECT_DIR)) PROJECT_DIR else if (dir.exists(LOCAL_DIR)) LOCAL_DIR else getwd()
 
 env_file <- file.path(APP_DIR, ".env")
 if (file.exists(env_file)) {
@@ -32,9 +33,10 @@ DATA_DIR       <- file.path(APP_DIR, "derslikler")
 CHUNKS_DIR     <- file.path(DATA_DIR, "chunks")
 CLAUDE_MODEL   <- Sys.getenv("DEFAULT_AI_MODEL", "claude-sonnet-4-20250514")
 CLAUDE_ENDPOINT <- "https://api.anthropic.com/v1/messages"
-DERS_DIR <- file.path(APP_DIR, "output", "Ders_planlari")
-TEST_DIR <- file.path(APP_DIR, "output", "Testler")
-MSG_DIR  <- file.path(APP_DIR, "output", "Mesajlar")
+SHINY_APP_DIR <- normalizePath(file.path(APP_DIR, "r_shiny", "app"), mustWork = FALSE)
+DERS_DIR <- file.path(SHINY_APP_DIR, "output", "Ders_planlari")
+TEST_DIR <- file.path(SHINY_APP_DIR, "output", "Testler")
+MSG_DIR  <- file.path(SHINY_APP_DIR, "output", "Mesajlar")
 dir.create(DERS_DIR, showWarnings = FALSE, recursive = TRUE)
 dir.create(TEST_DIR, showWarnings = FALSE, recursive = TRUE)
 dir.create(MSG_DIR,  showWarnings = FALSE, recursive = TRUE)

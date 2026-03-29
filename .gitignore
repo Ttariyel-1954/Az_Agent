@@ -19,6 +19,7 @@ venv/
 # === Secrets ===
 .env
 .Renviron
+r_shiny/app/.Renviron
 *.key
 *.pem
 
@@ -26,6 +27,7 @@ venv/
 *.bak
 *.bak_*
 *.backup_*
+*.backup
 *.old
 
 # === Temp ===
@@ -49,7 +51,18 @@ derslikler/embeddings/
 
 # === Generated outputs (local only) ===
 output/
-Ders_planlari/
-Testler/
-Mesajlar/
+Ders_planlari/*.html
+Ders_planlari/*.docx
+Testler/*.html
+Testler/*.docx
+Mesajlar/*.html
+Mesajlar/*.docx
+r_shiny/app/output/
 uploads/
+
+# === Deploy ===
+rsconnect/
+
+# === IDE ===
+.idea/
+.vscode/
