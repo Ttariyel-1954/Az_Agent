@@ -1,553 +1,327 @@
-# Az Müəllim Agent v3.0
+# Azərbaycan Dili Müəllim Agenti (Az_agent)
 
-**Azərbaycan Respublikası 1-11-ci sinif Azərbaycan dili və ədəbiyyat müəllimləri üçün AI agent sistemi**
+[![R](https://img.shields.io/badge/R-4.2+-blue.svg)](https://www.r-project.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-336791.svg)](https://www.postgresql.org/)
+[![Claude](https://img.shields.io/badge/AI-Claude%20Sonnet%204-purple.svg)](https://www.anthropic.com/)
+[![Shiny](https://img.shields.io/badge/R%20Shiny-Dashboard-149eca.svg)](https://shiny.rstudio.com/)
 
-ARTI 2026 — Azərbaycan Respublikası Təhsil İnstitutu
-
----
-
-## Canlı Demo
-
-- **Shiny App:** https://t01061954.shinyapps.io/Az-Muellim-Agent/
-- **Binder (Shiny):** https://mybinder.org/v2/gh/Ttariyel-1954/Az_Agent/main?urlpath=shiny/r_shiny/app/
-- **Binder (RStudio):** https://mybinder.org/v2/gh/Ttariyel-1954/Az_Agent/main?urlpath=rstudio
+**Azərbaycan Respublikasında 1-11-ci siniflər üzrə Azərbaycan dili müəllimlərinə dəstək verən, Claude AI əsasında işləyən R Shiny dashboard-u. Müəllimlər üçün dərs planı, test, mesaj və müxtəlif tədris materiallarını avtomatik generasiya edir.**
 
 ---
 
-## Haqqında
+## Mündəricat
 
-Az Müəllim Agent — Azərbaycan dili və ədəbiyyat müəllimləri üçün hazırlanmış süni intellekt əsaslı köməkçi sistemdir. Sistem dərs planları, testlər, ədəbi təhlillər, aylıq planlar, şagird analizləri və müəllim kommunikasiya sənədləri yaradır.
-
-Bütün çıxışlar Azərbaycan Respublikası fənn kurikulumuna və beynəlxalq təhsil standartlarına (PISA, PIRLS, Blum taksonomiyası, CEFR) uyğun hazırlanır.
-
-### Əsas xüsusiyyətlər
-
-- 1-11-ci sinif üçün tam kurikulum dəstəyi (442 alt-standart, 890 mövzu)
-- 18 dərslik PDF-dən çıxarılmış 519 chunk bilik bazası
-- PISA oxu savadlılığı (6 səviyyə) inteqrasiyası
-- PIRLS oxu prosesləri (birbaşa anlama / şərh / qiymətləndirmə)
-- Blum taksonomiyası (6 səviyyə) ilə dərs planlaması
-- CEFR dil çərçivəsi (A1→C2) uyğunluğu
-- 10 elementli ədəbi təhlil sistemi
-- HTML5 + DOCX formatında fayl çıxışı
-- 3 dildə interfeys: Azərbaycanca, Rusca, İngiliscə
-- Real vaxt generasiya statistikası (token, xərc, vaxt)
+- [Layihənin Məqsədi](#layihənin-məqsədi)
+- [Əsas Xüsusiyyətlər](#əsas-xüsusiyyətlər)
+- [Dashboard Bölmələri](#dashboard-bölmələri)
+- [Pedaqoji Yanaşma](#pedaqoji-yanaşma)
+- [Texniki Stek](#texniki-stek)
+- [Layihə Strukturu](#layihə-strukturu)
+- [Verilənlər Bazası](#verilənlər-bazası)
+- [Quraşdırma](#quraşdırma)
+- [İstifadə Qaydası](#i̇stifadə-qaydası)
+- [Konfiqurasiya](#konfiqurasiya)
+- [Təhlükəsizlik](#təhlükəsizlik)
+- [Layihə Rəhbəri](#layihə-rəhbəri)
 
 ---
 
-## Sistem Arxitekturası
+## Layihənin Məqsədi
+
+Azərbaycan dili müəllimlərinin gündəlik pedaqoji fəaliyyətini avtomatlaşdırmaq və dünya standartlarına uyğun tədris materialları yaratmaq. Əsas məqsədlər:
+
+- **Dərs planlarının avtomatik generasiyası** — 1-11-ci siniflər üçün standart və alt standartlara əsaslanan dərs planları
+- **Test və qiymətləndirmə materialları** — Bloom taksonomiyasına və CEFR səviyyələrinə uyğun testlər
+- **Mesaj və bildiriş şablonları** — valideynlər, şagirdlər üçün peşəkar mesajlar
+- **Analitik təhlil** — şagird nailiyyətlərinin və dərs planlarının keyfiyyət təhlili
+- **Dərsliklərdən kontekst çıxarma** — PDF dərsliklərdən RAG (Retrieval-Augmented Generation) vasitəsilə məlumat istifadəsi
+
+---
+
+## Əsas Xüsusiyyətlər
+
+### 🤖 Süni İntellekt Əsaslı Generasiya
+- Claude Sonnet 4 modelindən istifadə
+- Azərbaycan dili standartlarına tam uyğunluq
+- PISA, PIRLS, CEFR çərçivələri ilə uyğunlaşdırma
+
+### 📚 Dərs Planı Generatoru
+- Sinif və mövzuya görə avtomatik dərs planı
+- Standart və alt standartların inteqrasiyası
+- Motivasiya, təqdimat, möhkəmləndirmə mərhələləri
+- HTML və DOCX formatında ixrac
+
+### ✍️ Test Generatoru
+- Çoxvariantlı, doğru-yanlış, qısa cavab testləri
+- Bloom taksonomiyası səviyyəsinə görə
+- Avtomatik qiymətləndirmə rubrikası
+
+### 💬 Mesaj Şablonları
+- Valideyn bildirişləri
+- Şagird motivasiya mesajları
+- Rəsmi yazışmalar
+- Hadisə təsvirləri
+
+### 📖 Ədəbiyyat Analizi
+- Müəllif və əsər əsasında analiz
+- Dərsdə istifadə üçün suallar
+- Ədəbi təhlil şablonları
+
+### 🎨 Çıxışlar
+- HTML (nəfis rəngli)
+- DOCX (Word sənəd)
+- Plotly ilə interaktiv qrafiklər
+
+---
+
+## Dashboard Bölmələri
+
+| Bölmə | Funksiyası |
+|-------|------------|
+| **Ana Səhifə** | Ümumi statistika, qısa rəhbər |
+| **Dərs Planı** | Sinif, standart, mövzu → AI dərs planı |
+| **Testlər** | Standartlara əsaslanan test generasiyası |
+| **Mesajlar** | Hazır mesaj şablonları + AI generasiya |
+| **Analiz** | Müəllif/əsər əsasında ədəbi analiz |
+| **Standartlar** | 442 alt standartın interaktiv baxışı |
+| **Dərsliklər** | PDF dərsliklərdən kontekst axtarışı (RAG) |
+| **Konfiqurasiya** | API key, model seçimi, dil parametrləri |
+
+---
+
+## Pedaqoji Yanaşma
+
+### Beynəlxalq Çərçəvələr
+- **PISA** — Oxu savadlılığı (məlumat əldə etmə, interpretasiya, qiymətləndirmə)
+- **PIRLS** — Oxu bacarıqlarının beynəlxalq qiymətləndirilməsi
+- **CEFR** — Avropa dil çərçəvəsi (A1-C1 səviyyələri)
+- **Bloom taksonomiyası** — Xatırlama → Anlama → Tətbiq → Təhlil → Qiymətləndirmə → Yaratma
+
+### Aparıcı 6 Ölkənin Pedaqoji Təcrübəsi
+| Ölkə | Yanaşma |
+|------|---------|
+| **Finlandiya** | Fənlərarası oxu, müstəqil düşüncə |
+| **Sinqapur** | STELLAR proqramı, kritik düşüncə |
+| **Estoniya** | Rəqəmsal savadlılıq |
+| **Yaponiya** | Dərin oxu, estetik duyum |
+| **Kanada** | Diferensial öyrənmə, inklüziv yanaşma |
+| **İrlandiya** | İkidilli yanaşma, şifahi ənənə |
+
+### 442 Alt Standart (1-11 siniflər)
+Azərbaycan dili fənn kurikulumunun bütün standart və alt standartları:
+- **Dinləmə və danışma** — şifahi kommunikasiya
+- **Oxu** — mətn anlamasınıncı, fonetik bacarıqlar
+- **Yazı** — yaradıcı və akademik yazı
+- **Dil qaydaları** — qrammatika, orfoqrafiya, durğu işarələri
+
+---
+
+## Texniki Stek
+
+| Komponent | Texnologiya |
+|-----------|-------------|
+| **Proqramlaşdırma dili** | R (>= 4.2) |
+| **Veb interfeys** | R Shiny + shinydashboard |
+| **Süni intellekt** | Claude API (Anthropic) — Sonnet 4 |
+| **Verilənlər bazası** | PostgreSQL |
+| **PDF emalı** | pdftools, tesseract (OCR) |
+| **Vizuallaşdırma** | Plotly |
+| **HTTP sorğular** | httr paketi |
+| **JSON emal** | jsonlite paketi |
+| **DOCX ixrac** | officer, flextable |
+| **Backend skriptləri** | Node.js, Python |
+| **Konteynerləşdirmə** | Docker, docker-compose |
+
+---
+
+## Layihə Strukturu
 
 ```
 Az_agent/
-├── r_shiny/app/
-│   └── app.R                 # R Shiny interfeys (əsas proqram)
-├── src/
-│   ├── server.js             # Node.js API server
-│   ├── core/
-│   │   └── ai_engine.js      # Claude + OpenAI multi-model engine
-│   ├── agents/
-│   │   ├── ders_planlamasi/  # Dərs planlama agenti
-│   │   ├── qiymetlendirme/   # Test və qiymətləndirmə agenti
-│   │   ├── edebi_tahlil/     # Ədəbi təhlil agenti
-│   │   ├── aylik_plan/       # Aylıq plan agenti
-│   │   ├── muellim_kommunikasiyasi/  # Kommunikasiya agenti
-│   │   ├── shagird_inkishafi/ # Şagird inkişafı agenti
-│   │   ├── metodiki_komek/   # Metodiki kömək agenti
-│   │   └── reqemsal_assistant/ # Rəqəmsal assistant
-│   ├── api/
-│   │   └── routes.js         # API endpoint-ları
-│   └── middleware/
-│       └── auth.js           # JWT autentifikasiya
-├── database/
-│   ├── migrations/
-│   │   └── 001_schema.sql    # PostgreSQL schema (8 cədvəl)
-│   └── seeds/
-│       ├── 001_base_seed.sql     # Kurikulum standartları
-│       ├── 002_chunks_seed.js    # Dərslik chunk-ları yükləmə
-│       └── 003_movzular_seed.sql # 890 mövzu
-├── derslikler/
-│   ├── pdf/                  # 18 dərslik PDF (gitignore)
-│   ├── chunks/               # 519 chunk (32 JSON fayl)
-│   ├── standards.json        # 442 kurikulum standartı
-│   ├── topics.json           # 890 mövzu
-│   └── eserler.json          # Ədəbi əsərlər siyahısı
-├── config/
-│   └── database.js           # DB konfiqurasiyası
-├── scripts/
-│   ├── pdf_pipeline.py       # PDF → chunk pipeline
-│   ├── build_all_topics.py   # Mövzu generasiyası
-│   ├── generate_topics.py    # Mövzu yaratma
-│   └── setup.sh              # Quraşdırma skripti
-├── Ders_planlari/            # Generasiya olunmuş dərs planları
-├── Testler/                  # Generasiya olunmuş testlər
-├── Mesajlar/                 # Generasiya olunmuş mesajlar
-├── .env.example              # Konfiqurasiya nümunəsi
-├── package.json              # Node.js asılılıqlar
-├── Dockerfile                # Docker image
-├── docker-compose.yml        # Docker compose
-└── CLAUDE.md                 # AI agent təlimatı
+├── r_shiny/                      # R Shiny dashboard
+│   └── app/
+│       └── app.R                 # Əsas Shiny tətbiqi
+├── src/                          # Backend mənbə kodu
+├── scripts/                      # Köməkçi skriptlər
+├── database/                     # PostgreSQL schema və seed
+│   ├── migrations/               # Baza sxemi
+│   └── seeds/                    # İlkin data
+├── derslikler/                   # PDF dərsliklər və embeddings
+│   ├── pdf/                      # Ham PDF faylları (git-də deyil)
+│   ├── epub/                     # EPUB versiyalar
+│   └── embeddings/               # Vector embeddings (RAG üçün)
+├── Ders_planlari/                # Generasiya olunmuş dərs planları
+├── Testler/                      # Generasiya olunmuş testlər
+├── Mesajlar/                     # Generasiya olunmuş mesajlar
+├── output/                       # Ümumi çıxışlar
+├── config/                       # Konfiqurasiya faylları
+├── .env                          # API açarları (git-ə daxil deyil!)
+├── .env.example                  # .env nümunəsi
+├── .gitignore                    # Git ignore qaydaları
+├── CLAUDE.md                     # AI təlimatları
+├── README.md                     # Bu fayl
+├── Dockerfile                    # Docker konteyner
+├── docker-compose.yml            # Docker Compose konfiqurasiyası
+└── package.json                  # Node.js asılılıqları
 ```
+
+---
+
+## Verilənlər Bazası
+
+Baza adı: `muellim_agent` və ya `az_muellim_db`
+
+### Əsas cədvəllər
+- **subjects** — Fənlər (Azərbaycan dili, Riyaziyyat və s.)
+- **curriculum_standards** — 442 Azərbaycan dili standartı (+riyaziyyat)
+- **content_standards_detail** — Alt standartların ətraflı təsviri
+- **generated_content** — AI tərəfindən yaradılmış məzmun
+- **users** — İstifadəçi hesabları (müəllimlər)
+- **usage_log** — API istifadə tarixçəsi
 
 ---
 
 ## Quraşdırma
 
 ### Tələblər
+- **R** >= 4.2
+- **PostgreSQL** >= 14
+- **Anthropic API açarı**
+- **Node.js** >= 18 (backend skriptlər üçün)
+- R paketləri: `shiny`, `shinydashboard`, `shinyjs`, `DT`, `httr`, `jsonlite`, `plotly`
 
-| Komponent | Versiya | Məqsəd |
-|-----------|---------|--------|
-| R | >= 4.3 | Shiny interfeys |
-| Node.js | >= 18 | API server |
-| PostgreSQL | >= 14 | Verilənlər bazası (optional) |
-| Pandoc | >= 2.19 | DOCX generasiyası |
-| Python | >= 3.9 | PDF pipeline (birdəfəlik) |
-
-### R paketləri
-
-```r
-install.packages(c(
-  "shiny", "shinydashboard", "DT",
-  "httr", "jsonlite", "plotly"
-))
-```
-
-### Addım 1: Klonlama
+### Addımlar
 
 ```bash
+# 1. Repo-nu klonla
 git clone https://github.com/Ttariyel-1954/Az_Agent.git
 cd Az_Agent
-```
 
-### Addım 2: .env faylını yaradın
-
-```bash
+# 2. .env faylını yarat
 cp .env.example .env
+nano .env
+# ANTHROPIC_API_KEY=sk-ant-api03-SİZİN_AÇARINIZ yazın
+
+# 3. R paketlərini qur
+Rscript -e 'install.packages(c("shiny","shinydashboard","shinyjs","DT","httr","jsonlite","plotly"))'
+
+# 4. PostgreSQL bazasını yarat
+createdb muellim_agent
+psql -d muellim_agent -f database/migrations/001_schema.sql
+psql -d muellim_agent -f database/seeds/001_standards_seed.sql
+
+# 5. Dashboard-u işə sal
+Rscript -e "shiny::runApp('r_shiny/app/app.R', port=4040)"
 ```
 
-`.env` faylını redaktə edin və ANTHROPIC_API_KEY daxil edin.
+Brauzer: **http://localhost:4040**
 
-### Addım 3: R Shiny interfeysi işə salın
-
-```bash
-cd r_shiny/app
-Rscript -e "shiny::runApp('.', port = 4040, host = '0.0.0.0')"
-```
-
-Və ya:
-
-```bash
-npm run shiny
-```
-
-Brauzer: `http://localhost:4040`
-
-### Addım 4: Node.js API (optional)
-
-```bash
-npm install
-npm run db:setup   # PostgreSQL lazımdır
-npm start          # http://localhost:3000
-```
-
----
-
-## Docker ilə işə salma
-
+### Docker ilə (alternativ)
 ```bash
 docker-compose up -d
 ```
 
 ---
 
-## 8 AI Agent
-
-### 1. Dərs Planlaması
-
-Müəllim sinif, mövzu, dərs tipi və fəaliyyət növü seçir, sistem PISA/PIRLS/Blum çərçivələrinə uyğun ətraflı dərs planı yaradır.
-
-**Dərs planının strukturu:**
-
-| Bölmə | Məzmun |
-|-------|--------|
-| Ümumi məlumat | Sinif, mövzu, standart kodu, müddət |
-| Təlim nəticələri | Blum taksonomiyasına görə ölçülə bilən feillər |
-| Beynəlxalq standart | PISA oxu prosesi + səviyyə, PIRLS kateqoriya, CEFR |
-| Motivasiya (5-7 dəq) | Açar suallar, fərziyyə, əvvəlki biliklərin aktivləşdirilməsi |
-| Yeni material (15-20 dəq) | Müəllim izahı, dərslik mətni, nümunə təhlil |
-| Diferensial tapşırıqlar | 3 səviyyə: zəif / orta / güclü şagird |
-| Məşq və tətbiq (10-15 dəq) | Qrup işi, fəal təlim üsulu, tapşırıq məzmunu |
-| Formativ qiymətləndirmə (5 dəq) | Çıxış bileti, baş barmaq, mini test |
-| Ümumiləşdirmə (3-5 dəq) | Xülasə, ev tapşırığı, növbəti dərsin elanı |
-| Qiymətləndirmə metrikası | 4 ballıq rubrika (anlama, tətbiq, nitq, iştirak) |
-| Özünüqiymətləndirmə | Şagird üçün refleksiya sualları |
-
-**Dərs tipləri:** Yeni mövzu, Möhkəmləndirmə, Qiymətləndirmə, Ədəbiyyat təhlili, İnteqrativ dərs, Layihə dərsi
-
-**Fəaliyyət növləri:** Oxu, Yazı, Qrammatika, Danışıq, Ədəbiyyat, Qarışıq
-
-### 2. Test və Qiymətləndirmə
-
-PISA formatında testlər yaradır:
-
-**Test strukturu:**
-- I hissə — Çoxseçimli suallar (1 bal)
-- II hissə — Qısa cavablı suallar (2 bal)
-- III hissə — Açıq suallar (4 bal)
-
-**Hər sual üçün:**
-- PISA səviyyəsi (1-6)
-- Blum taksonomiya səviyyəsi
-- Düzgün cavab + izah
-- Qiymətləndirmə rubrikaları (açıq suallar üçün)
-
-**Test tipləri:** Çoxseçimli, PISA formatı, Diktant mətni, İnşa rubrikaları, Şifahi nitq qiymətləndirmə, Portfel qiymətləndirmə
-
-**Mətn növləri (PISA):** Bədii mətn, Məlumat mətni, Publisistik, Sənəd/praktik mətn, Qarışıq mətn
-
-### 3. Ədəbi Mətn Təhlili
-
-10 elementli ədəbi təhlil sistemi:
-
-| Element | Məzmun |
-|---------|--------|
-| 1. Biblioqrafik məlumat | Müəllif haqqında, tarix, janr |
-| 2. Süjetin strukturu | Ekspozisiya → Düyün → İnkişaf → Kulminasiya → Çözüm |
-| 3. Obraz sistemi | Baş qəhrəman + ikinci dərəcəli obrazlar |
-| 4. Mövzu və ideya | Əsas mövzu, alt mövzular, əsas ideya, aktuallıq |
-| 5. Bədii təsvir vasitələri | Metafora, epitet, bənzətmə, təzad, hiperbola, alliterasiya |
-| 6. Dil və üslub | Leksik, sintaktik xüsusiyyətlər, ton |
-| 7. Müqayisəli təhlil | Başqa əsərlərlə paralellər |
-| 8. Tənqidi düşüncə sualları | PIRLS + PISA formatında suallar |
-| 9. Metodiki qeydlər | Fəal təlim üsulları, fənlərarası əlaqə, yaradıcı tapşırıq |
-| 10. Qiymətləndirmə rubrikaları | İnşa / şifahi təhlil üçün 4-ballıq rubrika |
-
-**Analiz növləri:** Tam ədəbi təhlil, Kompozisiya təhlili, Obraz sistemi, Bədii təsvir vasitələri, Müqayisəli təhlil, Dil və üslub, Tənqidi düşüncə sualları, Metodiki qeydlər
-
-### 4. Aylıq Plan
-
-Bütöv ay üçün həftəlik cədvəl:
-- Hər həftə: mövzu + standart + saat bölgüsü + resurs + qiymətləndirmə
-- PISA/PIRLS uyğunluq göstəricisi
-- Formativ/summativ qiymətləndirmə nöqtələri
-
-### 5. Müəllim Kommunikasiyası
-
-Hazır sənəd şablonları:
-- Valideyn məktubu (uğur / narahatlıq / dəvət)
-- İdari hesabat
-- Pedaqoji şura çıxışı
-- Şagird xasiyyətnaməsi
-
-### 6. Şagird İnkişafı
-
-Fərdi şagird profili:
-- Zəif tərəflər: Oxu sürəti, Anlama, Yazı, Qrammatika, Nitq, Ədəbiyyat dərki, Lüğət ehtiyatı, Orfoqrafiya
-- PISA səviyyəsi müəyyənləşdirmə
-- Fərdi CEFR profili
-- Valideyn məktubu
-
-### 7. Metodiki Kömək
-
-Müəllim üçün metodiki tövsiyələr:
-- Fəal təlim üsulları
-- Beynəlxalq praktika (PISA ölkələrinin təcrübəsi)
-
-### 8. Rəqəmsal Assistant
-
-Azad sual-cavab — istənilən pedaqoji suala cavab verir.
-
----
-
-## Bilik Bazası
-
-### Dərslik Chunk-ları
-
-18 Azərbaycan dili və ədəbiyyat dərsliyi (1-11-ci sinif, I və II hissə) PDF formatından parçalanıb JSON chunk-larına çevrilib:
-
-| Sinif | Dərslik | Format |
-|-------|---------|--------|
-| 1 | I hissə + II hissə | 2 PDF |
-| 2 | I hissə + II hissə | 2 PDF |
-| 3 | I hissə + II hissə | 2 PDF |
-| 4 | I hissə + II hissə | 2 PDF |
-| 5 | I hissə + II hissə | 2 PDF |
-| 6 | I hissə + II hissə | 2 PDF |
-| 7 | Tam | 1 PDF |
-| 8 | Tam | 1 PDF |
-| 9 | Tam | 1 PDF |
-| 10 | Tam | 1 PDF |
-| 11 | Tam | 1 PDF |
-| **Cəmi** | **18 PDF** | **519 chunk, 32 JSON** |
-
-Hər chunk tərkibi: sinif, hissə, mövzu, sahə, mətn, səhifə aralığı, söz sayı.
-
-### Kurikulum Standartları
-
-442 alt-standart, 5 sahə üzrə:
-
-| Sahə | İzah |
-|------|------|
-| Oxu | Mətn anlama, şərhetmə, qiymətləndirmə, müqayisə |
-| Yazı | İnşa, məqalə, hekayə, xülasə, qeyd |
-| Qrammatika | Fonetika, leksika, morfologiya, sintaksis |
-| Danışıq | Şifahi nitq, müzakirə, təqdimat, dialoq |
-| Ədəbiyyat | Ədəbi analiz, janr, dövr, müəllif, obraz sistemi |
-
-### Mövzular
-
-890 mövzu 1-11-ci sinif üzrə, hər mövzu üçün:
-- Sahə (oxu/yazı/qrammatika/danışıq/ədəbiyyat)
-- Saat sayı
-- Dərslik istinad
-
-### Ədəbi Əsərlər
-
-`eserler.json` — sinif üzrə ədəbi əsərlər siyahısı (müəllif, əsər adı, janr).
-
----
-
-## Beynəlxalq Standartlar
-
-### PISA Oxu Savadlılığı
-
-6 səviyyəli qiymətləndirmə çərçivəsi:
-
-| Səviyyə | Bacarıq |
-|---------|---------|
-| 1a-1b | Sadə mətndə açıq məlumatı tapma |
-| 2 | Əsas ideyanın müəyyənləşdirilməsi, sadə şərh |
-| 3 | Mətnin müxtəlif hissələri arasında əlaqə qurma |
-| 4 | Müəllif məqsədini, üslubunu qiymətləndirmə |
-| 5 | Mürəkkəb mətnlərdə gizli məlumatın tapılması |
-| 6 | Çoxmənbəli mətni tənqidi təhlil etmə |
-
-### PIRLS Oxu Prosesləri
-
-| Proses | İzah |
-|--------|------|
-| Məlumat alma | Mətndən konkret informasiya çıxarma |
-| Birbaşa çıxarım | Mətndəki aydın ifadələrdən nəticə çıxarma |
-| Şərh etmə | Mətnin mənasını öz sözləri ilə ifadə etmə |
-| Qiymətləndirmə | Mətn haqqında fikir bildirmə, müqayisə etmə |
-
-### Blum Taksonomiyası
-
-| Səviyyə | Feil nümunələri |
-|---------|----------------|
-| Xatırlamaq | adlandırmaq, sadalamaq, tanımaq |
-| Anlamaq | izah etmək, müqayisə etmək, təsnifləşdirmək |
-| Tətbiq etmək | istifadə etmək, həll etmək, nümayiş etdirmək |
-| Təhlil etmək | fərqləndirmək, təşkilatlandırmaq, aid etmək |
-| Qiymətləndirmək | arqumentləşdirmək, mühakimə yürütmək |
-| Yaratmaq | planlaşdırmaq, yazmaq, dizayn etmək |
-
-### CEFR Dil Çərçivəsi
-
-| Səviyyə | Tətbiq |
-|---------|--------|
-| A1 | 1-2-ci sinif: sadə cümlə, tanıdıq sözlər |
-| A2 | 3-4-cü sinif: qısa mətn, gündəlik mövzular |
-| B1 | 5-7-ci sinif: müstəqil oxu və yazı, əsas fikirlər |
-| B2 | 8-9-cu sinif: mürəkkəb mətn, arqumentləşdirilmiş yazı |
-| C1 | 10-11-ci sinif: akademik mətn, ədəbi təhlil |
-
----
-
-## API Endpoint-ları
-
-Node.js API (optional, R Shiny müstəqil işləyir):
-
-| Metod | Endpoint | Funksiyası |
-|-------|----------|-----------|
-| GET | `/api/v1/health` | Sağlamlıq yoxlaması |
-| POST | `/api/v1/ders-plani` | Dərs planı generasiyası |
-| POST | `/api/v1/test-yarat` | Test generasiyası |
-| POST | `/api/v1/insha-rubrika` | İnşa rubrikası |
-| POST | `/api/v1/diktant-hazirla` | Diktant hazırlığı |
-| POST | `/api/v1/edebi-tahlil` | Ədəbi təhlil |
-| POST | `/api/v1/aylik-plan` | Aylıq plan |
-| POST | `/api/v1/mesaj-yaz` | Mesaj generasiyası |
-| POST | `/api/v1/shagird-analiz` | Şagird analizi |
-| GET | `/api/v1/arxiv/ders-planlari` | Keçmiş planlar |
-| GET | `/api/v1/arxiv/testler` | Keçmiş testlər |
-
----
-
-## Verilənlər Bazası (PostgreSQL)
-
-### Əsas cədvəllər
-
-| Cədvəl | Məqsəd |
-|--------|--------|
-| `azdili_standartlari` | Kurikulum standartları (442 alt-standart) |
-| `azdili_movzular` | 890 mövzu |
-| `azdili_derslikler` | 519 dərslik chunk-u |
-| `ders_planlari` | Generasiya olunmuş dərs planları |
-| `testler` | Generasiya olunmuş testlər |
-| `mesajlar` | Mesajlar |
-| `edebi_metnler` | Ədəbi mətnlər bazası |
-| `luget_izahlar` | Lüğət izahları |
-
-### Migration və Seed
-
-```bash
-npm run db:migrate   # Schema yaradır (8 cədvəl)
-npm run db:seed      # Standartlar + mövzular daxil edir
-npm run db:chunks    # 519 chunk-u DB-ya yükləmək
-npm run db:setup     # Hamısı birdəfəyə
-```
-
----
-
-## R Shiny İnterfeys
-
-### 7 Tab
-
-**Tab 1 — Dərs Planı:**
-Sinif, mövzu, dərs tipi, fəaliyyət növü, müddət, beynəlxalq çərçivə seçimi, diferensial təlim və rubrika seçimi ilə ətraflı dərs planı yaradır.
-
-**Tab 2 — Test və Qiymətləndirmə:**
-PISA formatında testlər — çoxseçimli + qısa cavablı + açıq suallar. Çətinlik səviyyəsi, mətn növü, rubrika seçimi.
-
-**Tab 3 — Aylıq Plan:**
-Bütöv ay üçün həftəlik cədvəl — sinif, ay, həftəlik saat, PISA/PIRLS uyğunluq, qiymətləndirmə nöqtələri.
-
-**Tab 4 — Ədəbi Mətn Analizi:**
-10 elementli tam ədəbi təhlil — müəllif, əsər, analiz növü, inşa rubrikaları, müqayisəli təhlil seçimi.
-
-**Tab 5 — Şagird Analizi:**
-Fərdi şagird profili — güclü/zəif tərəflər, PISA səviyyəsi, CEFR profili, fərdiləşdirilmiş tövsiyələr.
-
-**Tab 6 — Müəllim Köməkçisi:**
-Azad sual-cavab + metodiki tövsiyə + beynəlxalq praktika düymələri.
-
-**Tab 7 — Arxiv:**
-Keçmiş planlar və testlər cədvəl şəklində, HTML bax + DOCX yüklə düymələri.
-
----
-
-## Fayl Çıxışı
-
-Hər generasiya nəticəsi 2 formatda saxlanır:
-
-### HTML5
-- Responsive dizayn, mobil uyumlu
-- Gradient başlıqlar, rəngli fazalar
-- ARTI 2026 brendinq (yaşıl + narıncı tema)
-- Çap üçün optimizasiya (`@media print`)
-
-### DOCX (Word)
-- Pandoc vasitəsilə avtomatik çevrilir
-- Azərbaycan əlifbası dəstəyi (UTF-8)
-- ARTI 2026 altbilgi
-
-### Fayl adlandırma
-
-```
-sinif{N}_{movzu_slug}_{tip}_{timestamp}.html
-sinif{N}_{movzu_slug}_{tip}_{timestamp}.docx
-```
-
-Misal: `sinif8_D_rnaq_i_ar_si_v__m_t_riz__ders_plani_20260309_084314.html`
-
-### Saxlama yolu
-
-Fayllar `r_shiny/app/output/` altında saxlanır:
-```
-r_shiny/app/output/Ders_planlari/   # Dərs planları
-r_shiny/app/output/Testler/         # Testlər
-r_shiny/app/output/Mesajlar/        # Mesajlar
-```
+## İstifadə Qaydası
+
+### Dərs planı yaratmaq
+1. **Dərs Planı** tabını açın
+2. Sinif, məzmun xətti və mövzu seçin
+3. **"Dərs planı yarat"** düyməsini basın
+4. 30-60 saniyə ərzində tam dərs planı hazır olacaq
+5. HTML və ya DOCX formatında yükləyin
+
+### Test yaratmaq
+1. **Testlər** tabına keçin
+2. Standart və çətinlik səviyyəsini seçin
+3. Sual saylarını təyin edin
+4. **"Test yarat"** düyməsi ilə generasiya edin
+
+### Ədəbi analiz
+1. **Analiz** tabına keçin
+2. Müəllif və əsər adını daxil edin
+3. Analiz növünü seçin (ümumi, xarakter, üslub və s.)
+4. Nəticəni HTML və ya DOCX kimi yükləyin
 
 ---
 
 ## Konfiqurasiya
 
-### AI Model Seçimi
-
-`.env` faylında:
-
-```env
-DEFAULT_AI_MODEL=claude-sonnet-4-20250514
-```
-
-Dəstəklənən modellər:
-- `claude-sonnet-4-20250514` (default, optimal balans)
-- `claude-haiku-4-5-20251001` (sürətli, ucuz)
-- `gpt-4o` (OpenAI alternativi)
-
-### Token Limitləri
-
-| Model | Default max_tokens |
-|-------|--------------------|
-| Claude Sonnet/Opus | 16384 |
-| Claude Haiku | 4096 |
-| GPT-4o | 16384 |
-
----
-
-## İnkişaf
-
-### Lokal inkişaf
+### `.env` faylı
 
 ```bash
-# R Shiny
-cd r_shiny/app
-Rscript -e "shiny::runApp('.', port = 4040)"
+# PostgreSQL
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=muellim_agent
+DB_USER=your_username
+DB_PASSWORD=
 
-# Node.js (nodemon ilə)
-npm run dev
+# Claude AI
+ANTHROPIC_API_KEY=sk-ant-api03-SİZİN_AÇARINIZ
+DEFAULT_AI_MODEL=claude-sonnet-4-20250514
 
-# PDF pipeline (birdəfəlik)
-python3 scripts/pdf_pipeline.py
+# Shiny
+SHINY_PORT=4040
+```
 
-# Mövzu generasiyası
-python3 scripts/build_all_topics.py
+### Avtomatik API Key Yükləmə
+
+Dashboard açılanda API açarı `.env` faylından avtomatik oxunur və **görünməz** (password format) olaraq daxil edilir. İstifadəçi onu əl ilə daxil etməyə ehtiyac duymur.
+
+Əgər açar yüklənmirsə, `app.R`-da `APP_DIR` yolunun düzgün olduğunu yoxlayın:
+
+```r
+PROJECT_DIR <- normalizePath("~/projects/standards/Az_agent", mustWork = FALSE)
 ```
 
 ---
 
-## Texnoloji Stek
+## Təhlükəsizlik
 
-| Komponent | Texnologiya | Versiya |
-|-----------|-------------|---------|
-| Frontend | R Shiny + shinydashboard | 1.8.x |
-| AI Engine | Claude API (Anthropic) | v2023-06-01 |
-| AI Engine (alt) | OpenAI GPT-4o | v4 |
-| Backend | Node.js + Express | 18+ |
-| Database | PostgreSQL | 14+ |
-| Vizualizasiya | Plotly.js | 2.x |
-| Sənəd generasiyası | Pandoc (HTML → DOCX) | 2.19+ |
-| PDF pipeline | Python (PyPDF2, tiktoken) | 3.9+ |
-| Konteynerləşdirmə | Docker + Docker Compose | 24+ |
+### API Açarları
+- **HEÇ VAXT** `.env` faylını git-ə commit etməyin
+- `.gitignore` faylı `.env`, `.env.sh`, `.Renviron` fayllarını avtomatik istisna edir
+- API açarı sızarsa, dərhal [console.anthropic.com](https://console.anthropic.com) saytından **revoke** edin
+- Git-də yalnız `.env.example` saxlanılır (açarsız nümunə)
+
+### Dəyişənləri Yoxlama
+
+```bash
+# Git-də hansı .env faylları izlənir?
+git ls-files | grep -E "\.env"
+# Yalnız .env.example görünməlidir
+
+# .env-in git-ə gedib-getmədiyini yoxla
+git status --ignored | grep ".env"
+```
+
+### Backup
+- `database/` qovluğundakı SQL faylları (schema və seed) əsas bərpa mənbəyidir
+- AI-generasiya məzmunu `output/`, `Ders_planlari/`, `Testler/` qovluqlarında lokal saxlanılır (git-də deyil)
 
 ---
 
-## Verilənlərin Xülasəsi
+## Onlayn Platformalar
 
-| Göstərici | Say |
-|-----------|-----|
-| Əsas standart | 147 |
-| Alt-standart | 442 |
-| Mövzu | 890 |
-| Dərslik chunk | 519 |
-| PDF dərslik | 18 |
-| Chunk JSON fayl | 32 |
-| Sinif | 1-11 |
-| AI Agent | 8 |
-| İnterfeys tab | 7 |
-| Sahə | 5 (oxu, yazı, qrammatika, danışıq, ədəbiyyat) |
+| Platforma | Link |
+|-----------|------|
+| **GitHub** | [github.com/Ttariyel-1954/Az_Agent](https://github.com/Ttariyel-1954/Az_Agent) |
+
+---
+
+## Layihə Rəhbəri
+
+**Talıbov Tariyel İsmayıl oğlu**
+Riyaziyyat üzrə fəlsəfə doktoru
+Azərbaycan Respublikası Təhsil İnstitutunun direktor müavini
+
+**ARTI — 2026**
 
 ---
 
 ## Lisenziya
 
-MIT License — ARTI 2026, Tariyel Talibov
-
----
-
-## Əlaqə
-
-- **Müəllif:** Tariyel Talibov
-- **Təşkilat:** ARTI — Azərbaycan Respublikası Təhsil İnstitutu
-- **GitHub:** [Ttariyel-1954/Az_Agent](https://github.com/Ttariyel-1954/Az_Agent)
+Bu layihə təhsil məqsədli istifadə üçün nəzərdə tutulub.
+Azərbaycan Respublikası Elm və Təhsil Nazirliyi — ARTI
